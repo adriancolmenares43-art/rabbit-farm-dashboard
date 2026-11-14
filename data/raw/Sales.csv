@@ -1,0 +1,351 @@
+SaleID,RabbitID,SaleDate,Buyer,Channel,SalePrice_NGN,BreedID,Source,BreedName,CostBasis_NGN,Profit_NGN,Year,Month
+SL0001,RB0002,2026-08-11,Chuka Bush Meat Traders,Social media/WhatsApp,16742,BR06,Bred,Angora,1390,15352,2026,Aug
+SL0002,RB0006,2026-04-14,Fatima Restaurant Supplies,Wholesale/Bulk order,2604,BR01,Bred,Local Breed (Mixed),865,1739,2026,Apr
+SL0003,RB0007,2026-07-23,Amara Foods Ltd,Farm gate,4502,BR01,Bred,Local Breed (Mixed),1074,3428,2026,Jul
+SL0004,RB0008,2025-06-30,Blessing Home Farms,Farm gate,6270,BR05,Bred,Checkered Giant,1714,4556,2025,Jun
+SL0005,RB0009,2025-11-25,Emeka's Butchery,Social media/WhatsApp,5453,BR03,Bred,Californian,1463,3990,2025,Nov
+SL0006,RB0014,2025-04-19,Blessing Home Farms,Restaurant supply contract,2940,BR01,Bred,Local Breed (Mixed),919,2021,2025,Apr
+SL0007,RB0016,2023-07-25,Ngozi Poultry & Rabbit Mart,Social media/WhatsApp,2643,BR01,Bred,Local Breed (Mixed),1437,1206,2023,Jul
+SL0008,RB0017,2025-07-06,City Pet & Livestock Store,Wholesale/Bulk order,5572,BR02,Bred,New Zealand White,1761,3811,2025,Jul
+SL0009,RB0018,2026-08-18,Lagos Farmers Market Union,Restaurant supply contract,3489,BR03,Bred,Californian,1461,2028,2026,Aug
+SL0010,RB0030,2024-10-25,Ahmed Family Farm,Farm gate,3251,BR01,Bred,Local Breed (Mixed),1152,2099,2024,Oct
+SL0011,RB0032,2026-08-05,Fatima Restaurant Supplies,Restaurant supply contract,4563,BR01,Bred,Local Breed (Mixed),1037,3526,2026,Aug
+SL0012,RB0034,2023-11-27,Fatima Restaurant Supplies,Social media/WhatsApp,9958,BR06,Purchased,Angora,6056,3902,2023,Nov
+SL0013,RB0036,2025-05-06,Independent buyer (walk-in),Local market,7776,BR05,Bred,Checkered Giant,1024,6752,2025,May
+SL0014,RB0037,2026-08-30,Fatima Restaurant Supplies,Farm gate,7463,BR02,Bred,New Zealand White,1401,6062,2026,Aug
+SL0015,RB0040,2022-09-04,Lagos Farmers Market Union,Wholesale/Bulk order,4116,BR02,Bred,New Zealand White,1147,2969,2022,Sep
+SL0016,RB0043,2025-01-08,Independent buyer (walk-in),Social media/WhatsApp,3053,BR01,Bred,Local Breed (Mixed),1673,1380,2025,Jan
+SL0017,RB0048,2022-12-31,Obi & Sons Livestock,Social media/WhatsApp,6199,BR03,Bred,Californian,934,5265,2022,Dec
+SL0018,RB0049,2025-05-24,City Pet & Livestock Store,Farm gate,5169,BR03,Purchased,Californian,7730,-2561,2025,May
+SL0019,RB0052,2025-12-28,Green Table Eatery,Local market,5604,BR04,Bred,Chinchilla Giant,1540,4064,2025,Dec
+SL0020,RB0055,2024-12-20,Ahmed Family Farm,Local market,3387,BR03,Bred,Californian,1782,1605,2024,Dec
+SL0021,RB0056,2023-07-12,Lagos Farmers Market Union,Social media/WhatsApp,8954,BR06,Purchased,Angora,12374,-3420,2023,Jul
+SL0022,RB0060,2024-09-02,Royal Feast Catering,Social media/WhatsApp,5805,BR02,Bred,New Zealand White,1489,4316,2024,Sep
+SL0023,RB0063,2026-06-03,City Pet & Livestock Store,Social media/WhatsApp,10223,BR05,Purchased,Checkered Giant,8726,1497,2026,Jun
+SL0024,RB0064,2026-08-28,Coastal Grillhouse,Restaurant supply contract,3392,BR02,Bred,New Zealand White,1168,2224,2026,Aug
+SL0025,RB0065,2026-04-26,Ngozi Poultry & Rabbit Mart,Local market,2470,BR01,Purchased,Local Breed (Mixed),3953,-1483,2026,Apr
+SL0026,RB0068,2023-10-03,Fatima Restaurant Supplies,Restaurant supply contract,4105,BR05,Bred,Checkered Giant,1618,2487,2023,Oct
+SL0027,RB0071,2026-03-22,Lagos Farmers Market Union,Wholesale/Bulk order,4652,BR04,Bred,Chinchilla Giant,965,3687,2026,Mar
+SL0028,RB0074,2023-05-28,Lagos Farmers Market Union,Local market,7375,BR05,Purchased,Checkered Giant,6770,605,2023,May
+SL0029,RB0078,2026-03-17,Green Table Eatery,Local market,1959,BR01,Bred,Local Breed (Mixed),1507,452,2026,Mar
+SL0030,RB0080,2024-03-31,Green Table Eatery,Local market,5561,BR01,Bred,Local Breed (Mixed),888,4673,2024,Mar
+SL0031,RB0081,2024-12-08,Ahmed Family Farm,Restaurant supply contract,8576,BR05,Purchased,Checkered Giant,12581,-4005,2024,Dec
+SL0032,RB0082,2025-08-19,Emeka's Butchery,Restaurant supply contract,5179,BR03,Bred,Californian,1483,3696,2025,Aug
+SL0033,RB0084,2026-07-28,Royal Feast Catering,Farm gate,3188,BR01,Bred,Local Breed (Mixed),932,2256,2026,Jul
+SL0034,RB0085,2024-06-05,Blessing Home Farms,Farm gate,4709,BR02,Purchased,New Zealand White,4687,22,2024,Jun
+SL0035,RB0088,2026-08-21,Ngozi Poultry & Rabbit Mart,Local market,3477,BR03,Bred,Californian,960,2517,2026,Aug
+SL0036,RB0089,2026-02-09,Blessing Home Farms,Social media/WhatsApp,4142,BR05,Bred,Checkered Giant,1420,2722,2026,Feb
+SL0037,RB0096,2025-11-08,Emeka's Butchery,Social media/WhatsApp,4276,BR02,Purchased,New Zealand White,3730,546,2025,Nov
+SL0038,RB0097,2025-07-29,Ngozi Poultry & Rabbit Mart,Wholesale/Bulk order,6569,BR03,Bred,Californian,1765,4804,2025,Jul
+SL0039,RB0098,2026-03-15,Coastal Grillhouse,Social media/WhatsApp,5447,BR02,Bred,New Zealand White,1305,4142,2026,Mar
+SL0040,RB0102,2026-08-18,Emeka's Butchery,Social media/WhatsApp,6705,BR03,Bred,Californian,1014,5691,2026,Aug
+SL0041,RB0104,2023-05-28,Emeka's Butchery,Farm gate,3117,BR03,Bred,Californian,848,2269,2023,May
+SL0042,RB0105,2025-10-08,Fatima Restaurant Supplies,Local market,6321,BR06,Bred,Angora,818,5503,2025,Oct
+SL0043,RB0108,2026-08-25,Obi & Sons Livestock,Local market,8856,BR04,Bred,Chinchilla Giant,1067,7789,2026,Aug
+SL0044,RB0109,2022-09-10,Fatima Restaurant Supplies,Farm gate,4359,BR01,Purchased,Local Breed (Mixed),2762,1597,2022,Sep
+SL0045,RB0110,2026-03-20,Emeka's Butchery,Farm gate,2620,BR01,Bred,Local Breed (Mixed),1165,1455,2026,Mar
+SL0046,RB0117,2023-05-31,Amara Foods Ltd,Wholesale/Bulk order,4636,BR05,Bred,Checkered Giant,1715,2921,2023,May
+SL0047,RB0120,2026-06-08,Amara Foods Ltd,Local market,4766,BR03,Bred,Californian,1626,3140,2026,Jun
+SL0048,RB0125,2023-10-11,Amara Foods Ltd,Restaurant supply contract,1970,BR01,Bred,Local Breed (Mixed),916,1054,2023,Oct
+SL0049,RB0126,2023-08-19,Amara Foods Ltd,Wholesale/Bulk order,8429,BR02,Bred,New Zealand White,1432,6997,2023,Aug
+SL0050,RB0127,2026-02-02,Independent buyer (walk-in),Social media/WhatsApp,8974,BR05,Bred,Checkered Giant,1032,7942,2026,Feb
+SL0051,RB0138,2025-10-05,Chuka Bush Meat Traders,Social media/WhatsApp,3677,BR04,Purchased,Chinchilla Giant,5715,-2038,2025,Oct
+SL0052,RB0141,2024-12-20,Amara Foods Ltd,Farm gate,9968,BR06,Bred,Angora,1588,8380,2024,Dec
+SL0053,RB0142,2023-08-30,Chuka Bush Meat Traders,Restaurant supply contract,3352,BR01,Bred,Local Breed (Mixed),1698,1654,2023,Aug
+SL0054,RB0144,2023-12-27,Ahmed Family Farm,Local market,3841,BR02,Bred,New Zealand White,1073,2768,2023,Dec
+SL0055,RB0152,2025-07-10,City Pet & Livestock Store,Social media/WhatsApp,2128,BR01,Bred,Local Breed (Mixed),1694,434,2025,Jul
+SL0056,RB0157,2024-06-29,Chuka Bush Meat Traders,Local market,7239,BR04,Bred,Chinchilla Giant,1523,5716,2024,Jun
+SL0057,RB0161,2023-11-05,Emeka's Butchery,Social media/WhatsApp,9464,BR02,Bred,New Zealand White,1768,7696,2023,Nov
+SL0058,RB0163,2026-03-19,Lagos Farmers Market Union,Social media/WhatsApp,8374,BR03,Purchased,Californian,5810,2564,2026,Mar
+SL0059,RB0169,2024-04-13,Ngozi Poultry & Rabbit Mart,Restaurant supply contract,2078,BR01,Bred,Local Breed (Mixed),1573,505,2024,Apr
+SL0060,RB0172,2025-09-03,Coastal Grillhouse,Restaurant supply contract,4490,BR01,Bred,Local Breed (Mixed),908,3582,2025,Sep
+SL0061,RB0178,2026-08-21,Chuka Bush Meat Traders,Restaurant supply contract,3279,BR02,Bred,New Zealand White,1600,1679,2026,Aug
+SL0062,RB0184,2026-05-07,Coastal Grillhouse,Local market,4114,BR05,Bred,Checkered Giant,904,3210,2026,May
+SL0063,RB0186,2025-08-16,Obi & Sons Livestock,Local market,8569,BR04,Bred,Chinchilla Giant,1375,7194,2025,Aug
+SL0064,RB0188,2026-08-27,Amara Foods Ltd,Farm gate,5200,BR03,Bred,Californian,1319,3881,2026,Aug
+SL0065,RB0189,2023-05-06,Independent buyer (walk-in),Restaurant supply contract,3876,BR03,Bred,Californian,907,2969,2023,May
+SL0066,RB0194,2022-12-31,Lagos Farmers Market Union,Restaurant supply contract,4944,BR03,Bred,Californian,1010,3934,2022,Dec
+SL0067,RB0196,2022-09-13,Blessing Home Farms,Farm gate,6758,BR02,Bred,New Zealand White,1170,5588,2022,Sep
+SL0068,RB0197,2026-06-14,Ngozi Poultry & Rabbit Mart,Social media/WhatsApp,4240,BR04,Bred,Chinchilla Giant,960,3280,2026,Jun
+SL0069,RB0198,2026-04-23,Yusuf Meat Distributors,Local market,7109,BR05,Bred,Checkered Giant,1545,5564,2026,Apr
+SL0070,RB0199,2024-12-15,Green Table Eatery,Wholesale/Bulk order,8212,BR05,Bred,Checkered Giant,1099,7113,2024,Dec
+SL0071,RB0209,2026-03-08,Royal Feast Catering,Social media/WhatsApp,3962,BR01,Bred,Local Breed (Mixed),1550,2412,2026,Mar
+SL0072,RB0210,2023-09-14,Blessing Home Farms,Farm gate,2003,BR01,Bred,Local Breed (Mixed),1691,312,2023,Sep
+SL0073,RB0211,2026-07-20,Fatima Restaurant Supplies,Wholesale/Bulk order,5128,BR03,Bred,Californian,901,4227,2026,Jul
+SL0074,RB0214,2024-05-24,Lagos Farmers Market Union,Social media/WhatsApp,3311,BR01,Purchased,Local Breed (Mixed),4758,-1447,2024,May
+SL0075,RB0217,2026-04-13,Emeka's Butchery,Farm gate,8282,BR02,Bred,New Zealand White,1638,6644,2026,Apr
+SL0076,RB0220,2023-04-08,Lagos Farmers Market Union,Wholesale/Bulk order,4673,BR05,Purchased,Checkered Giant,10840,-6167,2023,Apr
+SL0077,RB0224,2023-11-13,Yusuf Meat Distributors,Social media/WhatsApp,3473,BR02,Bred,New Zealand White,1249,2224,2023,Nov
+SL0078,RB0225,2026-08-01,Ahmed Family Farm,Social media/WhatsApp,5371,BR01,Bred,Local Breed (Mixed),1792,3579,2026,Aug
+SL0079,RB0230,2025-09-30,Ngozi Poultry & Rabbit Mart,Wholesale/Bulk order,8814,BR03,Bred,Californian,1051,7763,2025,Sep
+SL0080,RB0231,2024-06-19,Coastal Grillhouse,Wholesale/Bulk order,9850,BR05,Bred,Checkered Giant,1654,8196,2024,Jun
+SL0081,RB0233,2022-10-16,Ngozi Poultry & Rabbit Mart,Wholesale/Bulk order,4190,BR03,Bred,Californian,1285,2905,2022,Oct
+SL0082,RB0236,2024-11-08,Ngozi Poultry & Rabbit Mart,Farm gate,4273,BR04,Bred,Chinchilla Giant,1317,2956,2024,Nov
+SL0083,RB0239,2026-08-17,City Pet & Livestock Store,Social media/WhatsApp,4948,BR03,Bred,Californian,1072,3876,2026,Aug
+SL0084,RB0242,2024-08-10,Amara Foods Ltd,Wholesale/Bulk order,5968,BR06,Bred,Angora,1572,4396,2024,Aug
+SL0085,RB0243,2024-08-06,Chuka Bush Meat Traders,Wholesale/Bulk order,10005,BR06,Bred,Angora,1224,8781,2024,Aug
+SL0086,RB0245,2024-09-12,Coastal Grillhouse,Farm gate,2647,BR01,Bred,Local Breed (Mixed),1444,1203,2024,Sep
+SL0087,RB0251,2023-11-14,Fatima Restaurant Supplies,Wholesale/Bulk order,1994,BR01,Purchased,Local Breed (Mixed),3544,-1550,2023,Nov
+SL0088,RB0253,2022-10-18,Emeka's Butchery,Restaurant supply contract,11281,BR05,Bred,Checkered Giant,1231,10050,2022,Oct
+SL0089,RB0256,2023-12-03,Emeka's Butchery,Local market,6416,BR03,Bred,Californian,941,5475,2023,Dec
+SL0090,RB0260,2025-02-02,Lagos Farmers Market Union,Local market,3765,BR01,Bred,Local Breed (Mixed),1740,2025,2025,Feb
+SL0091,RB0261,2026-07-20,Green Table Eatery,Restaurant supply contract,4387,BR03,Bred,Californian,1219,3168,2026,Jul
+SL0092,RB0262,2025-12-16,Chuka Bush Meat Traders,Local market,7811,BR06,Bred,Angora,1719,6092,2025,Dec
+SL0093,RB0264,2026-08-24,Emeka's Butchery,Wholesale/Bulk order,4739,BR03,Bred,Californian,1774,2965,2026,Aug
+SL0094,RB0274,2026-06-07,Royal Feast Catering,Restaurant supply contract,13563,BR06,Bred,Angora,1253,12310,2026,Jun
+SL0095,RB0277,2023-03-14,Obi & Sons Livestock,Wholesale/Bulk order,8863,BR05,Bred,Checkered Giant,810,8053,2023,Mar
+SL0096,RB0279,2023-11-06,Blessing Home Farms,Restaurant supply contract,4958,BR04,Purchased,Chinchilla Giant,4719,239,2023,Nov
+SL0097,RB0280,2024-05-31,Blessing Home Farms,Restaurant supply contract,11313,BR05,Bred,Checkered Giant,1625,9688,2024,May
+SL0098,RB0283,2023-03-02,Fatima Restaurant Supplies,Wholesale/Bulk order,7142,BR02,Bred,New Zealand White,871,6271,2023,Mar
+SL0099,RB0286,2025-01-16,Chuka Bush Meat Traders,Social media/WhatsApp,1971,BR01,Bred,Local Breed (Mixed),1122,849,2025,Jan
+SL0100,RB0288,2025-04-04,Blessing Home Farms,Local market,5004,BR03,Bred,Californian,1590,3414,2025,Apr
+SL0101,RB0290,2026-03-11,Fatima Restaurant Supplies,Farm gate,8573,BR03,Bred,Californian,1244,7329,2026,Mar
+SL0102,RB0291,2026-06-28,Emeka's Butchery,Farm gate,1953,BR01,Purchased,Local Breed (Mixed),3514,-1561,2026,Jun
+SL0103,RB0295,2025-10-16,Chuka Bush Meat Traders,Wholesale/Bulk order,3450,BR01,Bred,Local Breed (Mixed),837,2613,2025,Oct
+SL0104,RB0296,2023-02-19,Fatima Restaurant Supplies,Wholesale/Bulk order,3109,BR03,Purchased,Californian,7583,-4474,2023,Feb
+SL0105,RB0297,2022-11-22,City Pet & Livestock Store,Social media/WhatsApp,11952,BR04,Bred,Chinchilla Giant,1476,10476,2022,Nov
+SL0106,RB0306,2026-06-17,Obi & Sons Livestock,Restaurant supply contract,5751,BR06,Bred,Angora,1530,4221,2026,Jun
+SL0107,RB0311,2023-12-19,Chuka Bush Meat Traders,Farm gate,5552,BR02,Bred,New Zealand White,1332,4220,2023,Dec
+SL0108,RB0314,2025-03-12,Royal Feast Catering,Wholesale/Bulk order,17518,BR06,Purchased,Angora,8485,9033,2025,Mar
+SL0109,RB0318,2023-09-28,Blessing Home Farms,Local market,3373,BR01,Purchased,Local Breed (Mixed),2457,916,2023,Sep
+SL0110,RB0332,2024-03-02,City Pet & Livestock Store,Wholesale/Bulk order,9404,BR04,Bred,Chinchilla Giant,1731,7673,2024,Mar
+SL0111,RB0333,2024-04-29,Coastal Grillhouse,Social media/WhatsApp,2754,BR01,Bred,Local Breed (Mixed),1152,1602,2024,Apr
+SL0112,RB0338,2025-08-17,Lagos Farmers Market Union,Restaurant supply contract,5721,BR04,Bred,Chinchilla Giant,1340,4381,2025,Aug
+SL0113,RB0340,2026-08-24,Amara Foods Ltd,Farm gate,2869,BR01,Bred,Local Breed (Mixed),1742,1127,2026,Aug
+SL0114,RB0342,2024-11-16,Independent buyer (walk-in),Farm gate,7762,BR02,Bred,New Zealand White,1517,6245,2024,Nov
+SL0115,RB0346,2026-02-05,Blessing Home Farms,Social media/WhatsApp,7571,BR03,Bred,Californian,1010,6561,2026,Feb
+SL0116,RB0347,2025-02-13,Blessing Home Farms,Wholesale/Bulk order,4541,BR03,Purchased,Californian,4812,-271,2025,Feb
+SL0117,RB0349,2024-12-03,Amara Foods Ltd,Local market,3147,BR02,Bred,New Zealand White,1357,1790,2024,Dec
+SL0118,RB0355,2025-07-07,City Pet & Livestock Store,Social media/WhatsApp,5780,BR01,Bred,Local Breed (Mixed),1514,4266,2025,Jul
+SL0119,RB0356,2024-07-23,Fatima Restaurant Supplies,Wholesale/Bulk order,8892,BR03,Bred,Californian,1153,7739,2024,Jul
+SL0120,RB0357,2024-04-12,Fatima Restaurant Supplies,Social media/WhatsApp,2632,BR01,Bred,Local Breed (Mixed),1708,924,2024,Apr
+SL0121,RB0365,2024-05-08,Blessing Home Farms,Farm gate,15374,BR06,Bred,Angora,1702,13672,2024,May
+SL0122,RB0373,2024-10-03,City Pet & Livestock Store,Wholesale/Bulk order,2915,BR01,Purchased,Local Breed (Mixed),3300,-385,2024,Oct
+SL0123,RB0375,2026-03-18,City Pet & Livestock Store,Restaurant supply contract,5768,BR01,Purchased,Local Breed (Mixed),4041,1727,2026,Mar
+SL0124,RB0382,2023-01-21,Blessing Home Farms,Wholesale/Bulk order,5843,BR04,Bred,Chinchilla Giant,1353,4490,2023,Jan
+SL0125,RB0393,2026-03-27,Ngozi Poultry & Rabbit Mart,Local market,5302,BR02,Bred,New Zealand White,1148,4154,2026,Mar
+SL0126,RB0397,2026-04-17,Amara Foods Ltd,Wholesale/Bulk order,12150,BR05,Bred,Checkered Giant,823,11327,2026,Apr
+SL0127,RB0399,2025-11-20,Blessing Home Farms,Restaurant supply contract,9157,BR04,Bred,Chinchilla Giant,1711,7446,2025,Nov
+SL0128,RB0401,2024-07-16,Ahmed Family Farm,Social media/WhatsApp,2523,BR01,Bred,Local Breed (Mixed),1352,1171,2024,Jul
+SL0129,RB0403,2026-04-04,Lagos Farmers Market Union,Farm gate,4165,BR03,Bred,Californian,1064,3101,2026,Apr
+SL0130,RB0404,2024-10-07,Ahmed Family Farm,Farm gate,8230,BR05,Bred,Checkered Giant,1047,7183,2024,Oct
+SL0131,RB0408,2023-01-03,Ngozi Poultry & Rabbit Mart,Social media/WhatsApp,2012,BR01,Bred,Local Breed (Mixed),1543,469,2023,Jan
+SL0132,RB0409,2022-09-20,Royal Feast Catering,Restaurant supply contract,7357,BR06,Bred,Angora,1232,6125,2022,Sep
+SL0133,RB0410,2023-09-14,Royal Feast Catering,Social media/WhatsApp,3610,BR01,Bred,Local Breed (Mixed),1317,2293,2023,Sep
+SL0134,RB0411,2024-08-14,Chuka Bush Meat Traders,Wholesale/Bulk order,4558,BR02,Bred,New Zealand White,913,3645,2024,Aug
+SL0135,RB0414,2026-07-24,Lagos Farmers Market Union,Wholesale/Bulk order,4413,BR03,Purchased,Californian,4115,298,2026,Jul
+SL0136,RB0417,2025-05-04,Amara Foods Ltd,Local market,2469,BR01,Bred,Local Breed (Mixed),1065,1404,2025,May
+SL0137,RB0419,2025-04-05,Green Table Eatery,Social media/WhatsApp,9028,BR04,Bred,Chinchilla Giant,1442,7586,2025,Apr
+SL0138,RB0423,2026-07-07,Chuka Bush Meat Traders,Farm gate,5927,BR01,Bred,Local Breed (Mixed),926,5001,2026,Jul
+SL0139,RB0424,2026-02-21,Chuka Bush Meat Traders,Social media/WhatsApp,4248,BR02,Bred,New Zealand White,848,3400,2026,Feb
+SL0140,RB0425,2026-05-25,Amara Foods Ltd,Restaurant supply contract,2097,BR01,Purchased,Local Breed (Mixed),4785,-2688,2026,May
+SL0141,RB0428,2025-11-20,Amara Foods Ltd,Wholesale/Bulk order,10671,BR05,Bred,Checkered Giant,1763,8908,2025,Nov
+SL0142,RB0430,2025-08-30,Ahmed Family Farm,Restaurant supply contract,5230,BR01,Purchased,Local Breed (Mixed),4091,1139,2025,Aug
+SL0143,RB0431,2024-02-15,Yusuf Meat Distributors,Social media/WhatsApp,3596,BR01,Bred,Local Breed (Mixed),1259,2337,2024,Feb
+SL0144,RB0434,2024-03-23,Emeka's Butchery,Wholesale/Bulk order,1791,BR01,Bred,Local Breed (Mixed),1554,237,2024,Mar
+SL0145,RB0436,2026-05-02,Amara Foods Ltd,Social media/WhatsApp,11816,BR04,Bred,Chinchilla Giant,1264,10552,2026,May
+SL0146,RB0439,2023-09-29,Ahmed Family Farm,Wholesale/Bulk order,5047,BR04,Bred,Chinchilla Giant,1041,4006,2023,Sep
+SL0147,RB0440,2026-08-16,Ahmed Family Farm,Farm gate,4820,BR01,Bred,Local Breed (Mixed),1624,3196,2026,Aug
+SL0148,RB0443,2026-08-19,Chuka Bush Meat Traders,Local market,5000,BR02,Bred,New Zealand White,1379,3621,2026,Aug
+SL0149,RB0448,2024-08-22,Blessing Home Farms,Restaurant supply contract,4876,BR04,Bred,Chinchilla Giant,1442,3434,2024,Aug
+SL0150,RB0454,2022-11-27,Fatima Restaurant Supplies,Restaurant supply contract,14563,BR06,Bred,Angora,1158,13405,2022,Nov
+SL0151,RB0455,2022-11-28,Lagos Farmers Market Union,Wholesale/Bulk order,2363,BR01,Bred,Local Breed (Mixed),1106,1257,2022,Nov
+SL0152,RB0456,2026-09-03,Blessing Home Farms,Farm gate,6826,BR02,Bred,New Zealand White,1091,5735,2026,Sep
+SL0153,RB0457,2026-07-25,Green Table Eatery,Social media/WhatsApp,5694,BR01,Bred,Local Breed (Mixed),1482,4212,2026,Jul
+SL0154,RB0458,2023-01-03,Amara Foods Ltd,Social media/WhatsApp,7086,BR02,Bred,New Zealand White,1603,5483,2023,Jan
+SL0155,RB0460,2022-11-21,Yusuf Meat Distributors,Local market,2924,BR01,Bred,Local Breed (Mixed),1532,1392,2022,Nov
+SL0156,RB0461,2024-02-10,Emeka's Butchery,Restaurant supply contract,3876,BR01,Purchased,Local Breed (Mixed),3355,521,2024,Feb
+SL0157,RB0463,2026-03-20,Ahmed Family Farm,Social media/WhatsApp,3888,BR04,Bred,Chinchilla Giant,1488,2400,2026,Mar
+SL0158,RB0466,2026-03-30,Chuka Bush Meat Traders,Restaurant supply contract,4119,BR02,Bred,New Zealand White,1531,2588,2026,Mar
+SL0159,RB0474,2025-11-28,Coastal Grillhouse,Wholesale/Bulk order,14563,BR05,Bred,Checkered Giant,1135,13428,2025,Nov
+SL0160,RB0478,2023-06-25,Green Table Eatery,Social media/WhatsApp,4749,BR03,Bred,Californian,1642,3107,2023,Jun
+SL0161,RB0479,2026-02-25,City Pet & Livestock Store,Social media/WhatsApp,10256,BR06,Bred,Angora,1597,8659,2026,Feb
+SL0162,RB0480,2025-03-30,Royal Feast Catering,Social media/WhatsApp,5067,BR03,Bred,Californian,1169,3898,2025,Mar
+SL0163,RB0481,2026-08-28,City Pet & Livestock Store,Restaurant supply contract,4773,BR03,Bred,Californian,1265,3508,2026,Aug
+SL0164,RB0482,2025-07-13,Green Table Eatery,Wholesale/Bulk order,4783,BR04,Bred,Chinchilla Giant,900,3883,2025,Jul
+SL0165,RB0484,2024-07-18,Obi & Sons Livestock,Restaurant supply contract,4647,BR03,Bred,Californian,1528,3119,2024,Jul
+SL0166,RB0485,2025-11-21,Blessing Home Farms,Restaurant supply contract,8110,BR03,Bred,Californian,1235,6875,2025,Nov
+SL0167,RB0487,2025-06-22,Independent buyer (walk-in),Farm gate,4239,BR01,Bred,Local Breed (Mixed),1221,3018,2025,Jun
+SL0168,RB0488,2025-05-11,Emeka's Butchery,Restaurant supply contract,3035,BR01,Bred,Local Breed (Mixed),883,2152,2025,May
+SL0169,RB0492,2023-11-08,Ahmed Family Farm,Wholesale/Bulk order,3764,BR03,Bred,Californian,1709,2055,2023,Nov
+SL0170,RB0493,2026-05-19,City Pet & Livestock Store,Wholesale/Bulk order,2186,BR01,Bred,Local Breed (Mixed),933,1253,2026,May
+SL0171,RB0494,2026-06-04,Independent buyer (walk-in),Restaurant supply contract,4597,BR01,Bred,Local Breed (Mixed),1287,3310,2026,Jun
+SL0172,RB0496,2026-03-28,Ahmed Family Farm,Wholesale/Bulk order,9313,BR02,Bred,New Zealand White,1256,8057,2026,Mar
+SL0173,RB0503,2025-12-04,Emeka's Butchery,Farm gate,5318,BR02,Bred,New Zealand White,1212,4106,2025,Dec
+SL0174,RB0507,2025-10-26,Green Table Eatery,Social media/WhatsApp,8778,BR06,Bred,Angora,1331,7447,2025,Oct
+SL0175,RB0509,2024-10-04,Fatima Restaurant Supplies,Local market,8288,BR06,Bred,Angora,1204,7084,2024,Oct
+SL0176,RB0510,2026-08-09,Emeka's Butchery,Social media/WhatsApp,4116,BR04,Bred,Chinchilla Giant,1692,2424,2026,Aug
+SL0177,RB0511,2026-01-14,Yusuf Meat Distributors,Wholesale/Bulk order,9457,BR03,Bred,Californian,1070,8387,2026,Jan
+SL0178,RB0512,2024-09-10,Ngozi Poultry & Rabbit Mart,Farm gate,4305,BR02,Bred,New Zealand White,1398,2907,2024,Sep
+SL0179,RB0513,2024-02-29,Ngozi Poultry & Rabbit Mart,Wholesale/Bulk order,12335,BR06,Bred,Angora,1310,11025,2024,Feb
+SL0180,RB0515,2026-07-13,Ngozi Poultry & Rabbit Mart,Social media/WhatsApp,4593,BR01,Purchased,Local Breed (Mixed),4633,-40,2026,Jul
+SL0181,RB0516,2026-05-06,Fatima Restaurant Supplies,Social media/WhatsApp,3073,BR01,Bred,Local Breed (Mixed),1233,1840,2026,May
+SL0182,RB0524,2025-03-29,Ahmed Family Farm,Local market,13626,BR05,Purchased,Checkered Giant,11675,1951,2025,Mar
+SL0183,RB0526,2023-07-05,Green Table Eatery,Farm gate,4662,BR02,Purchased,New Zealand White,4920,-258,2023,Jul
+SL0184,RB0527,2025-07-31,Green Table Eatery,Farm gate,3614,BR02,Bred,New Zealand White,1796,1818,2025,Jul
+SL0185,RB0532,2025-09-15,Royal Feast Catering,Social media/WhatsApp,13023,BR06,Bred,Angora,1317,11706,2025,Sep
+SL0186,RB0535,2026-09-03,Blessing Home Farms,Restaurant supply contract,5401,BR04,Bred,Chinchilla Giant,1528,3873,2026,Sep
+SL0187,RB0537,2024-12-02,Yusuf Meat Distributors,Farm gate,7572,BR05,Bred,Checkered Giant,932,6640,2024,Dec
+SL0188,RB0543,2024-09-03,Fatima Restaurant Supplies,Social media/WhatsApp,2163,BR01,Bred,Local Breed (Mixed),920,1243,2024,Sep
+SL0189,RB0545,2026-02-14,Amara Foods Ltd,Social media/WhatsApp,3558,BR03,Bred,Californian,1017,2541,2026,Feb
+SL0190,RB0548,2022-11-13,Royal Feast Catering,Social media/WhatsApp,6734,BR04,Bred,Chinchilla Giant,833,5901,2022,Nov
+SL0191,RB0549,2026-02-23,Coastal Grillhouse,Local market,8697,BR03,Bred,Californian,1564,7133,2026,Feb
+SL0192,RB0555,2023-08-18,Ngozi Poultry & Rabbit Mart,Farm gate,13278,BR05,Purchased,Checkered Giant,7393,5885,2023,Aug
+SL0193,RB0561,2024-03-24,Royal Feast Catering,Farm gate,10980,BR04,Bred,Chinchilla Giant,1218,9762,2024,Mar
+SL0194,RB0562,2025-10-16,Ngozi Poultry & Rabbit Mart,Farm gate,3726,BR01,Bred,Local Breed (Mixed),912,2814,2025,Oct
+SL0195,RB0571,2024-12-30,Ahmed Family Farm,Social media/WhatsApp,4285,BR03,Bred,Californian,1180,3105,2024,Dec
+SL0196,RB0575,2025-11-28,Independent buyer (walk-in),Wholesale/Bulk order,4520,BR05,Bred,Checkered Giant,1183,3337,2025,Nov
+SL0197,RB0577,2022-10-16,City Pet & Livestock Store,Farm gate,4988,BR01,Purchased,Local Breed (Mixed),2940,2048,2022,Oct
+SL0198,RB0580,2024-05-18,Ngozi Poultry & Rabbit Mart,Local market,5125,BR01,Bred,Local Breed (Mixed),828,4297,2024,May
+SL0199,RB0587,2026-09-03,Chuka Bush Meat Traders,Restaurant supply contract,2233,BR01,Bred,Local Breed (Mixed),1231,1002,2026,Sep
+SL0200,RB0588,2023-05-25,Coastal Grillhouse,Farm gate,3254,BR01,Bred,Local Breed (Mixed),849,2405,2023,May
+SL0201,RB0589,2026-04-09,City Pet & Livestock Store,Restaurant supply contract,2818,BR01,Bred,Local Breed (Mixed),1759,1059,2026,Apr
+SL0202,RB0593,2026-07-31,Independent buyer (walk-in),Restaurant supply contract,3337,BR01,Bred,Local Breed (Mixed),1112,2225,2026,Jul
+SL0203,RB0594,2023-09-04,Blessing Home Farms,Farm gate,7031,BR02,Bred,New Zealand White,1710,5321,2023,Sep
+SL0204,RB0595,2026-05-13,Ahmed Family Farm,Farm gate,5950,BR05,Bred,Checkered Giant,1090,4860,2026,May
+SL0205,RB0596,2026-08-29,Lagos Farmers Market Union,Restaurant supply contract,4283,BR02,Purchased,New Zealand White,7971,-3688,2026,Aug
+SL0206,RB0600,2024-08-21,Royal Feast Catering,Local market,5097,BR01,Bred,Local Breed (Mixed),1638,3459,2024,Aug
+SL0207,RB0605,2023-09-06,Green Table Eatery,Local market,2616,BR01,Bred,Local Breed (Mixed),1360,1256,2023,Sep
+SL0208,RB0606,2026-07-30,Fatima Restaurant Supplies,Local market,6437,BR02,Bred,New Zealand White,1157,5280,2026,Jul
+SL0209,RB0608,2024-10-14,Blessing Home Farms,Wholesale/Bulk order,4124,BR02,Bred,New Zealand White,1691,2433,2024,Oct
+SL0210,RB0610,2024-05-26,Ngozi Poultry & Rabbit Mart,Restaurant supply contract,4541,BR04,Bred,Chinchilla Giant,1227,3314,2024,May
+SL0211,RB0612,2025-12-21,Blessing Home Farms,Restaurant supply contract,4458,BR05,Bred,Checkered Giant,1386,3072,2025,Dec
+SL0212,RB0613,2023-04-13,Emeka's Butchery,Farm gate,7534,BR03,Bred,Californian,1117,6417,2023,Apr
+SL0213,RB0614,2025-09-14,Coastal Grillhouse,Wholesale/Bulk order,4796,BR01,Bred,Local Breed (Mixed),1379,3417,2025,Sep
+SL0214,RB0623,2026-08-27,City Pet & Livestock Store,Local market,4945,BR02,Bred,New Zealand White,1286,3659,2026,Aug
+SL0215,RB0627,2023-03-10,Obi & Sons Livestock,Local market,9945,BR02,Bred,New Zealand White,1653,8292,2023,Mar
+SL0216,RB0637,2025-05-06,Blessing Home Farms,Social media/WhatsApp,4486,BR03,Bred,Californian,1260,3226,2025,May
+SL0217,RB0639,2025-01-08,Obi & Sons Livestock,Farm gate,3432,BR01,Bred,Local Breed (Mixed),1259,2173,2025,Jan
+SL0218,RB0640,2026-02-14,Independent buyer (walk-in),Restaurant supply contract,5643,BR02,Bred,New Zealand White,952,4691,2026,Feb
+SL0219,RB0642,2025-10-02,Ngozi Poultry & Rabbit Mart,Farm gate,6142,BR02,Bred,New Zealand White,1545,4597,2025,Oct
+SL0220,RB0645,2025-10-08,Independent buyer (walk-in),Local market,3164,BR01,Bred,Local Breed (Mixed),1619,1545,2025,Oct
+SL0221,RB0649,2024-07-22,Coastal Grillhouse,Wholesale/Bulk order,6072,BR05,Bred,Checkered Giant,1219,4853,2024,Jul
+SL0222,RB0650,2026-05-24,City Pet & Livestock Store,Social media/WhatsApp,7266,BR02,Purchased,New Zealand White,7482,-216,2026,May
+SL0223,RB0652,2023-10-03,City Pet & Livestock Store,Farm gate,9326,BR03,Bred,Californian,1038,8288,2023,Oct
+SL0224,RB0653,2026-08-24,Ngozi Poultry & Rabbit Mart,Local market,5190,BR03,Bred,Californian,1721,3469,2026,Aug
+SL0225,RB0655,2024-03-16,Yusuf Meat Distributors,Farm gate,4812,BR02,Purchased,New Zealand White,8299,-3487,2024,Mar
+SL0226,RB0656,2026-09-02,Independent buyer (walk-in),Social media/WhatsApp,2554,BR01,Bred,Local Breed (Mixed),1147,1407,2026,Sep
+SL0227,RB0657,2025-07-23,Chuka Bush Meat Traders,Local market,4732,BR01,Bred,Local Breed (Mixed),1353,3379,2025,Jul
+SL0228,RB0659,2025-02-25,Green Table Eatery,Local market,4218,BR03,Bred,Californian,1781,2437,2025,Feb
+SL0229,RB0663,2026-05-15,City Pet & Livestock Store,Social media/WhatsApp,4797,BR03,Bred,Californian,1253,3544,2026,May
+SL0230,RB0665,2025-10-16,Royal Feast Catering,Farm gate,5164,BR01,Bred,Local Breed (Mixed),1084,4080,2025,Oct
+SL0231,RB0666,2026-09-01,Ngozi Poultry & Rabbit Mart,Farm gate,2311,BR01,Bred,Local Breed (Mixed),1461,850,2026,Sep
+SL0232,RB0667,2022-10-20,Royal Feast Catering,Wholesale/Bulk order,3435,BR01,Bred,Local Breed (Mixed),890,2545,2022,Oct
+SL0233,RB0668,2025-06-02,Emeka's Butchery,Wholesale/Bulk order,2714,BR01,Bred,Local Breed (Mixed),1686,1028,2025,Jun
+SL0234,RB0672,2026-09-01,Lagos Farmers Market Union,Wholesale/Bulk order,14890,BR05,Bred,Checkered Giant,1385,13505,2026,Sep
+SL0235,RB0674,2022-09-13,Chuka Bush Meat Traders,Local market,9359,BR03,Bred,Californian,1615,7744,2022,Sep
+SL0236,RB0682,2025-03-04,Obi & Sons Livestock,Restaurant supply contract,3180,BR01,Purchased,Local Breed (Mixed),3487,-307,2025,Mar
+SL0237,RB0683,2025-03-05,Lagos Farmers Market Union,Wholesale/Bulk order,1885,BR01,Bred,Local Breed (Mixed),1372,513,2025,Mar
+SL0238,RB0687,2026-01-13,Emeka's Butchery,Restaurant supply contract,8466,BR03,Bred,Californian,1433,7033,2026,Jan
+SL0239,RB0688,2023-05-31,Blessing Home Farms,Farm gate,4838,BR01,Bred,Local Breed (Mixed),1354,3484,2023,May
+SL0240,RB0689,2025-08-02,Amara Foods Ltd,Local market,6621,BR04,Bred,Chinchilla Giant,1390,5231,2025,Aug
+SL0241,RB0690,2023-12-29,Blessing Home Farms,Local market,3040,BR01,Bred,Local Breed (Mixed),1575,1465,2023,Dec
+SL0242,RB0691,2026-08-30,Yusuf Meat Distributors,Local market,3012,BR02,Bred,New Zealand White,854,2158,2026,Aug
+SL0243,RB0696,2026-05-29,Obi & Sons Livestock,Social media/WhatsApp,5573,BR03,Bred,Californian,993,4580,2026,May
+SL0244,RB0697,2026-07-04,Chuka Bush Meat Traders,Farm gate,5858,BR01,Bred,Local Breed (Mixed),1568,4290,2026,Jul
+SL0245,RB0698,2025-09-20,Green Table Eatery,Restaurant supply contract,3646,BR03,Bred,Californian,1287,2359,2025,Sep
+SL0246,RB0701,2023-06-28,Royal Feast Catering,Local market,5659,BR03,Bred,Californian,819,4840,2023,Jun
+SL0247,RB0706,2025-04-10,City Pet & Livestock Store,Wholesale/Bulk order,9366,BR06,Bred,Angora,984,8382,2025,Apr
+SL0248,RB0711,2024-11-05,Lagos Farmers Market Union,Wholesale/Bulk order,6746,BR04,Bred,Chinchilla Giant,1010,5736,2024,Nov
+SL0249,RB0713,2024-04-18,Ngozi Poultry & Rabbit Mart,Local market,7959,BR02,Purchased,New Zealand White,3928,4031,2024,Apr
+SL0250,RB0716,2026-08-31,Fatima Restaurant Supplies,Restaurant supply contract,6635,BR06,Bred,Angora,1659,4976,2026,Aug
+SL0251,RB0719,2026-08-06,Royal Feast Catering,Social media/WhatsApp,4841,BR01,Purchased,Local Breed (Mixed),4877,-36,2026,Aug
+SL0252,RB0729,2025-05-13,Chuka Bush Meat Traders,Wholesale/Bulk order,4313,BR01,Bred,Local Breed (Mixed),846,3467,2025,May
+SL0253,RB0730,2023-05-26,Fatima Restaurant Supplies,Wholesale/Bulk order,2502,BR01,Bred,Local Breed (Mixed),1303,1199,2023,May
+SL0254,RB0731,2024-08-14,Yusuf Meat Distributors,Restaurant supply contract,3544,BR01,Bred,Local Breed (Mixed),1682,1862,2024,Aug
+SL0255,RB0732,2026-08-09,Amara Foods Ltd,Farm gate,5838,BR05,Bred,Checkered Giant,1756,4082,2026,Aug
+SL0256,RB0736,2024-08-25,City Pet & Livestock Store,Restaurant supply contract,8575,BR05,Bred,Checkered Giant,984,7591,2024,Aug
+SL0257,RB0737,2024-07-31,Green Table Eatery,Farm gate,8566,BR02,Bred,New Zealand White,1224,7342,2024,Jul
+SL0258,RB0739,2025-09-08,Blessing Home Farms,Local market,9990,BR02,Bred,New Zealand White,1680,8310,2025,Sep
+SL0259,RB0741,2024-02-26,Emeka's Butchery,Local market,4072,BR02,Purchased,New Zealand White,7253,-3181,2024,Feb
+SL0260,RB0743,2025-11-12,Yusuf Meat Distributors,Restaurant supply contract,7407,BR04,Bred,Chinchilla Giant,1340,6067,2025,Nov
+SL0261,RB0746,2024-06-10,Ahmed Family Farm,Social media/WhatsApp,7513,BR05,Bred,Checkered Giant,1063,6450,2024,Jun
+SL0262,RB0750,2024-04-15,Chuka Bush Meat Traders,Social media/WhatsApp,3611,BR03,Purchased,Californian,4050,-439,2024,Apr
+SL0263,RB0752,2025-03-31,Ahmed Family Farm,Farm gate,11787,BR06,Purchased,Angora,9953,1834,2025,Mar
+SL0264,RB0754,2024-04-05,Emeka's Butchery,Restaurant supply contract,6057,BR02,Bred,New Zealand White,972,5085,2024,Apr
+SL0265,RB0755,2023-05-24,Royal Feast Catering,Wholesale/Bulk order,2641,BR01,Bred,Local Breed (Mixed),1092,1549,2023,May
+SL0266,RB0756,2026-09-03,City Pet & Livestock Store,Wholesale/Bulk order,14776,BR05,Bred,Checkered Giant,947,13829,2026,Sep
+SL0267,RB0758,2026-08-24,Green Table Eatery,Local market,3485,BR03,Purchased,Californian,8010,-4525,2026,Aug
+SL0268,RB0759,2024-09-17,Ngozi Poultry & Rabbit Mart,Social media/WhatsApp,5560,BR05,Bred,Checkered Giant,987,4573,2024,Sep
+SL0269,RB0763,2025-10-07,Emeka's Butchery,Wholesale/Bulk order,4679,BR01,Bred,Local Breed (Mixed),957,3722,2025,Oct
+SL0270,RB0768,2023-09-04,Fatima Restaurant Supplies,Wholesale/Bulk order,7129,BR05,Bred,Checkered Giant,973,6156,2023,Sep
+SL0271,RB0773,2024-10-12,Green Table Eatery,Restaurant supply contract,3503,BR01,Bred,Local Breed (Mixed),1133,2370,2024,Oct
+SL0272,RB0775,2024-05-21,Ngozi Poultry & Rabbit Mart,Social media/WhatsApp,5765,BR05,Bred,Checkered Giant,827,4938,2024,May
+SL0273,RB0776,2025-09-12,Yusuf Meat Distributors,Local market,4275,BR01,Purchased,Local Breed (Mixed),4196,79,2025,Sep
+SL0274,RB0779,2026-07-21,Royal Feast Catering,Local market,5173,BR04,Bred,Chinchilla Giant,1105,4068,2026,Jul
+SL0275,RB0781,2023-04-07,Obi & Sons Livestock,Social media/WhatsApp,3617,BR04,Bred,Chinchilla Giant,901,2716,2023,Apr
+SL0276,RB0785,2024-04-14,Ahmed Family Farm,Wholesale/Bulk order,2232,BR01,Bred,Local Breed (Mixed),1714,518,2024,Apr
+SL0277,RB0787,2023-02-05,Lagos Farmers Market Union,Restaurant supply contract,7017,BR03,Bred,Californian,1064,5953,2023,Feb
+SL0278,RB0789,2025-04-07,City Pet & Livestock Store,Wholesale/Bulk order,5802,BR02,Bred,New Zealand White,1764,4038,2025,Apr
+SL0279,RB0793,2026-01-12,Amara Foods Ltd,Wholesale/Bulk order,6351,BR03,Bred,Californian,923,5428,2026,Jan
+SL0280,RB0799,2023-01-12,Ngozi Poultry & Rabbit Mart,Social media/WhatsApp,8091,BR04,Bred,Chinchilla Giant,1400,6691,2023,Jan
+SL0281,RB0800,2026-08-13,City Pet & Livestock Store,Local market,15513,BR06,Purchased,Angora,10606,4907,2026,Aug
+SL0282,RB0804,2026-08-06,Emeka's Butchery,Wholesale/Bulk order,4570,BR03,Purchased,Californian,4811,-241,2026,Aug
+SL0283,RB0805,2023-05-07,Obi & Sons Livestock,Farm gate,5446,BR02,Bred,New Zealand White,1320,4126,2023,May
+SL0284,RB0809,2023-10-21,Coastal Grillhouse,Farm gate,3390,BR02,Bred,New Zealand White,1772,1618,2023,Oct
+SL0285,RB0810,2025-07-15,Lagos Farmers Market Union,Local market,3713,BR01,Bred,Local Breed (Mixed),917,2796,2025,Jul
+SL0286,RB0813,2026-05-30,Independent buyer (walk-in),Social media/WhatsApp,2714,BR01,Bred,Local Breed (Mixed),1125,1589,2026,May
+SL0287,RB0819,2024-09-01,City Pet & Livestock Store,Restaurant supply contract,2991,BR01,Bred,Local Breed (Mixed),829,2162,2024,Sep
+SL0288,RB0824,2023-10-19,Emeka's Butchery,Farm gate,5906,BR02,Bred,New Zealand White,1707,4199,2023,Oct
+SL0289,RB0827,2024-08-08,Obi & Sons Livestock,Restaurant supply contract,6021,BR02,Bred,New Zealand White,1075,4946,2024,Aug
+SL0290,RB0828,2024-12-11,Yusuf Meat Distributors,Social media/WhatsApp,5538,BR02,Bred,New Zealand White,1367,4171,2024,Dec
+SL0291,RB0832,2024-01-13,City Pet & Livestock Store,Social media/WhatsApp,4616,BR02,Bred,New Zealand White,1491,3125,2024,Jan
+SL0292,RB0837,2024-10-31,Independent buyer (walk-in),Restaurant supply contract,5583,BR06,Bred,Angora,1368,4215,2024,Oct
+SL0293,RB0838,2024-07-04,Ahmed Family Farm,Local market,3168,BR02,Bred,New Zealand White,1467,1701,2024,Jul
+SL0294,RB0840,2024-04-27,Fatima Restaurant Supplies,Restaurant supply contract,4066,BR03,Bred,Californian,928,3138,2024,Apr
+SL0295,RB0846,2024-05-27,Independent buyer (walk-in),Social media/WhatsApp,5018,BR02,Bred,New Zealand White,885,4133,2024,May
+SL0296,RB0849,2025-06-17,Fatima Restaurant Supplies,Farm gate,7917,BR03,Purchased,Californian,7250,667,2025,Jun
+SL0297,RB0850,2023-08-25,Emeka's Butchery,Restaurant supply contract,7299,BR03,Bred,Californian,1312,5987,2023,Aug
+SL0298,RB0852,2024-09-03,Fatima Restaurant Supplies,Social media/WhatsApp,5273,BR04,Bred,Chinchilla Giant,1008,4265,2024,Sep
+SL0299,RB0858,2026-04-21,Lagos Farmers Market Union,Farm gate,6478,BR02,Purchased,New Zealand White,7004,-526,2026,Apr
+SL0300,RB0862,2022-10-24,Blessing Home Farms,Social media/WhatsApp,6523,BR02,Bred,New Zealand White,1350,5173,2022,Oct
+SL0301,RB0866,2023-05-10,Independent buyer (walk-in),Wholesale/Bulk order,4476,BR03,Bred,Californian,1784,2692,2023,May
+SL0302,RB0868,2023-11-20,Independent buyer (walk-in),Social media/WhatsApp,2329,BR01,Bred,Local Breed (Mixed),1368,961,2023,Nov
+SL0303,RB0872,2022-12-04,Coastal Grillhouse,Social media/WhatsApp,4580,BR01,Bred,Local Breed (Mixed),842,3738,2022,Dec
+SL0304,RB0873,2026-08-28,Independent buyer (walk-in),Local market,4784,BR03,Bred,Californian,801,3983,2026,Aug
+SL0305,RB0874,2026-03-18,Emeka's Butchery,Wholesale/Bulk order,4292,BR02,Purchased,New Zealand White,8410,-4118,2026,Mar
+SL0306,RB0877,2026-08-08,Fatima Restaurant Supplies,Restaurant supply contract,6628,BR04,Bred,Chinchilla Giant,1784,4844,2026,Aug
+SL0307,RB0878,2026-03-26,Independent buyer (walk-in),Wholesale/Bulk order,6994,BR04,Bred,Chinchilla Giant,1649,5345,2026,Mar
+SL0308,RB0885,2023-02-02,Green Table Eatery,Local market,8435,BR05,Bred,Checkered Giant,861,7574,2023,Feb
+SL0309,RB0892,2026-03-15,Green Table Eatery,Local market,4447,BR05,Bred,Checkered Giant,1056,3391,2026,Mar
+SL0310,RB0895,2023-03-10,Blessing Home Farms,Social media/WhatsApp,3646,BR04,Bred,Chinchilla Giant,1189,2457,2023,Mar
+SL0311,RB0897,2026-03-07,Emeka's Butchery,Wholesale/Bulk order,2084,BR01,Bred,Local Breed (Mixed),1662,422,2026,Mar
+SL0312,RB0899,2024-03-26,Chuka Bush Meat Traders,Wholesale/Bulk order,5287,BR01,Purchased,Local Breed (Mixed),3342,1945,2024,Mar
+SL0313,RB0901,2025-02-23,Blessing Home Farms,Social media/WhatsApp,3667,BR01,Bred,Local Breed (Mixed),1017,2650,2025,Feb
+SL0314,RB0902,2025-09-16,Blessing Home Farms,Wholesale/Bulk order,5797,BR01,Bred,Local Breed (Mixed),1399,4398,2025,Sep
+SL0315,RB0903,2025-12-03,Chuka Bush Meat Traders,Local market,2759,BR01,Bred,Local Breed (Mixed),1660,1099,2025,Dec
+SL0316,RB0905,2026-08-02,Lagos Farmers Market Union,Farm gate,6506,BR02,Bred,New Zealand White,1088,5418,2026,Aug
+SL0317,RB0906,2024-09-22,Ngozi Poultry & Rabbit Mart,Social media/WhatsApp,5668,BR05,Bred,Checkered Giant,846,4822,2024,Sep
+SL0318,RB0908,2023-11-10,Ngozi Poultry & Rabbit Mart,Local market,3739,BR02,Bred,New Zealand White,1556,2183,2023,Nov
+SL0319,RB0913,2026-02-28,Coastal Grillhouse,Social media/WhatsApp,9071,BR03,Bred,Californian,891,8180,2026,Feb
+SL0320,RB0914,2025-12-26,Independent buyer (walk-in),Restaurant supply contract,5307,BR02,Purchased,New Zealand White,4141,1166,2025,Dec
+SL0321,RB0915,2026-06-03,Ahmed Family Farm,Farm gate,6869,BR03,Purchased,Californian,4324,2545,2026,Jun
+SL0322,RB0916,2024-11-09,Royal Feast Catering,Restaurant supply contract,8154,BR02,Bred,New Zealand White,1204,6950,2024,Nov
+SL0323,RB0918,2024-11-03,Yusuf Meat Distributors,Farm gate,5979,BR06,Bred,Angora,925,5054,2024,Nov
+SL0324,RB0919,2026-07-27,Royal Feast Catering,Wholesale/Bulk order,4508,BR04,Bred,Chinchilla Giant,1650,2858,2026,Jul
+SL0325,RB0920,2024-04-08,Independent buyer (walk-in),Social media/WhatsApp,3886,BR01,Bred,Local Breed (Mixed),943,2943,2024,Apr
+SL0326,RB0924,2026-09-03,Obi & Sons Livestock,Farm gate,8212,BR05,Bred,Checkered Giant,1699,6513,2026,Sep
+SL0327,RB0927,2026-07-16,Lagos Farmers Market Union,Restaurant supply contract,5114,BR01,Bred,Local Breed (Mixed),1425,3689,2026,Jul
+SL0328,RB0931,2023-08-23,Ngozi Poultry & Rabbit Mart,Social media/WhatsApp,1967,BR01,Bred,Local Breed (Mixed),1621,346,2023,Aug
+SL0329,RB0934,2024-06-08,Amara Foods Ltd,Farm gate,3629,BR03,Bred,Californian,1705,1924,2024,Jun
+SL0330,RB0937,2026-08-30,Ngozi Poultry & Rabbit Mart,Wholesale/Bulk order,5385,BR01,Bred,Local Breed (Mixed),1768,3617,2026,Aug
+SL0331,RB0939,2025-03-17,City Pet & Livestock Store,Social media/WhatsApp,5359,BR01,Bred,Local Breed (Mixed),1450,3909,2025,Mar
+SL0332,RB0941,2023-12-11,City Pet & Livestock Store,Farm gate,2966,BR01,Bred,Local Breed (Mixed),1067,1899,2023,Dec
+SL0333,RB0947,2024-05-28,Amara Foods Ltd,Restaurant supply contract,4849,BR01,Purchased,Local Breed (Mixed),2272,2577,2024,May
+SL0334,RB0948,2024-10-01,Lagos Farmers Market Union,Restaurant supply contract,8211,BR06,Bred,Angora,1079,7132,2024,Oct
+SL0335,RB0951,2025-05-14,Green Table Eatery,Farm gate,3529,BR03,Bred,Californian,1478,2051,2025,May
+SL0336,RB0954,2026-07-16,Lagos Farmers Market Union,Farm gate,13635,BR06,Bred,Angora,1149,12486,2026,Jul
+SL0337,RB0959,2024-06-07,Chuka Bush Meat Traders,Restaurant supply contract,3273,BR01,Bred,Local Breed (Mixed),1136,2137,2024,Jun
+SL0338,RB0961,2026-07-29,Yusuf Meat Distributors,Farm gate,2983,BR01,Purchased,Local Breed (Mixed),3019,-36,2026,Jul
+SL0339,RB0963,2026-09-03,Obi & Sons Livestock,Local market,2566,BR01,Bred,Local Breed (Mixed),1508,1058,2026,Sep
+SL0340,RB0966,2026-06-30,Royal Feast Catering,Wholesale/Bulk order,3983,BR02,Bred,New Zealand White,1744,2239,2026,Jun
+SL0341,RB0969,2024-11-06,Amara Foods Ltd,Local market,6365,BR03,Bred,Californian,1287,5078,2024,Nov
+SL0342,RB0973,2024-01-15,Yusuf Meat Distributors,Wholesale/Bulk order,4167,BR04,Bred,Chinchilla Giant,1488,2679,2024,Jan
+SL0343,RB0974,2026-08-21,City Pet & Livestock Store,Local market,2333,BR01,Bred,Local Breed (Mixed),977,1356,2026,Aug
+SL0344,RB0975,2025-05-13,Obi & Sons Livestock,Wholesale/Bulk order,3993,BR01,Bred,Local Breed (Mixed),1223,2770,2025,May
+SL0345,RB0983,2025-01-01,Emeka's Butchery,Social media/WhatsApp,5270,BR01,Bred,Local Breed (Mixed),1351,3919,2025,Jan
+SL0346,RB0987,2023-05-07,Ahmed Family Farm,Local market,6305,BR04,Bred,Chinchilla Giant,1464,4841,2023,May
+SL0347,RB0988,2025-06-02,City Pet & Livestock Store,Farm gate,7470,BR02,Bred,New Zealand White,1466,6004,2025,Jun
+SL0348,RB0990,2025-11-05,Coastal Grillhouse,Local market,7010,BR05,Bred,Checkered Giant,1351,5659,2025,Nov
+SL0349,RB0992,2026-07-12,Blessing Home Farms,Wholesale/Bulk order,5505,BR04,Bred,Chinchilla Giant,1713,3792,2026,Jul
+SL0350,RB0999,2024-12-12,Obi & Sons Livestock,Restaurant supply contract,8402,BR06,Purchased,Angora,9703,-1301,2024,Dec

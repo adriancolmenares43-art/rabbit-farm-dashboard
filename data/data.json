@@ -1,0 +1,1368 @@
+{
+ "asof": "2026-09-04",
+ "currency": "NGN",
+ "kpi": {
+  "total_rabbits": 1000,
+  "active": 550,
+  "sold": 350,
+  "deceased": 100,
+  "revenue": 1994934,
+  "profit": 1289759,
+  "purchase_spend": 956924,
+  "mortality_rate": 10.0,
+  "avg_sale": 5700,
+  "margin": 64.7,
+  "pregnant": 80,
+  "bred_share": 85.0
+ },
+ "status": {
+  "Active": 550,
+  "Sold": 350,
+  "Deceased": 100
+ },
+ "active_sex": {
+  "Female": 437,
+  "Male": 113
+ },
+ "active_age": {
+  "Young": 326,
+  "Adult": 224
+ },
+ "active_breed_sex": {
+  "Local Breed (Mixed)": {
+   "Female": 142,
+   "Male": 37
+  },
+  "New Zealand White": {
+   "Female": 82,
+   "Male": 20
+  },
+  "Californian": {
+   "Female": 69,
+   "Male": 21
+  },
+  "Chinchilla Giant": {
+   "Female": 44,
+   "Male": 14
+  },
+  "Checkered Giant": {
+   "Female": 49,
+   "Male": 11
+  },
+  "Angora": {
+   "Female": 51,
+   "Male": 10
+  }
+ },
+ "active_age_sex": {
+  "Young": {
+   "Female": 257,
+   "Male": 69
+  },
+  "Adult": {
+   "Female": 180,
+   "Male": 44
+  }
+ },
+ "monthly": [
+  {
+   "month": "2022-09",
+   "revenue": 31949,
+   "profit": 24023,
+   "units": 5
+  },
+  {
+   "month": "2022-10",
+   "revenue": 30417,
+   "profit": 22721,
+   "units": 5
+  },
+  {
+   "month": "2022-11",
+   "revenue": 38536,
+   "profit": 32431,
+   "units": 5
+  },
+  {
+   "month": "2022-12",
+   "revenue": 15723,
+   "profit": 12937,
+   "units": 3
+  },
+  {
+   "month": "2023-01",
+   "revenue": 23032,
+   "profit": 17133,
+   "units": 4
+  },
+  {
+   "month": "2023-02",
+   "revenue": 18561,
+   "profit": 9053,
+   "units": 3
+  },
+  {
+   "month": "2023-03",
+   "revenue": 29596,
+   "profit": 25073,
+   "units": 4
+  },
+  {
+   "month": "2023-04",
+   "revenue": 15824,
+   "profit": 2966,
+   "units": 3
+  },
+  {
+   "month": "2023-05",
+   "revenue": 48466,
+   "profit": 29060,
+   "units": 11
+  },
+  {
+   "month": "2023-06",
+   "revenue": 10408,
+   "profit": 7947,
+   "units": 2
+  },
+  {
+   "month": "2023-07",
+   "revenue": 16259,
+   "profit": -2472,
+   "units": 3
+  },
+  {
+   "month": "2023-08",
+   "revenue": 34325,
+   "profit": 20869,
+   "units": 5
+  },
+  {
+   "month": "2023-09",
+   "revenue": 30809,
+   "profit": 20260,
+   "units": 7
+  },
+  {
+   "month": "2023-10",
+   "revenue": 24697,
+   "profit": 17646,
+   "units": 5
+  },
+  {
+   "month": "2023-11",
+   "revenue": 39679,
+   "profit": 17710,
+   "units": 8
+  },
+  {
+   "month": "2023-12",
+   "revenue": 21815,
+   "profit": 15827,
+   "units": 5
+  },
+  {
+   "month": "2024-01",
+   "revenue": 8783,
+   "profit": 5804,
+   "units": 2
+  },
+  {
+   "month": "2024-02",
+   "revenue": 23879,
+   "profit": 10702,
+   "units": 4
+  },
+  {
+   "month": "2024-03",
+   "revenue": 37835,
+   "profit": 20803,
+   "units": 6
+  },
+  {
+   "month": "2024-04",
+   "revenue": 35275,
+   "profit": 18307,
+   "units": 9
+  },
+  {
+   "month": "2024-05",
+   "revenue": 55296,
+   "profit": 41172,
+   "units": 8
+  },
+  {
+   "month": "2024-06",
+   "revenue": 36213,
+   "profit": 24445,
+   "units": 6
+  },
+  {
+   "month": "2024-07",
+   "revenue": 33868,
+   "profit": 25925,
+   "units": 6
+  },
+  {
+   "month": "2024-08",
+   "revenue": 48644,
+   "profit": 38114,
+   "units": 8
+  },
+  {
+   "month": "2024-09",
+   "revenue": 34412,
+   "profit": 25491,
+   "units": 8
+  },
+  {
+   "month": "2024-10",
+   "revenue": 44105,
+   "profit": 32131,
+   "units": 8
+  },
+  {
+   "month": "2024-11",
+   "revenue": 39279,
+   "profit": 32019,
+   "units": 6
+  },
+  {
+   "month": "2024-12",
+   "revenue": 59087,
+   "profit": 27498,
+   "units": 9
+  },
+  {
+   "month": "2025-01",
+   "revenue": 13726,
+   "profit": 8321,
+   "units": 4
+  },
+  {
+   "month": "2025-02",
+   "revenue": 16191,
+   "profit": 6841,
+   "units": 4
+  },
+  {
+   "month": "2025-03",
+   "revenue": 58422,
+   "profit": 20831,
+   "units": 7
+  },
+  {
+   "month": "2025-04",
+   "revenue": 32140,
+   "profit": 25441,
+   "units": 5
+  },
+  {
+   "month": "2025-05",
+   "revenue": 34770,
+   "profit": 19261,
+   "units": 8
+  },
+  {
+   "month": "2025-06",
+   "revenue": 28610,
+   "profit": 15273,
+   "units": 5
+  },
+  {
+   "month": "2025-07",
+   "revenue": 36891,
+   "profit": 25191,
+   "units": 8
+  },
+  {
+   "month": "2025-08",
+   "revenue": 31320,
+   "profit": 21641,
+   "units": 5
+  },
+  {
+   "month": "2025-09",
+   "revenue": 54831,
+   "profit": 41614,
+   "units": 8
+  },
+  {
+   "month": "2025-10",
+   "revenue": 45101,
+   "profit": 30283,
+   "units": 9
+  },
+  {
+   "month": "2025-11",
+   "revenue": 71167,
+   "profit": 56256,
+   "units": 9
+  },
+  {
+   "month": "2025-12",
+   "revenue": 31257,
+   "profit": 19599,
+   "units": 6
+  },
+  {
+   "month": "2026-01",
+   "revenue": 24274,
+   "profit": 20848,
+   "units": 3
+  },
+  {
+   "month": "2026-02",
+   "revenue": 62160,
+   "profit": 51829,
+   "units": 9
+  },
+  {
+   "month": "2026-03",
+   "revenue": 81794,
+   "profit": 46007,
+   "units": 16
+  },
+  {
+   "month": "2026-04",
+   "revenue": 46076,
+   "profit": 27425,
+   "units": 8
+  },
+  {
+   "month": "2026-05",
+   "revenue": 49586,
+   "profit": 28524,
+   "units": 10
+  },
+  {
+   "month": "2026-06",
+   "revenue": 55945,
+   "profit": 30981,
+   "units": 9
+  },
+  {
+   "month": "2026-07",
+   "revenue": 90382,
+   "profit": 61202,
+   "units": 17
+  },
+  {
+   "month": "2026-08",
+   "revenue": 183750,
+   "profit": 109024,
+   "units": 33
+  },
+  {
+   "month": "2026-09",
+   "revenue": 59769,
+   "profit": 47772,
+   "units": 9
+  }
+ ],
+ "yearly": [
+  {
+   "year": 2022,
+   "revenue": 116625,
+   "profit": 92112,
+   "units": 18
+  },
+  {
+   "year": 2023,
+   "revenue": 313471,
+   "profit": 181072,
+   "units": 60
+  },
+  {
+   "year": 2024,
+   "revenue": 456676,
+   "profit": 302411,
+   "units": 80
+  },
+  {
+   "year": 2025,
+   "revenue": 454426,
+   "profit": 290552,
+   "units": 78
+  },
+  {
+   "year": 2026,
+   "revenue": 653736,
+   "profit": 423612,
+   "units": 114
+  }
+ ],
+ "channels": [
+  {
+   "channel": "Social media/WhatsApp",
+   "revenue": 442877,
+   "units": 80
+  },
+  {
+   "channel": "Wholesale/Bulk order",
+   "revenue": 439236,
+   "units": 73
+  },
+  {
+   "channel": "Farm gate",
+   "revenue": 401270,
+   "units": 68
+  },
+  {
+   "channel": "Restaurant supply contract",
+   "revenue": 362054,
+   "units": 66
+  },
+  {
+   "channel": "Local market",
+   "revenue": 349497,
+   "units": 63
+  }
+ ],
+ "breed_sales": [
+  {
+   "breed": "Californian",
+   "revenue": 369194,
+   "profit": 239954,
+   "units": 66,
+   "avg_price": 5594
+  },
+  {
+   "breed": "Checkered Giant",
+   "revenue": 332400,
+   "profit": 231711,
+   "units": 41,
+   "avg_price": 8107
+  },
+  {
+   "breed": "New Zealand White",
+   "revenue": 369901,
+   "profit": 228643,
+   "units": 65,
+   "avg_price": 5691
+  },
+  {
+   "breed": "Local Breed (Mixed)",
+   "revenue": 389759,
+   "profit": 202015,
+   "units": 111,
+   "avg_price": 3511
+  },
+  {
+   "breed": "Angora",
+   "revenue": 287644,
+   "profit": 201358,
+   "units": 28,
+   "avg_price": 10273
+  },
+  {
+   "breed": "Chinchilla Giant",
+   "revenue": 246036,
+   "profit": 186078,
+   "units": 39,
+   "avg_price": 6309
+  }
+ ],
+ "mortality_cause": [
+  {
+   "cause": "Unknown/Natural causes",
+   "count": 21
+  },
+  {
+   "cause": "Predator attack",
+   "count": 17
+  },
+  {
+   "cause": "Coccidiosis",
+   "count": 17
+  },
+  {
+   "cause": "Chilling/Cold stress",
+   "count": 12
+  },
+  {
+   "cause": "Enteritis (digestive upset)",
+   "count": 8
+  },
+  {
+   "cause": "Weaning stress",
+   "count": 7
+  },
+  {
+   "cause": "Kindling complications",
+   "count": 6
+  },
+  {
+   "cause": "Heat stress",
+   "count": 5
+  },
+  {
+   "cause": "Injury/Accident",
+   "count": 5
+  },
+  {
+   "cause": "Respiratory infection (snuffles)",
+   "count": 2
+  }
+ ],
+ "mortality_age": {
+  "Young": 54,
+  "Adult": 46
+ },
+ "mortality_year": {
+  "2022": 5,
+  "2023": 13,
+  "2024": 20,
+  "2025": 27,
+  "2026": 35
+ },
+ "births": [
+  {
+   "PregnancyID": "PG004",
+   "RabbitID": "RB0446",
+   "BreedName": "Angora",
+   "HutchNumber": "D40",
+   "MatingDate": "2026-08-07",
+   "ExpectedKindlingDate": "2026-09-07",
+   "DaysUntilKindling": 3,
+   "PregnancyStatus": "Due soon"
+  },
+  {
+   "PregnancyID": "PG008",
+   "RabbitID": "RB0363",
+   "BreedName": "New Zealand White",
+   "HutchNumber": "C1",
+   "MatingDate": "2026-08-07",
+   "ExpectedKindlingDate": "2026-09-07",
+   "DaysUntilKindling": 3,
+   "PregnancyStatus": "Due soon"
+  },
+  {
+   "PregnancyID": "PG011",
+   "RabbitID": "RB0517",
+   "BreedName": "New Zealand White",
+   "HutchNumber": "H36",
+   "MatingDate": "2026-08-07",
+   "ExpectedKindlingDate": "2026-09-07",
+   "DaysUntilKindling": 3,
+   "PregnancyStatus": "Due soon"
+  },
+  {
+   "PregnancyID": "PG031",
+   "RabbitID": "RB0576",
+   "BreedName": "Angora",
+   "HutchNumber": "D21",
+   "MatingDate": "2026-08-07",
+   "ExpectedKindlingDate": "2026-09-07",
+   "DaysUntilKindling": 3,
+   "PregnancyStatus": "Due soon"
+  },
+  {
+   "PregnancyID": "PG040",
+   "RabbitID": "RB0174",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "H4",
+   "MatingDate": "2026-08-07",
+   "ExpectedKindlingDate": "2026-09-07",
+   "DaysUntilKindling": 3,
+   "PregnancyStatus": "Due soon"
+  },
+  {
+   "PregnancyID": "PG052",
+   "RabbitID": "RB0870",
+   "BreedName": "Angora",
+   "HutchNumber": "H37",
+   "MatingDate": "2026-08-07",
+   "ExpectedKindlingDate": "2026-09-07",
+   "DaysUntilKindling": 3,
+   "PregnancyStatus": "Due soon"
+  },
+  {
+   "PregnancyID": "PG080",
+   "RabbitID": "RB0047",
+   "BreedName": "New Zealand White",
+   "HutchNumber": "C37",
+   "MatingDate": "2026-08-07",
+   "ExpectedKindlingDate": "2026-09-07",
+   "DaysUntilKindling": 3,
+   "PregnancyStatus": "Due soon"
+  },
+  {
+   "PregnancyID": "PG050",
+   "RabbitID": "RB0622",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "C7",
+   "MatingDate": "2026-08-08",
+   "ExpectedKindlingDate": "2026-09-08",
+   "DaysUntilKindling": 4,
+   "PregnancyStatus": "Due soon"
+  },
+  {
+   "PregnancyID": "PG065",
+   "RabbitID": "RB0193",
+   "BreedName": "Angora",
+   "HutchNumber": "A20",
+   "MatingDate": "2026-08-08",
+   "ExpectedKindlingDate": "2026-09-08",
+   "DaysUntilKindling": 4,
+   "PregnancyStatus": "Due soon"
+  },
+  {
+   "PregnancyID": "PG078",
+   "RabbitID": "RB0695",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "H24",
+   "MatingDate": "2026-08-08",
+   "ExpectedKindlingDate": "2026-09-08",
+   "DaysUntilKindling": 4,
+   "PregnancyStatus": "Due soon"
+  },
+  {
+   "PregnancyID": "PG001",
+   "RabbitID": "RB0086",
+   "BreedName": "New Zealand White",
+   "HutchNumber": "D7",
+   "MatingDate": "2026-08-09",
+   "ExpectedKindlingDate": "2026-09-09",
+   "DaysUntilKindling": 5,
+   "PregnancyStatus": "Due soon"
+  },
+  {
+   "PregnancyID": "PG024",
+   "RabbitID": "RB0170",
+   "BreedName": "Californian",
+   "HutchNumber": "B15",
+   "MatingDate": "2026-08-09",
+   "ExpectedKindlingDate": "2026-09-09",
+   "DaysUntilKindling": 5,
+   "PregnancyStatus": "Due soon"
+  },
+  {
+   "PregnancyID": "PG006",
+   "RabbitID": "RB0072",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "H27",
+   "MatingDate": "2026-08-10",
+   "ExpectedKindlingDate": "2026-09-10",
+   "DaysUntilKindling": 6,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG032",
+   "RabbitID": "RB0287",
+   "BreedName": "New Zealand White",
+   "HutchNumber": "G1",
+   "MatingDate": "2026-08-10",
+   "ExpectedKindlingDate": "2026-09-10",
+   "DaysUntilKindling": 6,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG053",
+   "RabbitID": "RB0015",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "A26",
+   "MatingDate": "2026-08-10",
+   "ExpectedKindlingDate": "2026-09-10",
+   "DaysUntilKindling": 6,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG002",
+   "RabbitID": "RB0213",
+   "BreedName": "Chinchilla Giant",
+   "HutchNumber": "D23",
+   "MatingDate": "2026-08-11",
+   "ExpectedKindlingDate": "2026-09-11",
+   "DaysUntilKindling": 7,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG003",
+   "RabbitID": "RB0857",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "G23",
+   "MatingDate": "2026-08-11",
+   "ExpectedKindlingDate": "2026-09-11",
+   "DaysUntilKindling": 7,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG015",
+   "RabbitID": "RB0237",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "H8",
+   "MatingDate": "2026-08-11",
+   "ExpectedKindlingDate": "2026-09-11",
+   "DaysUntilKindling": 7,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG028",
+   "RabbitID": "RB0077",
+   "BreedName": "Chinchilla Giant",
+   "HutchNumber": "A21",
+   "MatingDate": "2026-08-11",
+   "ExpectedKindlingDate": "2026-09-11",
+   "DaysUntilKindling": 7,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG034",
+   "RabbitID": "RB0686",
+   "BreedName": "Californian",
+   "HutchNumber": "B12",
+   "MatingDate": "2026-08-11",
+   "ExpectedKindlingDate": "2026-09-11",
+   "DaysUntilKindling": 7,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG033",
+   "RabbitID": "RB0780",
+   "BreedName": "Californian",
+   "HutchNumber": "A31",
+   "MatingDate": "2026-08-12",
+   "ExpectedKindlingDate": "2026-09-12",
+   "DaysUntilKindling": 8,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG005",
+   "RabbitID": "RB0806",
+   "BreedName": "Chinchilla Giant",
+   "HutchNumber": "E22",
+   "MatingDate": "2026-08-13",
+   "ExpectedKindlingDate": "2026-09-13",
+   "DaysUntilKindling": 9,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG010",
+   "RabbitID": "RB0630",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "G6",
+   "MatingDate": "2026-08-13",
+   "ExpectedKindlingDate": "2026-09-13",
+   "DaysUntilKindling": 9,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG012",
+   "RabbitID": "RB0888",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "E8",
+   "MatingDate": "2026-08-13",
+   "ExpectedKindlingDate": "2026-09-13",
+   "DaysUntilKindling": 9,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG023",
+   "RabbitID": "RB0797",
+   "BreedName": "Angora",
+   "HutchNumber": "F36",
+   "MatingDate": "2026-08-13",
+   "ExpectedKindlingDate": "2026-09-13",
+   "DaysUntilKindling": 9,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG044",
+   "RabbitID": "RB0541",
+   "BreedName": "Angora",
+   "HutchNumber": "G16",
+   "MatingDate": "2026-08-13",
+   "ExpectedKindlingDate": "2026-09-13",
+   "DaysUntilKindling": 9,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG017",
+   "RabbitID": "RB0267",
+   "BreedName": "Chinchilla Giant",
+   "HutchNumber": "D30",
+   "MatingDate": "2026-08-14",
+   "ExpectedKindlingDate": "2026-09-14",
+   "DaysUntilKindling": 10,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG043",
+   "RabbitID": "RB0676",
+   "BreedName": "Angora",
+   "HutchNumber": "E15",
+   "MatingDate": "2026-08-14",
+   "ExpectedKindlingDate": "2026-09-14",
+   "DaysUntilKindling": 10,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG076",
+   "RabbitID": "RB0175",
+   "BreedName": "Californian",
+   "HutchNumber": "B31",
+   "MatingDate": "2026-08-14",
+   "ExpectedKindlingDate": "2026-09-14",
+   "DaysUntilKindling": 10,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG025",
+   "RabbitID": "RB0046",
+   "BreedName": "Chinchilla Giant",
+   "HutchNumber": "F37",
+   "MatingDate": "2026-08-16",
+   "ExpectedKindlingDate": "2026-09-16",
+   "DaysUntilKindling": 12,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG045",
+   "RabbitID": "RB0904",
+   "BreedName": "Californian",
+   "HutchNumber": "A40",
+   "MatingDate": "2026-08-16",
+   "ExpectedKindlingDate": "2026-09-16",
+   "DaysUntilKindling": 12,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG064",
+   "RabbitID": "RB0441",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "A25",
+   "MatingDate": "2026-08-16",
+   "ExpectedKindlingDate": "2026-09-16",
+   "DaysUntilKindling": 12,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG051",
+   "RabbitID": "RB0976",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "F19",
+   "MatingDate": "2026-08-17",
+   "ExpectedKindlingDate": "2026-09-17",
+   "DaysUntilKindling": 13,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG049",
+   "RabbitID": "RB0965",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "C14",
+   "MatingDate": "2026-08-19",
+   "ExpectedKindlingDate": "2026-09-19",
+   "DaysUntilKindling": 15,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG067",
+   "RabbitID": "RB0113",
+   "BreedName": "Angora",
+   "HutchNumber": "G8",
+   "MatingDate": "2026-08-19",
+   "ExpectedKindlingDate": "2026-09-19",
+   "DaysUntilKindling": 15,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG018",
+   "RabbitID": "RB0680",
+   "BreedName": "Checkered Giant",
+   "HutchNumber": "C28",
+   "MatingDate": "2026-08-20",
+   "ExpectedKindlingDate": "2026-09-20",
+   "DaysUntilKindling": 16,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG030",
+   "RabbitID": "RB0978",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "H3",
+   "MatingDate": "2026-08-20",
+   "ExpectedKindlingDate": "2026-09-20",
+   "DaysUntilKindling": 16,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG056",
+   "RabbitID": "RB0473",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "D40",
+   "MatingDate": "2026-08-20",
+   "ExpectedKindlingDate": "2026-09-20",
+   "DaysUntilKindling": 16,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG057",
+   "RabbitID": "RB0845",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "D28",
+   "MatingDate": "2026-08-20",
+   "ExpectedKindlingDate": "2026-09-20",
+   "DaysUntilKindling": 16,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG027",
+   "RabbitID": "RB0313",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "G35",
+   "MatingDate": "2026-08-21",
+   "ExpectedKindlingDate": "2026-09-21",
+   "DaysUntilKindling": 17,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG037",
+   "RabbitID": "RB0628",
+   "BreedName": "Chinchilla Giant",
+   "HutchNumber": "H37",
+   "MatingDate": "2026-08-21",
+   "ExpectedKindlingDate": "2026-09-21",
+   "DaysUntilKindling": 17,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG041",
+   "RabbitID": "RB0054",
+   "BreedName": "Checkered Giant",
+   "HutchNumber": "A10",
+   "MatingDate": "2026-08-21",
+   "ExpectedKindlingDate": "2026-09-21",
+   "DaysUntilKindling": 17,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG013",
+   "RabbitID": "RB0364",
+   "BreedName": "Californian",
+   "HutchNumber": "D15",
+   "MatingDate": "2026-08-22",
+   "ExpectedKindlingDate": "2026-09-22",
+   "DaysUntilKindling": 18,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG029",
+   "RabbitID": "RB0823",
+   "BreedName": "New Zealand White",
+   "HutchNumber": "F14",
+   "MatingDate": "2026-08-22",
+   "ExpectedKindlingDate": "2026-09-22",
+   "DaysUntilKindling": 18,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG038",
+   "RabbitID": "RB0348",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "A37",
+   "MatingDate": "2026-08-22",
+   "ExpectedKindlingDate": "2026-09-22",
+   "DaysUntilKindling": 18,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG039",
+   "RabbitID": "RB0359",
+   "BreedName": "Angora",
+   "HutchNumber": "B13",
+   "MatingDate": "2026-08-22",
+   "ExpectedKindlingDate": "2026-09-22",
+   "DaysUntilKindling": 18,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG058",
+   "RabbitID": "RB0467",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "C31",
+   "MatingDate": "2026-08-22",
+   "ExpectedKindlingDate": "2026-09-22",
+   "DaysUntilKindling": 18,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG066",
+   "RabbitID": "RB0935",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "H13",
+   "MatingDate": "2026-08-22",
+   "ExpectedKindlingDate": "2026-09-22",
+   "DaysUntilKindling": 18,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG068",
+   "RabbitID": "RB0553",
+   "BreedName": "Californian",
+   "HutchNumber": "H24",
+   "MatingDate": "2026-08-22",
+   "ExpectedKindlingDate": "2026-09-22",
+   "DaysUntilKindling": 18,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG075",
+   "RabbitID": "RB0022",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "H9",
+   "MatingDate": "2026-08-22",
+   "ExpectedKindlingDate": "2026-09-22",
+   "DaysUntilKindling": 18,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG069",
+   "RabbitID": "RB0422",
+   "BreedName": "Checkered Giant",
+   "HutchNumber": "B28",
+   "MatingDate": "2026-08-23",
+   "ExpectedKindlingDate": "2026-09-23",
+   "DaysUntilKindling": 19,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG079",
+   "RabbitID": "RB0520",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "C6",
+   "MatingDate": "2026-08-23",
+   "ExpectedKindlingDate": "2026-09-23",
+   "DaysUntilKindling": 19,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG022",
+   "RabbitID": "RB0661",
+   "BreedName": "New Zealand White",
+   "HutchNumber": "A17",
+   "MatingDate": "2026-08-24",
+   "ExpectedKindlingDate": "2026-09-24",
+   "DaysUntilKindling": 20,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG063",
+   "RabbitID": "RB0597",
+   "BreedName": "Chinchilla Giant",
+   "HutchNumber": "E4",
+   "MatingDate": "2026-08-24",
+   "ExpectedKindlingDate": "2026-09-24",
+   "DaysUntilKindling": 20,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG042",
+   "RabbitID": "RB0212",
+   "BreedName": "Chinchilla Giant",
+   "HutchNumber": "D17",
+   "MatingDate": "2026-08-25",
+   "ExpectedKindlingDate": "2026-09-25",
+   "DaysUntilKindling": 21,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG046",
+   "RabbitID": "RB0733",
+   "BreedName": "Chinchilla Giant",
+   "HutchNumber": "E40",
+   "MatingDate": "2026-08-25",
+   "ExpectedKindlingDate": "2026-09-25",
+   "DaysUntilKindling": 21,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG060",
+   "RabbitID": "RB0145",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "D18",
+   "MatingDate": "2026-08-25",
+   "ExpectedKindlingDate": "2026-09-25",
+   "DaysUntilKindling": 21,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG070",
+   "RabbitID": "RB0812",
+   "BreedName": "Checkered Giant",
+   "HutchNumber": "F26",
+   "MatingDate": "2026-08-25",
+   "ExpectedKindlingDate": "2026-09-25",
+   "DaysUntilKindling": 21,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG061",
+   "RabbitID": "RB0861",
+   "BreedName": "Chinchilla Giant",
+   "HutchNumber": "F3",
+   "MatingDate": "2026-08-26",
+   "ExpectedKindlingDate": "2026-09-26",
+   "DaysUntilKindling": 22,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG072",
+   "RabbitID": "RB0029",
+   "BreedName": "Californian",
+   "HutchNumber": "A40",
+   "MatingDate": "2026-08-26",
+   "ExpectedKindlingDate": "2026-09-26",
+   "DaysUntilKindling": 22,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG014",
+   "RabbitID": "RB0795",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "A40",
+   "MatingDate": "2026-08-27",
+   "ExpectedKindlingDate": "2026-09-27",
+   "DaysUntilKindling": 23,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG016",
+   "RabbitID": "RB0073",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "G32",
+   "MatingDate": "2026-08-27",
+   "ExpectedKindlingDate": "2026-09-27",
+   "DaysUntilKindling": 23,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG020",
+   "RabbitID": "RB0292",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "A23",
+   "MatingDate": "2026-08-27",
+   "ExpectedKindlingDate": "2026-09-27",
+   "DaysUntilKindling": 23,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG054",
+   "RabbitID": "RB0981",
+   "BreedName": "New Zealand White",
+   "HutchNumber": "B5",
+   "MatingDate": "2026-08-27",
+   "ExpectedKindlingDate": "2026-09-27",
+   "DaysUntilKindling": 23,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG073",
+   "RabbitID": "RB0146",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "G33",
+   "MatingDate": "2026-08-28",
+   "ExpectedKindlingDate": "2026-09-28",
+   "DaysUntilKindling": 24,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG009",
+   "RabbitID": "RB0615",
+   "BreedName": "Checkered Giant",
+   "HutchNumber": "D25",
+   "MatingDate": "2026-08-29",
+   "ExpectedKindlingDate": "2026-09-29",
+   "DaysUntilKindling": 25,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG036",
+   "RabbitID": "RB0166",
+   "BreedName": "Checkered Giant",
+   "HutchNumber": "E11",
+   "MatingDate": "2026-08-29",
+   "ExpectedKindlingDate": "2026-09-29",
+   "DaysUntilKindling": 25,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG055",
+   "RabbitID": "RB0238",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "H3",
+   "MatingDate": "2026-08-29",
+   "ExpectedKindlingDate": "2026-09-29",
+   "DaysUntilKindling": 25,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG077",
+   "RabbitID": "RB0542",
+   "BreedName": "Californian",
+   "HutchNumber": "E19",
+   "MatingDate": "2026-08-29",
+   "ExpectedKindlingDate": "2026-09-29",
+   "DaysUntilKindling": 25,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG035",
+   "RabbitID": "RB0354",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "A36",
+   "MatingDate": "2026-08-30",
+   "ExpectedKindlingDate": "2026-09-30",
+   "DaysUntilKindling": 26,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG059",
+   "RabbitID": "RB0816",
+   "BreedName": "Californian",
+   "HutchNumber": "C19",
+   "MatingDate": "2026-08-30",
+   "ExpectedKindlingDate": "2026-09-30",
+   "DaysUntilKindling": 26,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG062",
+   "RabbitID": "RB0534",
+   "BreedName": "Californian",
+   "HutchNumber": "H35",
+   "MatingDate": "2026-08-30",
+   "ExpectedKindlingDate": "2026-09-30",
+   "DaysUntilKindling": 26,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG071",
+   "RabbitID": "RB0050",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "D2",
+   "MatingDate": "2026-08-30",
+   "ExpectedKindlingDate": "2026-09-30",
+   "DaysUntilKindling": 26,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG026",
+   "RabbitID": "RB0977",
+   "BreedName": "Californian",
+   "HutchNumber": "G17",
+   "MatingDate": "2026-08-31",
+   "ExpectedKindlingDate": "2026-10-01",
+   "DaysUntilKindling": 27,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG021",
+   "RabbitID": "RB0528",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "H37",
+   "MatingDate": "2026-09-01",
+   "ExpectedKindlingDate": "2026-10-02",
+   "DaysUntilKindling": 28,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG007",
+   "RabbitID": "RB0134",
+   "BreedName": "New Zealand White",
+   "HutchNumber": "D4",
+   "MatingDate": "2026-09-02",
+   "ExpectedKindlingDate": "2026-10-03",
+   "DaysUntilKindling": 29,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG019",
+   "RabbitID": "RB0525",
+   "BreedName": "Checkered Giant",
+   "HutchNumber": "F21",
+   "MatingDate": "2026-09-02",
+   "ExpectedKindlingDate": "2026-10-03",
+   "DaysUntilKindling": 29,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG047",
+   "RabbitID": "RB0504",
+   "BreedName": "Checkered Giant",
+   "HutchNumber": "C19",
+   "MatingDate": "2026-09-02",
+   "ExpectedKindlingDate": "2026-10-03",
+   "DaysUntilKindling": 29,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG048",
+   "RabbitID": "RB0200",
+   "BreedName": "Chinchilla Giant",
+   "HutchNumber": "A25",
+   "MatingDate": "2026-09-02",
+   "ExpectedKindlingDate": "2026-10-03",
+   "DaysUntilKindling": 29,
+   "PregnancyStatus": "Confirmed pregnant"
+  },
+  {
+   "PregnancyID": "PG074",
+   "RabbitID": "RB0603",
+   "BreedName": "Local Breed (Mixed)",
+   "HutchNumber": "A40",
+   "MatingDate": "2026-09-02",
+   "ExpectedKindlingDate": "2026-10-03",
+   "DaysUntilKindling": 29,
+   "PregnancyStatus": "Confirmed pregnant"
+  }
+ ],
+ "births_status": {
+  "Confirmed pregnant": 68,
+  "Due soon": 12
+ },
+ "births_next7": 20,
+ "breeds": [
+  {
+   "BreedID": "BR01",
+   "BreedName": "Local Breed (Mixed)",
+   "Type": "Meat",
+   "AvgMatureWeightKg": 2.3
+  },
+  {
+   "BreedID": "BR02",
+   "BreedName": "New Zealand White",
+   "Type": "Meat",
+   "AvgMatureWeightKg": 4.5
+  },
+  {
+   "BreedID": "BR03",
+   "BreedName": "Californian",
+   "Type": "Meat",
+   "AvgMatureWeightKg": 4.2
+  },
+  {
+   "BreedID": "BR04",
+   "BreedName": "Chinchilla Giant",
+   "Type": "Dual-purpose",
+   "AvgMatureWeightKg": 5.0
+  },
+  {
+   "BreedID": "BR05",
+   "BreedName": "Checkered Giant",
+   "Type": "Ornamental/Show",
+   "AvgMatureWeightKg": 5.2
+  },
+  {
+   "BreedID": "BR06",
+   "BreedName": "Angora",
+   "Type": "Fur/Wool",
+   "AvgMatureWeightKg": 3.2
+  }
+ ],
+ "sales_span": [
+  "2022-09-04",
+  "2026-09-03"
+ ]
+}

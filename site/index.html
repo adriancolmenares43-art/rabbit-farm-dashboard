@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adrián Rodríguez · Rabbit Farm Dashboard</title>
+<meta name="description" content="A farm operations dashboard built from 1,000 records across six datasets. Portfolio project by Adrián Rodríguez, QA and software development student at Duoc UC.">
+<meta property="og:title" content="Rabbit Farm Dashboard · Adrián Rodríguez">
+<meta property="og:description" content="1,000 records, six datasets, one dashboard. Every number checked against its source.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=JetBrains+Mono:wght@400;500;600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#070e1f; --bg-2:#0b1630; --navy:#101b33;
+  --glass:rgba(148,178,255,.055); --line:rgba(160,190,255,.13); --line-2:rgba(160,190,255,.24);
+  --ink:#eef2fb; --ink-2:#b4bfd6; --ink-3:#7d89a6;
+  --amber:#f2b544; --amber-ink:#1b1204;
+  --s1:#3987e5; --s3:#199e70; --crit:#e66767;
+  --f-d:"Syne",ui-sans-serif,system-ui,sans-serif; --f-b:"DM Sans",ui-sans-serif,system-ui,sans-serif; --f-m:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  --ease:cubic-bezier(.2,.7,.2,1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;background:var(--bg)}
+body{font-family:var(--f-b);color:var(--ink);background:var(--bg);line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:100;opacity:.06;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+a{color:inherit;text-decoration:none}
+.num{font-family:var(--f-m);font-variant-numeric:tabular-nums}
+.wrap{max-width:1200px;margin:0 auto;padding:0 clamp(18px,4vw,48px)}
+.btn{display:inline-flex;align-items:center;gap:10px;font:600 15px var(--f-b);padding:14px 22px;border-radius:999px;transition:transform .25s var(--ease),box-shadow .25s var(--ease),background .25s;cursor:pointer;border:0}
+.btn-primary{background:var(--amber);color:var(--amber-ink);box-shadow:0 10px 30px -10px rgba(242,181,68,.55)}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 16px 40px -12px rgba(242,181,68,.7)}
+.btn-primary .arr{transition:transform .25s var(--ease)}
+.btn-primary:hover .arr{transform:translateX(4px)}
+.btn-ghost{color:var(--ink);border:1px solid var(--line-2);background:var(--glass)}
+.btn-ghost:hover{border-color:var(--ink-3);transform:translateY(-2px)}
+.btn:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+.eyebrow{font-family:var(--f-m);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--amber)}
+h1,h2,h3{font-family:var(--f-d);letter-spacing:-.02em}
+h2{font-size:clamp(32px,4.4vw,54px);line-height:1;font-weight:800}
+
+/* nav */
+nav{position:sticky;top:0;z-index:40;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:rgba(7,14,31,.65);border-bottom:1px solid transparent;transition:border-color .3s}
+nav.scrolled{border-bottom-color:var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{display:flex;align-items:center;gap:12px;font-family:var(--f-d);font-weight:700;font-size:17px}
+.logo-mark{width:36px;height:36px;border-radius:10px;display:grid;place-items:center;background:var(--amber);color:var(--amber-ink);font-family:var(--f-d);font-weight:800;font-size:15px;transform:rotate(-6deg);transition:transform .3s var(--ease)}
+.logo:hover .logo-mark{transform:rotate(0)}
+nav .btn{padding:10px 18px;font-size:14px}
+
+/* hero */
+.hero{position:relative;padding:88px 0 120px;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:-20% -10% auto;height:120%;z-index:-1;
+  background:radial-gradient(600px 420px at 18% 30%,rgba(57,135,229,.30),transparent 60%),radial-gradient(520px 400px at 85% 20%,rgba(242,181,68,.16),transparent 62%),radial-gradient(700px 500px at 70% 95%,rgba(25,158,112,.16),transparent 60%)}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
+.hero h1{font-size:clamp(42px,6.4vw,84px);line-height:.94;font-weight:800;margin:20px 0 26px}
+.hero h1 em{font-style:normal;color:var(--amber);position:relative;white-space:nowrap}
+.hero h1 em::after{content:"";position:absolute;left:0;right:0;bottom:.04em;height:.12em;background:var(--amber);opacity:.25;border-radius:4px}
+.hero p.sub{font-size:clamp(17px,1.6vw,20px);color:var(--ink-2);max-width:34ch;margin-bottom:34px}
+.ctas{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.proof{margin-top:34px;display:flex;gap:10px;align-items:center;font-size:14px;color:var(--ink-3);flex-wrap:wrap}
+.proof b{color:var(--ink);font-family:var(--f-m);font-weight:500}
+.proof .dot{width:4px;height:4px;border-radius:50%;background:var(--ink-3)}
+
+/* hero preview — tilted, overlapping glass panels */
+.stage{position:relative;height:520px;perspective:1400px}
+.panel{position:absolute;border-radius:20px;background:linear-gradient(160deg,rgba(148,178,255,.10),rgba(148,178,255,.03));border:1px solid var(--line-2);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);box-shadow:0 30px 80px -30px rgba(0,0,0,.85),0 1px 0 rgba(255,255,255,.08) inset;padding:20px;transition:transform .6s var(--ease)}
+.p-main{inset:30px 0 auto 40px;height:330px;transform:rotateY(-12deg) rotateX(6deg) rotateZ(-2deg)}
+.p-kpi{left:0;top:300px;width:220px;transform:rotateZ(4deg) translateZ(60px)}
+.p-births{right:-10px;top:330px;width:260px;transform:rotateZ(-3deg) translateZ(40px)}
+.stage:hover .p-main{transform:rotateY(-6deg) rotateX(3deg) rotateZ(-1deg)}
+.stage:hover .p-kpi{transform:rotateZ(1deg) translate(-6px,-6px) translateZ(60px)}
+.stage:hover .p-births{transform:rotateZ(-1deg) translate(6px,-4px) translateZ(40px)}
+.panel .t{font-size:12.5px;color:var(--ink-2);display:flex;justify-content:space-between;align-items:center}
+.panel .t span:last-child{font-family:var(--f-m);font-size:11px;color:var(--ink-3)}
+.panel .big{font-family:var(--f-m);font-size:34px;font-weight:600;letter-spacing:-.02em;margin-top:6px}
+.panel .mini{font-size:12px;color:var(--ink-3)}
+.panel svg{display:block;width:100%}
+.legend{display:flex;gap:14px;font-size:12px;color:var(--ink-2);margin-top:6px}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:3px;margin-right:6px}
+.brow{display:flex;justify-content:space-between;font-size:12.5px;padding:7px 0;border-bottom:1px solid rgba(160,190,255,.08);color:var(--ink-2)}
+.brow:last-child{border:0}
+.brow b{font-family:var(--f-m);font-weight:500;color:#ffd27a}
+.live{display:inline-flex;align-items:center;gap:6px;font-family:var(--f-m);font-size:11px;color:var(--s3)}
+.live::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--s3);box-shadow:0 0 0 0 rgba(25,158,112,.6);animation:pulse 2s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 8px rgba(25,158,112,0)}100%{box-shadow:0 0 0 0 rgba(25,158,112,0)}}
+
+/* problem — diagonal band */
+.problem{position:relative;padding:130px 0 150px;background:var(--amber);color:var(--amber-ink);clip-path:polygon(0 6%,100% 0,100% 94%,0 100%);margin-top:-40px}
+.problem .eyebrow{color:#5a3a00}
+.problem h2{margin:16px 0 48px;max-width:16ch}
+.pains{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.pain{border-top:2px solid rgba(27,18,4,.85);padding-top:20px}
+.pain .n{font-family:var(--f-m);font-size:13px;opacity:.7}
+.pain h3{font-size:22px;margin:10px 0 10px;line-height:1.15}
+.pain p{font-size:16px;opacity:.85}
+
+/* benefits */
+.benefits{padding:120px 0 80px}
+.benefits-head{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:end;margin-bottom:56px}
+.benefits-head p{color:var(--ink-2);font-size:18px;max-width:44ch}
+.bgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.b{position:relative;padding:32px;border-radius:22px;background:var(--glass);border:1px solid var(--line);overflow:hidden;transition:transform .35s var(--ease),border-color .35s}
+.b:hover{transform:translateY(-4px);border-color:var(--line-2)}
+.b::before{content:"";position:absolute;width:260px;height:260px;right:-90px;top:-110px;border-radius:50%;background:radial-gradient(circle,var(--glow),transparent 70%);opacity:.5;transition:opacity .35s}
+.b:hover::before{opacity:.9}
+.b:nth-child(2){margin-top:48px}.b:nth-child(4){margin-top:48px}
+.b .k{font-family:var(--f-m);font-size:12px;color:var(--ink-3);letter-spacing:.08em}
+.b h3{font-size:26px;line-height:1.1;margin:14px 0 12px;max-width:18ch}
+.b p{color:var(--ink-2);font-size:16px;max-width:42ch}
+.b .fig{margin-top:22px;font-family:var(--f-m);font-size:13px;color:var(--ink);display:inline-flex;gap:8px;padding:8px 12px;border-radius:10px;background:rgba(0,0,0,.25);border:1px solid var(--line)}
+
+/* proof stats */
+.stats{padding:60px 0 100px}
+.stats-box{border-radius:28px;border:1px solid var(--line);background:linear-gradient(140deg,rgba(57,135,229,.14),rgba(148,178,255,.03) 50%,rgba(242,181,68,.08));padding:clamp(28px,5vw,56px);display:grid;grid-template-columns:1fr 1.6fr;gap:48px;align-items:center}
+.stats-box h2{font-size:clamp(28px,3.4vw,42px)}
+.stats-box p{color:var(--ink-2);margin-top:16px}
+.sgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px 24px}
+.sv{font-family:var(--f-m);font-size:clamp(28px,3.4vw,44px);font-weight:600;letter-spacing:-.03em;line-height:1}
+.sl{font-size:13.5px;color:var(--ink-3);margin-top:8px}
+.creds{grid-column:1/-1;display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
+.cred{font-size:13px;color:var(--ink-2);padding:8px 14px;border-radius:999px;border:1px solid var(--line);background:rgba(0,0,0,.2)}
+.cred b{color:var(--ink);font-weight:600}
+
+/* faq */
+.faq{padding:40px 0 110px;display:grid;grid-template-columns:.8fr 1.2fr;gap:56px}
+.faq h2{position:sticky;top:110px;align-self:start}
+details{border-bottom:1px solid var(--line);padding:22px 0}
+details:first-of-type{border-top:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:20px;font-family:var(--f-d);font-size:20px;font-weight:700;line-height:1.25}
+summary::-webkit-details-marker{display:none}
+summary .pm{flex:none;width:28px;height:28px;border-radius:50%;border:1px solid var(--line-2);display:grid;place-items:center;font-family:var(--f-m);font-size:16px;color:var(--amber);transition:transform .3s var(--ease)}
+details[open] summary .pm{transform:rotate(45deg)}
+details p{color:var(--ink-2);margin-top:12px;font-size:16px;max-width:60ch}
+
+/* final cta */
+.final{padding:0 0 100px}
+.final-box{position:relative;border-radius:32px;overflow:hidden;padding:clamp(40px,7vw,90px);background:var(--navy);border:1px solid var(--line-2)}
+.final-box::before{content:"";position:absolute;inset:0;background:radial-gradient(500px 300px at 85% 110%,rgba(242,181,68,.35),transparent 60%),radial-gradient(500px 340px at 0% 0%,rgba(57,135,229,.30),transparent 60%)}
+.final-box>*{position:relative}
+.final h2{font-size:clamp(36px,5.6vw,72px);max-width:14ch;margin:16px 0 22px}
+.final p{color:var(--ink-2);font-size:18px;max-width:46ch;margin-bottom:34px}
+.final .contact{margin-top:22px;font-size:14px;color:var(--ink-3)}
+.final .contact span{font-family:var(--f-m);color:var(--ink-2)}
+
+footer{border-top:1px solid var(--line);padding:28px 0 40px;color:var(--ink-3);font-size:13.5px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+footer a{color:var(--ink-2)} footer a:hover{color:var(--ink)}
+
+/* entrance */
+.rv{opacity:0;transform:translateY(22px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.rv.in{opacity:1;transform:none}
+.hero .rv{transition-delay:var(--d,0s)}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}.live::before{animation:none}html{scroll-behavior:auto}}
+
+@media (max-width:980px){
+  .hero-grid,.benefits-head,.stats-box,.faq{grid-template-columns:1fr}
+  .stage{height:460px;max-width:560px}
+  .pains{grid-template-columns:1fr}
+  .faq h2{position:static}
+}
+@media (max-width:640px){
+  .hero{padding:56px 0 90px}
+  .bgrid{grid-template-columns:1fr}.b:nth-child(2),.b:nth-child(4){margin-top:0}
+  .sgrid{grid-template-columns:repeat(2,1fr)}
+  .stage{height:400px}.p-main{inset:10px 0 auto 0;height:290px}.p-kpi{top:250px;left:-4px;width:auto;max-width:92%}.p-kpi .big{font-size:26px}.p-births{display:none}
+  .logo{font-size:15px}
+  .problem{clip-path:polygon(0 3%,100% 0,100% 97%,0 100%)}
+  nav .btn span.long{display:none}
+}
+.nav-right{display:flex;gap:10px;align-items:center}
+.lang{display:inline-flex;padding:3px;border-radius:999px;border:1px solid var(--line-2);background:rgba(0,0,0,.25)}
+.lang button{font:600 12px var(--f-m);letter-spacing:.06em;color:var(--ink-3);background:none;border:0;padding:7px 10px;border-radius:999px;cursor:pointer;transition:.2s}
+.lang button:hover{color:var(--ink)}
+.lang button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.lang button:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+@media (max-width:640px){.lang button{padding:6px 7px;font-size:11px}nav .btn{padding:9px 13px}}
+@media (max-width:400px){.logo .name{display:none}}
+</style>
+</head>
+<body>
+
+<nav id="nav">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="Adrián Rodríguez"><span class="logo-mark">AR</span><span class="name">Adrián Rodríguez</span></a>
+    <div class="nav-right">
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="en" lang="en">EN</button>
+        <button type="button" data-lang="es" lang="es">ES</button>
+        <button type="button" data-lang="pt" lang="pt">PT</button>
+      </div>
+      <a class="btn btn-primary" href="dashboard/"><span data-i18n="navCta"></span> <span class="arr">&rarr;</span></a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow rv" style="--d:.05s" data-i18n="heroEyebrow"></div>
+      <h1 class="rv" style="--d:.12s" data-i18n="heroH1"></h1>
+      <p class="sub rv" style="--d:.2s" data-i18n="heroSub"></p>
+      <div class="ctas rv" style="--d:.28s">
+        <a class="btn btn-primary" href="dashboard/"><span data-i18n="ctaDash"></span> <span class="arr">&rarr;</span></a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/adri%C3%A1n-rodr%C3%ADguez-/" target="_blank" rel="noopener" data-i18n="ctaLinked"></a>
+      </div>
+      <div class="proof rv" style="--d:.36s" id="proof"></div>
+    </div>
+
+    <div class="stage rv" style="--d:.2s" aria-hidden="true">
+      <div class="panel p-main">
+        <div class="t"><span data-i18n="panelSales"></span><span class="live" data-i18n="realData"></span></div>
+        <div class="legend"><span><i style="background:var(--s1)"></i><span data-i18n="revenue"></span></span><span><i style="background:var(--s3)"></i><span data-i18n="profit"></span></span></div>
+        <svg id="spark" viewBox="0 0 400 230" preserveAspectRatio="none" style="height:240px;margin-top:10px"></svg>
+      </div>
+      <div class="panel p-kpi">
+        <div class="t"><span data-i18n="panelRev"></span><span>NGN</span></div>
+        <div class="big" id="pk-rev">₦0</div>
+        <div class="mini" id="pk-rev-f"></div>
+      </div>
+      <div class="panel p-births">
+        <div class="t"><span data-i18n="panelBirths"></span><span id="pb-n"></span></div>
+        <div id="pb-rows" style="margin-top:8px"></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="problem" aria-labelledby="pb-h">
+  <div class="wrap">
+    <div class="eyebrow" data-i18n="pbEyebrow"></div>
+    <h2 id="pb-h" data-i18n="pbH"></h2>
+    <div class="pains">
+      <div class="pain"><div class="n">01</div><h3 data-i18n="p1h"></h3><p data-i18n="p1p"></p></div>
+      <div class="pain"><div class="n">02</div><h3 data-i18n="p2h"></h3><p data-i18n="p2p"></p></div>
+      <div class="pain"><div class="n">03</div><h3 data-i18n="p3h"></h3><p data-i18n="p3p"></p></div>
+    </div>
+  </div>
+</section>
+
+<section class="benefits" aria-labelledby="bn-h">
+  <div class="wrap">
+    <div class="benefits-head">
+      <div><div class="eyebrow" data-i18n="bnEyebrow"></div><h2 id="bn-h" style="margin-top:16px" data-i18n="bnH"></h2></div>
+      <p data-i18n="bnP"></p>
+    </div>
+    <div class="bgrid">
+      <article class="b rv" style="--glow:rgba(57,135,229,.5)"><div class="k" data-i18n="b1k"></div><h3 data-i18n="b1h"></h3><p data-i18n="b1p"></p><div class="fig"><span data-i18n="b1f"></span></div></article>
+      <article class="b rv" style="--glow:rgba(242,181,68,.5)"><div class="k" data-i18n="b2k"></div><h3 data-i18n="b2h"></h3><p data-i18n="b2p"></p><div class="fig"><span>350 = 350 · 100 = 100 · 80 = 80</span></div></article>
+      <article class="b rv" style="--glow:rgba(25,158,112,.5)"><div class="k" data-i18n="b3k"></div><h3 data-i18n="b3h"></h3><p data-i18n="b3p"></p><div class="fig"><span data-i18n="b3f"></span></div></article>
+      <article class="b rv" style="--glow:rgba(213,81,129,.5)"><div class="k" data-i18n="b4k"></div><h3 data-i18n="b4h"></h3><p id="b4p"></p><div class="fig"><span id="b4f"></span></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="stats" aria-labelledby="st-h">
+  <div class="wrap">
+    <div class="stats-box rv">
+      <div>
+        <div class="eyebrow" data-i18n="stEyebrow"></div>
+        <h2 id="st-h" style="margin-top:14px" data-i18n="stH"></h2>
+        <p data-i18n="stP"></p>
+      </div>
+      <div class="sgrid">
+        <div><div class="sv" data-count="total_rabbits">0</div><div class="sl" data-i18n="sl1"></div></div>
+        <div><div class="sv" data-count="sold">0</div><div class="sl" data-i18n="sl2"></div></div>
+        <div><div class="sv" data-count="revenue" data-fmt="ngn">0</div><div class="sl" data-i18n="sl3"></div></div>
+        <div><div class="sv" data-count="deceased">0</div><div class="sl" data-i18n="sl4"></div></div>
+        <div><div class="sv" data-count="pregnant">0</div><div class="sl" data-i18n="sl5"></div></div>
+        <div><div class="sv" data-count="months">0</div><div class="sl" data-i18n="sl6"></div></div>
+        <div class="creds">
+          <span class="cred"><b>Oracle SQL</b> · Duoc UC</span>
+          <span class="cred"><b>Oracle PL/SQL</b> · Duoc UC</span>
+          <span class="cred" data-i18n="cred3"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap faq" aria-labelledby="fq-h">
+  <h2 id="fq-h" data-i18n="fqH"></h2>
+  <div>
+    <details class="rv"><summary><span data-i18n="q1"></span><span class="pm">+</span></summary><p data-i18n="a1"></p></details>
+    <details class="rv"><summary><span data-i18n="q2"></span><span class="pm">+</span></summary><p data-i18n="a2"></p></details>
+    <details class="rv"><summary><span data-i18n="q3"></span><span class="pm">+</span></summary><p data-i18n="a3"></p></details>
+    <details class="rv"><summary><span data-i18n="q4"></span><span class="pm">+</span></summary><p data-i18n="a4"></p></details>
+    <details class="rv"><summary><span data-i18n="q5"></span><span class="pm">+</span></summary><p data-i18n="a5"></p></details>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <div class="final-box rv">
+      <div class="eyebrow" data-i18n="fnEyebrow"></div>
+      <h2 data-i18n="fnH"></h2>
+      <p data-i18n="fnP"></p>
+      <div class="ctas">
+        <a class="btn btn-primary" href="dashboard/"><span data-i18n="fnCta1"></span> <span class="arr">&rarr;</span></a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/adri%C3%A1n-rodr%C3%ADguez-/" target="_blank" rel="noopener" data-i18n="fnCta2"></a>
+      </div>
+      <p class="contact"><span data-i18n="fnEmail" style="font-family:var(--f-b);color:var(--ink-3)"></span> <span>adriancolmenares43@gmail.com</span></p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="yr">2026</span> Adrián Rodríguez · Santiago, Chile</span>
+    <span><a href="https://github.com/adriancolmenares43-art" target="_blank" rel="noopener">GitHub</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/adri%C3%A1n-rodr%C3%ADguez-/" target="_blank" rel="noopener">LinkedIn</a> &nbsp;·&nbsp; <span data-i18n="ftSample"></span></span>
+  </div>
+</footer>
+
+<script id="farm-data" type="application/json">{"asof":"2026-09-04","currency":"NGN","kpi":{"total_rabbits":1000,"active":550,"sold":350,"deceased":100,"revenue":1994934,"profit":1289759,"purchase_spend":956924,"mortality_rate":10.0,"avg_sale":5700,"margin":64.7,"pregnant":80,"bred_share":85.0},"status":{"Active":550,"Sold":350,"Deceased":100},"active_sex":{"Female":437,"Male":113},"active_age":{"Young":326,"Adult":224},"active_breed_sex":{"Local Breed (Mixed)":{"Female":142,"Male":37},"New Zealand White":{"Female":82,"Male":20},"Californian":{"Female":69,"Male":21},"Chinchilla Giant":{"Female":44,"Male":14},"Checkered Giant":{"Female":49,"Male":11},"Angora":{"Female":51,"Male":10}},"active_age_sex":{"Young":{"Female":257,"Male":69},"Adult":{"Female":180,"Male":44}},"monthly":[{"month":"2022-09","revenue":31949,"profit":24023,"units":5},{"month":"2022-10","revenue":30417,"profit":22721,"units":5},{"month":"2022-11","revenue":38536,"profit":32431,"units":5},{"month":"2022-12","revenue":15723,"profit":12937,"units":3},{"month":"2023-01","revenue":23032,"profit":17133,"units":4},{"month":"2023-02","revenue":18561,"profit":9053,"units":3},{"month":"2023-03","revenue":29596,"profit":25073,"units":4},{"month":"2023-04","revenue":15824,"profit":2966,"units":3},{"month":"2023-05","revenue":48466,"profit":29060,"units":11},{"month":"2023-06","revenue":10408,"profit":7947,"units":2},{"month":"2023-07","revenue":16259,"profit":-2472,"units":3},{"month":"2023-08","revenue":34325,"profit":20869,"units":5},{"month":"2023-09","revenue":30809,"profit":20260,"units":7},{"month":"2023-10","revenue":24697,"profit":17646,"units":5},{"month":"2023-11","revenue":39679,"profit":17710,"units":8},{"month":"2023-12","revenue":21815,"profit":15827,"units":5},{"month":"2024-01","revenue":8783,"profit":5804,"units":2},{"month":"2024-02","revenue":23879,"profit":10702,"units":4},{"month":"2024-03","revenue":37835,"profit":20803,"units":6},{"month":"2024-04","revenue":35275,"profit":18307,"units":9},{"month":"2024-05","revenue":55296,"profit":41172,"units":8},{"month":"2024-06","revenue":36213,"profit":24445,"units":6},{"month":"2024-07","revenue":33868,"profit":25925,"units":6},{"month":"2024-08","revenue":48644,"profit":38114,"units":8},{"month":"2024-09","revenue":34412,"profit":25491,"units":8},{"month":"2024-10","revenue":44105,"profit":32131,"units":8},{"month":"2024-11","revenue":39279,"profit":32019,"units":6},{"month":"2024-12","revenue":59087,"profit":27498,"units":9},{"month":"2025-01","revenue":13726,"profit":8321,"units":4},{"month":"2025-02","revenue":16191,"profit":6841,"units":4},{"month":"2025-03","revenue":58422,"profit":20831,"units":7},{"month":"2025-04","revenue":32140,"profit":25441,"units":5},{"month":"2025-05","revenue":34770,"profit":19261,"units":8},{"month":"2025-06","revenue":28610,"profit":15273,"units":5},{"month":"2025-07","revenue":36891,"profit":25191,"units":8},{"month":"2025-08","revenue":31320,"profit":21641,"units":5},{"month":"2025-09","revenue":54831,"profit":41614,"units":8},{"month":"2025-10","revenue":45101,"profit":30283,"units":9},{"month":"2025-11","revenue":71167,"profit":56256,"units":9},{"month":"2025-12","revenue":31257,"profit":19599,"units":6},{"month":"2026-01","revenue":24274,"profit":20848,"units":3},{"month":"2026-02","revenue":62160,"profit":51829,"units":9},{"month":"2026-03","revenue":81794,"profit":46007,"units":16},{"month":"2026-04","revenue":46076,"profit":27425,"units":8},{"month":"2026-05","revenue":49586,"profit":28524,"units":10},{"month":"2026-06","revenue":55945,"profit":30981,"units":9},{"month":"2026-07","revenue":90382,"profit":61202,"units":17},{"month":"2026-08","revenue":183750,"profit":109024,"units":33},{"month":"2026-09","revenue":59769,"profit":47772,"units":9}],"yearly":[{"year":2022,"revenue":116625,"profit":92112,"units":18},{"year":2023,"revenue":313471,"profit":181072,"units":60},{"year":2024,"revenue":456676,"profit":302411,"units":80},{"year":2025,"revenue":454426,"profit":290552,"units":78},{"year":2026,"revenue":653736,"profit":423612,"units":114}],"channels":[{"channel":"Social media/WhatsApp","revenue":442877,"units":80},{"channel":"Wholesale/Bulk order","revenue":439236,"units":73},{"channel":"Farm gate","revenue":401270,"units":68},{"channel":"Restaurant supply contract","revenue":362054,"units":66},{"channel":"Local market","revenue":349497,"units":63}],"breed_sales":[{"breed":"Californian","revenue":369194,"profit":239954,"units":66,"avg_price":5594},{"breed":"Checkered Giant","revenue":332400,"profit":231711,"units":41,"avg_price":8107},{"breed":"New Zealand White","revenue":369901,"profit":228643,"units":65,"avg_price":5691},{"breed":"Local Breed (Mixed)","revenue":389759,"profit":202015,"units":111,"avg_price":3511},{"breed":"Angora","revenue":287644,"profit":201358,"units":28,"avg_price":10273},{"breed":"Chinchilla Giant","revenue":246036,"profit":186078,"units":39,"avg_price":6309}],"mortality_cause":[{"cause":"Unknown/Natural causes","count":21},{"cause":"Predator attack","count":17},{"cause":"Coccidiosis","count":17},{"cause":"Chilling/Cold stress","count":12},{"cause":"Enteritis (digestive upset)","count":8},{"cause":"Weaning stress","count":7},{"cause":"Kindling complications","count":6},{"cause":"Heat stress","count":5},{"cause":"Injury/Accident","count":5},{"cause":"Respiratory infection (snuffles)","count":2}],"mortality_age":{"Young":54,"Adult":46},"mortality_year":{"2022":5,"2023":13,"2024":20,"2025":27,"2026":35},"births":[{"PregnancyID":"PG004","RabbitID":"RB0446","BreedName":"Angora","HutchNumber":"D40","MatingDate":"2026-08-07","ExpectedKindlingDate":"2026-09-07","DaysUntilKindling":3,"PregnancyStatus":"Due soon"},{"PregnancyID":"PG008","RabbitID":"RB0363","BreedName":"New Zealand White","HutchNumber":"C1","MatingDate":"2026-08-07","ExpectedKindlingDate":"2026-09-07","DaysUntilKindling":3,"PregnancyStatus":"Due soon"},{"PregnancyID":"PG011","RabbitID":"RB0517","BreedName":"New Zealand White","HutchNumber":"H36","MatingDate":"2026-08-07","ExpectedKindlingDate":"2026-09-07","DaysUntilKindling":3,"PregnancyStatus":"Due soon"},{"PregnancyID":"PG031","RabbitID":"RB0576","BreedName":"Angora","HutchNumber":"D21","MatingDate":"2026-08-07","ExpectedKindlingDate":"2026-09-07","DaysUntilKindling":3,"PregnancyStatus":"Due soon"},{"PregnancyID":"PG040","RabbitID":"RB0174","BreedName":"Local Breed (Mixed)","HutchNumber":"H4","MatingDate":"2026-08-07","ExpectedKindlingDate":"2026-09-07","DaysUntilKindling":3,"PregnancyStatus":"Due soon"},{"PregnancyID":"PG052","RabbitID":"RB0870","BreedName":"Angora","HutchNumber":"H37","MatingDate":"2026-08-07","ExpectedKindlingDate":"2026-09-07","DaysUntilKindling":3,"PregnancyStatus":"Due soon"},{"PregnancyID":"PG080","RabbitID":"RB0047","BreedName":"New Zealand White","HutchNumber":"C37","MatingDate":"2026-08-07","ExpectedKindlingDate":"2026-09-07","DaysUntilKindling":3,"PregnancyStatus":"Due soon"},{"PregnancyID":"PG050","RabbitID":"RB0622","BreedName":"Local Breed (Mixed)","HutchNumber":"C7","MatingDate":"2026-08-08","ExpectedKindlingDate":"2026-09-08","DaysUntilKindling":4,"PregnancyStatus":"Due soon"},{"PregnancyID":"PG065","RabbitID":"RB0193","BreedName":"Angora","HutchNumber":"A20","MatingDate":"2026-08-08","ExpectedKindlingDate":"2026-09-08","DaysUntilKindling":4,"PregnancyStatus":"Due soon"},{"PregnancyID":"PG078","RabbitID":"RB0695","BreedName":"Local Breed (Mixed)","HutchNumber":"H24","MatingDate":"2026-08-08","ExpectedKindlingDate":"2026-09-08","DaysUntilKindling":4,"PregnancyStatus":"Due soon"},{"PregnancyID":"PG001","RabbitID":"RB0086","BreedName":"New Zealand White","HutchNumber":"D7","MatingDate":"2026-08-09","ExpectedKindlingDate":"2026-09-09","DaysUntilKindling":5,"PregnancyStatus":"Due soon"},{"PregnancyID":"PG024","RabbitID":"RB0170","BreedName":"Californian","HutchNumber":"B15","MatingDate":"2026-08-09","ExpectedKindlingDate":"2026-09-09","DaysUntilKindling":5,"PregnancyStatus":"Due soon"},{"PregnancyID":"PG006","RabbitID":"RB0072","BreedName":"Local Breed (Mixed)","HutchNumber":"H27","MatingDate":"2026-08-10","ExpectedKindlingDate":"2026-09-10","DaysUntilKindling":6,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG032","RabbitID":"RB0287","BreedName":"New Zealand White","HutchNumber":"G1","MatingDate":"2026-08-10","ExpectedKindlingDate":"2026-09-10","DaysUntilKindling":6,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG053","RabbitID":"RB0015","BreedName":"Local Breed (Mixed)","HutchNumber":"A26","MatingDate":"2026-08-10","ExpectedKindlingDate":"2026-09-10","DaysUntilKindling":6,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG002","RabbitID":"RB0213","BreedName":"Chinchilla Giant","HutchNumber":"D23","MatingDate":"2026-08-11","ExpectedKindlingDate":"2026-09-11","DaysUntilKindling":7,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG003","RabbitID":"RB0857","BreedName":"Local Breed (Mixed)","HutchNumber":"G23","MatingDate":"2026-08-11","ExpectedKindlingDate":"2026-09-11","DaysUntilKindling":7,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG015","RabbitID":"RB0237","BreedName":"Local Breed (Mixed)","HutchNumber":"H8","MatingDate":"2026-08-11","ExpectedKindlingDate":"2026-09-11","DaysUntilKindling":7,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG028","RabbitID":"RB0077","BreedName":"Chinchilla Giant","HutchNumber":"A21","MatingDate":"2026-08-11","ExpectedKindlingDate":"2026-09-11","DaysUntilKindling":7,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG034","RabbitID":"RB0686","BreedName":"Californian","HutchNumber":"B12","MatingDate":"2026-08-11","ExpectedKindlingDate":"2026-09-11","DaysUntilKindling":7,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG033","RabbitID":"RB0780","BreedName":"Californian","HutchNumber":"A31","MatingDate":"2026-08-12","ExpectedKindlingDate":"2026-09-12","DaysUntilKindling":8,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG005","RabbitID":"RB0806","BreedName":"Chinchilla Giant","HutchNumber":"E22","MatingDate":"2026-08-13","ExpectedKindlingDate":"2026-09-13","DaysUntilKindling":9,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG010","RabbitID":"RB0630","BreedName":"Local Breed (Mixed)","HutchNumber":"G6","MatingDate":"2026-08-13","ExpectedKindlingDate":"2026-09-13","DaysUntilKindling":9,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG012","RabbitID":"RB0888","BreedName":"Local Breed (Mixed)","HutchNumber":"E8","MatingDate":"2026-08-13","ExpectedKindlingDate":"2026-09-13","DaysUntilKindling":9,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG023","RabbitID":"RB0797","BreedName":"Angora","HutchNumber":"F36","MatingDate":"2026-08-13","ExpectedKindlingDate":"2026-09-13","DaysUntilKindling":9,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG044","RabbitID":"RB0541","BreedName":"Angora","HutchNumber":"G16","MatingDate":"2026-08-13","ExpectedKindlingDate":"2026-09-13","DaysUntilKindling":9,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG017","RabbitID":"RB0267","BreedName":"Chinchilla Giant","HutchNumber":"D30","MatingDate":"2026-08-14","ExpectedKindlingDate":"2026-09-14","DaysUntilKindling":10,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG043","RabbitID":"RB0676","BreedName":"Angora","HutchNumber":"E15","MatingDate":"2026-08-14","ExpectedKindlingDate":"2026-09-14","DaysUntilKindling":10,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG076","RabbitID":"RB0175","BreedName":"Californian","HutchNumber":"B31","MatingDate":"2026-08-14","ExpectedKindlingDate":"2026-09-14","DaysUntilKindling":10,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG025","RabbitID":"RB0046","BreedName":"Chinchilla Giant","HutchNumber":"F37","MatingDate":"2026-08-16","ExpectedKindlingDate":"2026-09-16","DaysUntilKindling":12,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG045","RabbitID":"RB0904","BreedName":"Californian","HutchNumber":"A40","MatingDate":"2026-08-16","ExpectedKindlingDate":"2026-09-16","DaysUntilKindling":12,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG064","RabbitID":"RB0441","BreedName":"Local Breed (Mixed)","HutchNumber":"A25","MatingDate":"2026-08-16","ExpectedKindlingDate":"2026-09-16","DaysUntilKindling":12,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG051","RabbitID":"RB0976","BreedName":"Local Breed (Mixed)","HutchNumber":"F19","MatingDate":"2026-08-17","ExpectedKindlingDate":"2026-09-17","DaysUntilKindling":13,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG049","RabbitID":"RB0965","BreedName":"Local Breed (Mixed)","HutchNumber":"C14","MatingDate":"2026-08-19","ExpectedKindlingDate":"2026-09-19","DaysUntilKindling":15,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG067","RabbitID":"RB0113","BreedName":"Angora","HutchNumber":"G8","MatingDate":"2026-08-19","ExpectedKindlingDate":"2026-09-19","DaysUntilKindling":15,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG018","RabbitID":"RB0680","BreedName":"Checkered Giant","HutchNumber":"C28","MatingDate":"2026-08-20","ExpectedKindlingDate":"2026-09-20","DaysUntilKindling":16,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG030","RabbitID":"RB0978","BreedName":"Local Breed (Mixed)","HutchNumber":"H3","MatingDate":"2026-08-20","ExpectedKindlingDate":"2026-09-20","DaysUntilKindling":16,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG056","RabbitID":"RB0473","BreedName":"Local Breed (Mixed)","HutchNumber":"D40","MatingDate":"2026-08-20","ExpectedKindlingDate":"2026-09-20","DaysUntilKindling":16,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG057","RabbitID":"RB0845","BreedName":"Local Breed (Mixed)","HutchNumber":"D28","MatingDate":"2026-08-20","ExpectedKindlingDate":"2026-09-20","DaysUntilKindling":16,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG027","RabbitID":"RB0313","BreedName":"Local Breed (Mixed)","HutchNumber":"G35","MatingDate":"2026-08-21","ExpectedKindlingDate":"2026-09-21","DaysUntilKindling":17,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG037","RabbitID":"RB0628","BreedName":"Chinchilla Giant","HutchNumber":"H37","MatingDate":"2026-08-21","ExpectedKindlingDate":"2026-09-21","DaysUntilKindling":17,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG041","RabbitID":"RB0054","BreedName":"Checkered Giant","HutchNumber":"A10","MatingDate":"2026-08-21","ExpectedKindlingDate":"2026-09-21","DaysUntilKindling":17,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG013","RabbitID":"RB0364","BreedName":"Californian","HutchNumber":"D15","MatingDate":"2026-08-22","ExpectedKindlingDate":"2026-09-22","DaysUntilKindling":18,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG029","RabbitID":"RB0823","BreedName":"New Zealand White","HutchNumber":"F14","MatingDate":"2026-08-22","ExpectedKindlingDate":"2026-09-22","DaysUntilKindling":18,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG038","RabbitID":"RB0348","BreedName":"Local Breed (Mixed)","HutchNumber":"A37","MatingDate":"2026-08-22","ExpectedKindlingDate":"2026-09-22","DaysUntilKindling":18,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG039","RabbitID":"RB0359","BreedName":"Angora","HutchNumber":"B13","MatingDate":"2026-08-22","ExpectedKindlingDate":"2026-09-22","DaysUntilKindling":18,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG058","RabbitID":"RB0467","BreedName":"Local Breed (Mixed)","HutchNumber":"C31","MatingDate":"2026-08-22","ExpectedKindlingDate":"2026-09-22","DaysUntilKindling":18,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG066","RabbitID":"RB0935","BreedName":"Local Breed (Mixed)","HutchNumber":"H13","MatingDate":"2026-08-22","ExpectedKindlingDate":"2026-09-22","DaysUntilKindling":18,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG068","RabbitID":"RB0553","BreedName":"Californian","HutchNumber":"H24","MatingDate":"2026-08-22","ExpectedKindlingDate":"2026-09-22","DaysUntilKindling":18,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG075","RabbitID":"RB0022","BreedName":"Local Breed (Mixed)","HutchNumber":"H9","MatingDate":"2026-08-22","ExpectedKindlingDate":"2026-09-22","DaysUntilKindling":18,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG069","RabbitID":"RB0422","BreedName":"Checkered Giant","HutchNumber":"B28","MatingDate":"2026-08-23","ExpectedKindlingDate":"2026-09-23","DaysUntilKindling":19,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG079","RabbitID":"RB0520","BreedName":"Local Breed (Mixed)","HutchNumber":"C6","MatingDate":"2026-08-23","ExpectedKindlingDate":"2026-09-23","DaysUntilKindling":19,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG022","RabbitID":"RB0661","BreedName":"New Zealand White","HutchNumber":"A17","MatingDate":"2026-08-24","ExpectedKindlingDate":"2026-09-24","DaysUntilKindling":20,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG063","RabbitID":"RB0597","BreedName":"Chinchilla Giant","HutchNumber":"E4","MatingDate":"2026-08-24","ExpectedKindlingDate":"2026-09-24","DaysUntilKindling":20,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG042","RabbitID":"RB0212","BreedName":"Chinchilla Giant","HutchNumber":"D17","MatingDate":"2026-08-25","ExpectedKindlingDate":"2026-09-25","DaysUntilKindling":21,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG046","RabbitID":"RB0733","BreedName":"Chinchilla Giant","HutchNumber":"E40","MatingDate":"2026-08-25","ExpectedKindlingDate":"2026-09-25","DaysUntilKindling":21,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG060","RabbitID":"RB0145","BreedName":"Local Breed (Mixed)","HutchNumber":"D18","MatingDate":"2026-08-25","ExpectedKindlingDate":"2026-09-25","DaysUntilKindling":21,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG070","RabbitID":"RB0812","BreedName":"Checkered Giant","HutchNumber":"F26","MatingDate":"2026-08-25","ExpectedKindlingDate":"2026-09-25","DaysUntilKindling":21,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG061","RabbitID":"RB0861","BreedName":"Chinchilla Giant","HutchNumber":"F3","MatingDate":"2026-08-26","ExpectedKindlingDate":"2026-09-26","DaysUntilKindling":22,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG072","RabbitID":"RB0029","BreedName":"Californian","HutchNumber":"A40","MatingDate":"2026-08-26","ExpectedKindlingDate":"2026-09-26","DaysUntilKindling":22,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG014","RabbitID":"RB0795","BreedName":"Local Breed (Mixed)","HutchNumber":"A40","MatingDate":"2026-08-27","ExpectedKindlingDate":"2026-09-27","DaysUntilKindling":23,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG016","RabbitID":"RB0073","BreedName":"Local Breed (Mixed)","HutchNumber":"G32","MatingDate":"2026-08-27","ExpectedKindlingDate":"2026-09-27","DaysUntilKindling":23,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG020","RabbitID":"RB0292","BreedName":"Local Breed (Mixed)","HutchNumber":"A23","MatingDate":"2026-08-27","ExpectedKindlingDate":"2026-09-27","DaysUntilKindling":23,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG054","RabbitID":"RB0981","BreedName":"New Zealand White","HutchNumber":"B5","MatingDate":"2026-08-27","ExpectedKindlingDate":"2026-09-27","DaysUntilKindling":23,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG073","RabbitID":"RB0146","BreedName":"Local Breed (Mixed)","HutchNumber":"G33","MatingDate":"2026-08-28","ExpectedKindlingDate":"2026-09-28","DaysUntilKindling":24,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG009","RabbitID":"RB0615","BreedName":"Checkered Giant","HutchNumber":"D25","MatingDate":"2026-08-29","ExpectedKindlingDate":"2026-09-29","DaysUntilKindling":25,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG036","RabbitID":"RB0166","BreedName":"Checkered Giant","HutchNumber":"E11","MatingDate":"2026-08-29","ExpectedKindlingDate":"2026-09-29","DaysUntilKindling":25,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG055","RabbitID":"RB0238","BreedName":"Local Breed (Mixed)","HutchNumber":"H3","MatingDate":"2026-08-29","ExpectedKindlingDate":"2026-09-29","DaysUntilKindling":25,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG077","RabbitID":"RB0542","BreedName":"Californian","HutchNumber":"E19","MatingDate":"2026-08-29","ExpectedKindlingDate":"2026-09-29","DaysUntilKindling":25,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG035","RabbitID":"RB0354","BreedName":"Local Breed (Mixed)","HutchNumber":"A36","MatingDate":"2026-08-30","ExpectedKindlingDate":"2026-09-30","DaysUntilKindling":26,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG059","RabbitID":"RB0816","BreedName":"Californian","HutchNumber":"C19","MatingDate":"2026-08-30","ExpectedKindlingDate":"2026-09-30","DaysUntilKindling":26,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG062","RabbitID":"RB0534","BreedName":"Californian","HutchNumber":"H35","MatingDate":"2026-08-30","ExpectedKindlingDate":"2026-09-30","DaysUntilKindling":26,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG071","RabbitID":"RB0050","BreedName":"Local Breed (Mixed)","HutchNumber":"D2","MatingDate":"2026-08-30","ExpectedKindlingDate":"2026-09-30","DaysUntilKindling":26,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG026","RabbitID":"RB0977","BreedName":"Californian","HutchNumber":"G17","MatingDate":"2026-08-31","ExpectedKindlingDate":"2026-10-01","DaysUntilKindling":27,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG021","RabbitID":"RB0528","BreedName":"Local Breed (Mixed)","HutchNumber":"H37","MatingDate":"2026-09-01","ExpectedKindlingDate":"2026-10-02","DaysUntilKindling":28,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG007","RabbitID":"RB0134","BreedName":"New Zealand White","HutchNumber":"D4","MatingDate":"2026-09-02","ExpectedKindlingDate":"2026-10-03","DaysUntilKindling":29,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG019","RabbitID":"RB0525","BreedName":"Checkered Giant","HutchNumber":"F21","MatingDate":"2026-09-02","ExpectedKindlingDate":"2026-10-03","DaysUntilKindling":29,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG047","RabbitID":"RB0504","BreedName":"Checkered Giant","HutchNumber":"C19","MatingDate":"2026-09-02","ExpectedKindlingDate":"2026-10-03","DaysUntilKindling":29,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG048","RabbitID":"RB0200","BreedName":"Chinchilla Giant","HutchNumber":"A25","MatingDate":"2026-09-02","ExpectedKindlingDate":"2026-10-03","DaysUntilKindling":29,"PregnancyStatus":"Confirmed pregnant"},{"PregnancyID":"PG074","RabbitID":"RB0603","BreedName":"Local Breed (Mixed)","HutchNumber":"A40","MatingDate":"2026-09-02","ExpectedKindlingDate":"2026-10-03","DaysUntilKindling":29,"PregnancyStatus":"Confirmed pregnant"}],"births_status":{"Confirmed pregnant":68,"Due soon":12},"births_next7":20,"breeds":[{"BreedID":"BR01","BreedName":"Local Breed (Mixed)","Type":"Meat","AvgMatureWeightKg":2.3},{"BreedID":"BR02","BreedName":"New Zealand White","Type":"Meat","AvgMatureWeightKg":4.5},{"BreedID":"BR03","BreedName":"Californian","Type":"Meat","AvgMatureWeightKg":4.2},{"BreedID":"BR04","BreedName":"Chinchilla Giant","Type":"Dual-purpose","AvgMatureWeightKg":5.0},{"BreedID":"BR05","BreedName":"Checkered Giant","Type":"Ornamental/Show","AvgMatureWeightKg":5.2},{"BreedID":"BR06","BreedName":"Angora","Type":"Fur/Wool","AvgMatureWeightKg":3.2}],"sales_span":["2022-09-04","2026-09-03"]}</script>
+<script>
+(function(){
+"use strict";
+const D=JSON.parse(document.getElementById("farm-data").textContent), K=D.kpi;
+const yrs=Object.entries(D.mortality_year), Y0=yrs[0], Y1=yrs[yrs.length-1];
+const I18N={
+ en:{locale:"en-US",months:["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],mil:"M",
+  title:"Adrián Rodríguez · Rabbit Farm Dashboard",
+  desc:"A farm operations dashboard built from 1,000 records across six datasets. Portfolio project by Adrián Rodríguez, QA and software development student at Duoc UC.",
+  navCta:'<span class="long">Open the live </span>Dashboard',
+  heroEyebrow:"Portfolio project · data &amp; QA",
+  heroH1:'You\'ve read a hundred CVs that say "SQL". This one <em>shows&nbsp;it.</em>',
+  heroSub:(r)=>`Skip the guesswork. Open a working dashboard built from <span class="num">${r}</span> farm records and judge my skills by what you can click.`,
+  ctaDash:"See the live dashboard", ctaLinked:"Message me on LinkedIn",
+  proof:(f,r)=>`<span><b>${f}</b> datasets</span><span class="dot"></span><span><b>${r}</b> rows checked</span><span class="dot"></span><span><b>0</b> blank charts</span>`,
+  panelSales:"Sales &amp; gross profit", realData:"real data", revenue:"Revenue", profit:"Gross profit",
+  panelRev:"Total revenue", panelRevF:(s,m)=>`${s} sales · ${m} gross margin`, panelBirths:"Kindling this week", does:(n)=>`${n} does`,
+  pbEyebrow:"The part of hiring nobody enjoys", pbH:"You can't tell who can do the work from a skills list.",
+  p1h:"Every junior CV looks the same.", p1p:'Python, SQL, Agile, "detail-oriented". You\'ve seen the list so often it no longer tells you anything.',
+  p2h:"The proof only shows up later.", p2p:"You find out whether someone can clean messy data or catch a wrong number three interviews in, after the time is already spent.",
+  p3h:"Pretty reports hide wrong numbers.", p3p:"A chart that looks good and adds up wrong is worse than no chart. You need someone who checks before they ship.",
+  bnEyebrow:"What you get from this project", bnH:"Answers before the first interview.",
+  bnP:"Six raw CSV files became one dashboard a farm manager could actually use. Here is what that tells you about how I'd work on your team.",
+  b1k:"01 · EVIDENCE", b1h:"You judge real work, not keywords.", b1p:"Open the dashboard, hover any chart, filter the births table. It takes two minutes, with no setup and no take-home test.", b1f:"8 charts · 6 KPIs · 80-row table",
+  b2k:"02 · ACCURACY", b2h:"You can trust the numbers you see.", b2p:"Every ID was cross-checked across files: sales against sold rabbits, deaths against deceased, pregnancies against flags. The math behind each figure is written on the page.",
+  b3k:"03 · QA MINDSET", b3h:"You get someone who tests before shipping.", b3p:"Each chart was rendered and checked in a headless browser before publishing, to confirm no KPI or chart ever loads empty. That's QA applied to my own work.", b3f:"0 blank charts · 0 chart libraries",
+  b4k:"04 · BUSINESS SENSE", b4h:"You get insight, not just pictures.",
+  b4p:(d)=>`The dashboard points out what a manager should act on: deaths rising every year, predators and coccidiosis as the top known causes, <span class="num">${d}</span> births due within a week.`,
+  b4f:`deaths/yr: ${Y0[1]} (${Y0[0]}) → ${Y1[1]} (${Y1[0]})`,
+  stEyebrow:"By the numbers", stH:"Small project. Real volume.", stP:"The same skills I'm finishing at Duoc UC, applied end to end: loading, cleaning, checking, explaining.",
+  sl1:"rabbit records", sl2:"sales analysed", sl3:"revenue traced", sl4:"deaths by cause", sl5:"births scheduled", sl6:"months of sales",
+  cred3:"<b>Ingeniería en Informática</b> · Duoc UC, expected Dec 2026",
+  fqH:"Questions you're probably asking.",
+  q1:"Is this a real farm?", a1:"No. It's a sample dataset of a rabbit farm, priced in Nigerian naira. I chose it because it's messy in realistic ways: six linked files, money, dates and life events that all have to agree.",
+  q2:"Did you build this yourself?", a2:"I directed it and checked it, using AI-assisted development (Claude) the way most teams now work. I chose the questions, reviewed the code, and verified every figure against the source CSVs. Ask me to walk you through any chart and I will.",
+  q3:"Can you work with our tools, not just this one?", a3:"The method stays the same: load, clean, test, present. I've used Python, SQL and PL/SQL on Oracle, and BigQuery with Looker Studio on Google Cloud in coursework. I pick up new tools fast; in my previous job I kept adapting to new CNC machines and software.",
+  q4:"Why does a QA candidate build dashboards?", a4:"Because testing is checking whether numbers and behaviour match what they should be. This project is that skill made visible: every total reconciled, every chart verified before release.",
+  q5:"Are you available?", a5:"Yes. I'm in Santiago, finishing Ingeniería en Informática at Duoc UC, and looking for my práctica profesional (internship) in QA or software development. I speak Spanish, English and Portuguese.",
+  fnEyebrow:"Two minutes, no signup", fnH:"See the work. Then let's talk.",
+  fnP:"Click through the dashboard, try to find a number that doesn't add up, and send me what you find. That conversation will tell you more than my CV.",
+  fnCta1:"Open the dashboard", fnCta2:"Contact me on LinkedIn", fnEmail:"Or email", ftSample:"Sample dataset"},
+ es:{locale:"es-CL",months:["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"],mil:" mill.",
+  title:"Adrián Rodríguez · Dashboard granja de conejos",
+  desc:"Dashboard de operaciones de una granja construido con 1.000 registros de seis datasets. Proyecto de portafolio de Adrián Rodríguez, estudiante de Ingeniería en Informática en Duoc UC.",
+  navCta:'<span class="long">Abrir el </span>Dashboard',
+  heroEyebrow:"Proyecto de portafolio · datos y QA",
+  heroH1:"Has leído cien CV que dicen «SQL». Este lo <em>demuestra.</em>",
+  heroSub:(r)=>`Olvídate de adivinar. Abre un dashboard real, construido con <span class="num">${r}</span> registros de una granja, y evalúa mis habilidades por lo que puedes explorar.`,
+  ctaDash:"Ver el dashboard en vivo", ctaLinked:"Escríbeme por LinkedIn",
+  proof:(f,r)=>`<span><b>${f}</b> datasets</span><span class="dot"></span><span><b>${r}</b> filas revisadas</span><span class="dot"></span><span><b>0</b> gráficos vacíos</span>`,
+  panelSales:"Ventas y utilidad bruta", realData:"datos reales", revenue:"Ingresos", profit:"Utilidad bruta",
+  panelRev:"Ingresos totales", panelRevF:(s,m)=>`${s} ventas · ${m} de margen bruto`, panelBirths:"Partos esta semana", does:(n)=>`${n} hembras`,
+  pbEyebrow:"La parte de reclutar que nadie disfruta", pbH:"Una lista de habilidades no te dice quién sabe hacer el trabajo.",
+  p1h:"Todos los CV junior se ven iguales.", p1p:"Python, SQL, Agile, «orientado al detalle». Has visto esa lista tantas veces que ya no te dice nada.",
+  p2h:"La prueba llega tarde.", p2p:"Recién en la tercera entrevista descubres si alguien sabe limpiar datos o detectar un número malo, cuando el tiempo ya se gastó.",
+  p3h:"Un reporte bonito puede esconder números malos.", p3p:"Un gráfico que se ve bien y suma mal es peor que no tener gráfico. Necesitas a alguien que revise antes de publicar.",
+  bnEyebrow:"Lo que te muestra este proyecto", bnH:"Respuestas antes de la primera entrevista.",
+  bnP:"Seis archivos CSV en bruto se convirtieron en un dashboard que un administrador de granja podría usar de verdad. Esto te dice cómo trabajaría en tu equipo.",
+  b1k:"01 · EVIDENCIA", b1h:"Evalúas trabajo real, no palabras clave.", b1p:"Abre el dashboard, pasa el mouse por cualquier gráfico, filtra la tabla de partos. Toma dos minutos, sin instalar nada y sin prueba técnica para la casa.", b1f:"8 gráficos · 6 KPIs · tabla de 80 filas",
+  b2k:"02 · PRECISIÓN", b2h:"Puedes confiar en las cifras que ves.", b2p:"Cada ID se cruzó entre archivos: ventas contra conejos vendidos, muertes contra fallecidos, preñeces contra su marca. El cálculo de cada cifra está explicado en la página.",
+  b3k:"03 · MENTALIDAD QA", b3h:"Tienes a alguien que prueba antes de publicar.", b3p:"Cada gráfico se renderizó y revisó en un navegador headless antes de publicar, para confirmar que ningún KPI ni gráfico carga vacío. Es QA aplicado a mi propio trabajo.", b3f:"0 gráficos vacíos · 0 librerías de gráficos",
+  b4k:"04 · VISIÓN DE NEGOCIO", b4h:"Recibes conclusiones, no solo dibujos.",
+  b4p:(d)=>`El dashboard muestra lo que un administrador debería atender: muertes que suben cada año, depredadores y coccidiosis como principales causas conocidas y <span class="num">${d}</span> partos en la próxima semana.`,
+  b4f:`muertes/año: ${Y0[1]} (${Y0[0]}) → ${Y1[1]} (${Y1[0]})`,
+  stEyebrow:"En números", stH:"Proyecto chico. Volumen real.", stP:"Las mismas habilidades que estoy terminando en Duoc UC, aplicadas de punta a punta: cargar, limpiar, verificar y explicar.",
+  sl1:"registros de conejos", sl2:"ventas analizadas", sl3:"ingresos trazados", sl4:"muertes por causa", sl5:"partos programados", sl6:"meses de ventas",
+  cred3:"<b>Ingeniería en Informática</b> · Duoc UC, egreso dic. 2026",
+  fqH:"Preguntas que probablemente te estás haciendo.",
+  q1:"¿Es una granja real?", a1:"No. Es un dataset de muestra de una granja de conejos, con precios en nairas nigerianas. Lo elegí porque es desordenado de forma realista: seis archivos enlazados con dinero, fechas y eventos que tienen que cuadrar entre sí.",
+  q2:"¿Lo hiciste tú?", a2:"Lo dirigí y lo verifiqué, usando desarrollo asistido por IA (Claude), como trabajan hoy la mayoría de los equipos. Elegí las preguntas, revisé el código y comprobé cada cifra contra los CSV originales. Pídeme que te explique cualquier gráfico y lo hago.",
+  q3:"¿Puedes trabajar con nuestras herramientas, no solo con esta?", a3:"El método es el mismo: cargar, limpiar, probar y presentar. He usado Python, SQL y PL/SQL en Oracle, y BigQuery con Looker Studio en Google Cloud en mis ramos. Aprendo herramientas nuevas rápido; en mi trabajo anterior me adapté constantemente a nuevas máquinas CNC y software.",
+  q4:"¿Por qué alguien de QA construye dashboards?", a4:"Porque probar es verificar que los números y el comportamiento sean los que deberían. Este proyecto hace visible esa habilidad: cada total cuadrado y cada gráfico verificado antes de publicarse.",
+  q5:"¿Estás disponible?", a5:"Sí. Vivo en Santiago, estoy terminando Ingeniería en Informática en Duoc UC y busco mi práctica profesional en QA o desarrollo de software. Hablo español, inglés y portugués.",
+  fnEyebrow:"Dos minutos, sin registro", fnH:"Mira el trabajo. Después conversemos.",
+  fnP:"Recorre el dashboard, intenta encontrar un número que no cuadre y cuéntame qué encontraste. Esa conversación te dirá más que mi CV.",
+  fnCta1:"Abrir el dashboard", fnCta2:"Contáctame por LinkedIn", fnEmail:"O escríbeme a", ftSample:"Datos de muestra"},
+ pt:{locale:"pt-BR",months:["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"],mil:" mi",
+  title:"Adrián Rodríguez · Dashboard fazenda de coelhos",
+  desc:"Dashboard de operações de uma fazenda feito com 1.000 registros de seis datasets. Projeto de portfólio de Adrián Rodríguez, estudante de Ingeniería en Informática na Duoc UC.",
+  navCta:'<span class="long">Abrir o </span>Dashboard',
+  heroEyebrow:"Projeto de portfólio · dados e QA",
+  heroH1:"Você já leu cem currículos que dizem “SQL”. Este <em>mostra.</em>",
+  heroSub:(r)=>`Chega de adivinhar. Abra um dashboard de verdade, feito com <span class="num">${r}</span> registros de uma fazenda, e avalie minhas habilidades pelo que você pode explorar.`,
+  ctaDash:"Ver o dashboard ao vivo", ctaLinked:"Fale comigo no LinkedIn",
+  proof:(f,r)=>`<span><b>${f}</b> datasets</span><span class="dot"></span><span><b>${r}</b> linhas verificadas</span><span class="dot"></span><span><b>0</b> gráficos vazios</span>`,
+  panelSales:"Vendas e lucro bruto", realData:"dados reais", revenue:"Receita", profit:"Lucro bruto",
+  panelRev:"Receita total", panelRevF:(s,m)=>`${s} vendas · ${m} de margem bruta`, panelBirths:"Partos nesta semana", does:(n)=>`${n} fêmeas`,
+  pbEyebrow:"A parte do recrutamento que ninguém curte", pbH:"Uma lista de habilidades não mostra quem sabe fazer o trabalho.",
+  p1h:"Todo currículo júnior parece igual.", p1p:"Python, SQL, Agile, “atento aos detalhes”. Você já viu essa lista tantas vezes que ela não diz mais nada.",
+  p2h:"A prova só aparece tarde.", p2p:"Você só descobre se alguém sabe limpar dados ou achar um número errado na terceira entrevista, depois que o tempo já foi gasto.",
+  p3h:"Relatório bonito esconde número errado.", p3p:"Um gráfico que parece bom e soma errado é pior do que nenhum gráfico. Você precisa de alguém que confere antes de publicar.",
+  bnEyebrow:"O que este projeto mostra para você", bnH:"Respostas antes da primeira entrevista.",
+  bnP:"Seis arquivos CSV brutos viraram um dashboard que um gestor de fazenda poderia usar de verdade. Isso mostra como eu trabalharia no seu time.",
+  b1k:"01 · EVIDÊNCIA", b1h:"Você avalia trabalho real, não palavras-chave.", b1p:"Abra o dashboard, passe o mouse em qualquer gráfico, filtre a tabela de partos. Leva dois minutos, sem instalar nada e sem teste para fazer em casa.", b1f:"8 gráficos · 6 KPIs · tabela com 80 linhas",
+  b2k:"02 · PRECISÃO", b2h:"Você pode confiar nos números que vê.", b2p:"Cada ID foi cruzado entre os arquivos: vendas com coelhos vendidos, mortes com falecidos, prenhezes com a marcação. A conta por trás de cada número está escrita na página.",
+  b3k:"03 · MENTALIDADE QA", b3h:"Você ganha alguém que testa antes de publicar.", b3p:"Cada gráfico foi renderizado e conferido em um navegador headless antes da publicação, para garantir que nenhum KPI ou gráfico carregue vazio. É QA aplicado ao meu próprio trabalho.", b3f:"0 gráficos vazios · 0 bibliotecas de gráficos",
+  b4k:"04 · VISÃO DE NEGÓCIO", b4h:"Você recebe conclusões, não só desenhos.",
+  b4p:(d)=>`O dashboard aponta o que um gestor deveria tratar: mortes subindo todo ano, predadores e coccidiose como principais causas conhecidas e <span class="num">${d}</span> partos na próxima semana.`,
+  b4f:`mortes/ano: ${Y0[1]} (${Y0[0]}) → ${Y1[1]} (${Y1[0]})`,
+  stEyebrow:"Em números", stH:"Projeto pequeno. Volume real.", stP:"As mesmas habilidades que estou concluindo na Duoc UC, aplicadas de ponta a ponta: carregar, limpar, verificar e explicar.",
+  sl1:"registros de coelhos", sl2:"vendas analisadas", sl3:"receita rastreada", sl4:"mortes por causa", sl5:"partos agendados", sl6:"meses de vendas",
+  cred3:"<b>Ingeniería en Informática</b> · Duoc UC, formatura prevista dez. 2026",
+  fqH:"Perguntas que você provavelmente está fazendo.",
+  q1:"É uma fazenda real?", a1:"Não. É um dataset de exemplo de uma fazenda de coelhos, com preços em naira nigeriana. Escolhi porque ele é bagunçado de um jeito realista: seis arquivos ligados, com dinheiro, datas e eventos que precisam bater entre si.",
+  q2:"Você fez isso sozinho?", a2:"Eu dirigi e verifiquei, usando desenvolvimento assistido por IA (Claude), como a maioria dos times trabalha hoje. Escolhi as perguntas, revisei o código e conferi cada número com os CSVs originais. Peça para eu explicar qualquer gráfico e eu explico.",
+  q3:"Você trabalha com as nossas ferramentas, não só com esta?", a3:"O método é o mesmo: carregar, limpar, testar e apresentar. Usei Python, SQL e PL/SQL no Oracle, e BigQuery com Looker Studio no Google Cloud nas disciplinas. Aprendo ferramentas novas rápido; no meu trabalho anterior me adaptei o tempo todo a novas máquinas CNC e softwares.",
+  q4:"Por que um candidato de QA constrói dashboards?", a4:"Porque testar é conferir se números e comportamento são o que deveriam ser. Este projeto torna essa habilidade visível: cada total conferido e cada gráfico verificado antes de ir ao ar.",
+  q5:"Você está disponível?", a5:"Sim. Moro em Santiago, estou concluindo Ingeniería en Informática na Duoc UC e procuro meu estágio profissional (práctica) em QA ou desenvolvimento de software. Falo espanhol, inglês e português.",
+  fnEyebrow:"Dois minutos, sem cadastro", fnH:"Veja o trabalho. Depois a gente conversa.",
+  fnP:"Navegue pelo dashboard, tente achar um número que não bate e me conte o que encontrou. Essa conversa vai dizer mais do que o meu currículo.",
+  fnCta1:"Abrir o dashboard", fnCta2:"Fale comigo no LinkedIn", fnEmail:"Ou envie um e-mail para", ftSample:"Dados de exemplo"}
+};
+let L, nf;
+const n=v=>nf.format(Math.round(v));
+const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+const totalRows=K.total_rabbits+K.sold+Math.round(K.total_rabbits*(1-K.bred_share/100))+K.deceased+K.pregnant+D.breeds.length;
+const vals={...K,months:D.monthly.length};
+const fd=s=>{const[y,m,d]=s.split("-");return +d+" "+L.months[+m-1];};
+const fmtCount=(el,v)=> el.dataset.fmt==="ngn" ? "₦"+(v>=1e6? new Intl.NumberFormat(L.locale,{maximumFractionDigits:2}).format(v/1e6)+L.mil : n(v)) : n(v);
+const counted=new Set();
+
+function render(){
+  document.documentElement.lang=L.locale.slice(0,2);
+  document.title=L.title; document.querySelector('meta[name="description"]').setAttribute("content",L.desc);
+  document.querySelectorAll("[data-i18n]").forEach(e=>{ const v=L[e.dataset.i18n]; if(typeof v==="string") e.innerHTML=v; });
+  document.querySelectorAll("[data-lang]").forEach(b=>b.setAttribute("aria-pressed",I18N[b.dataset.lang]===L));
+  document.querySelector('[data-i18n="heroSub"]').innerHTML=L.heroSub(n(K.total_rabbits));
+  document.getElementById("proof").innerHTML=L.proof(6,n(totalRows));
+  document.getElementById("pk-rev").textContent="₦"+n(K.revenue);
+  const pf=new Intl.NumberFormat(L.locale,{style:"percent",minimumFractionDigits:1,maximumFractionDigits:1});
+  document.getElementById("pk-rev-f").textContent=L.panelRevF(n(K.sold),pf.format(K.margin/100));
+  document.getElementById("b4p").innerHTML=L.b4p(D.births_next7);
+  document.getElementById("b4f").textContent=L.b4f;
+  const wk=D.births.filter(b=>b.DaysUntilKindling<=7);
+  document.getElementById("pb-n").textContent=L.does(wk.length);
+  document.getElementById("pb-rows").innerHTML=wk.slice(0,4).map(b=>`<div class="brow"><span>${b.RabbitID} · ${b.BreedName.replace(" (Mixed)","")}</span><b>${fd(b.ExpectedKindlingDate)}</b></div>`).join("");
+  document.querySelectorAll("[data-count]").forEach(el=>{ if(counted.has(el)) el.textContent=fmtCount(el,vals[el.dataset.count]); });
+}
+function setLang(code){ L=I18N[code]; nf=new Intl.NumberFormat(L.locale); try{localStorage.setItem("lang",code);}catch(e){} render(); }
+function pickLang(){ let s=null; try{s=localStorage.getItem("lang");}catch(e){} if(I18N[s]) return s; const nv=(navigator.language||"en").slice(0,2).toLowerCase(); return I18N[nv]?nv:"en"; }
+document.querySelectorAll("[data-lang]").forEach(b=>b.addEventListener("click",()=>setLang(b.dataset.lang)));
+setLang(pickLang());
+
+/* sparkline from real monthly data */
+const sv=document.getElementById("spark"), NS="http://www.w3.org/2000/svg", rows=D.monthly, W=400, H=230, pad=8;
+const max=Math.max(...rows.map(r=>r.revenue))*1.08, X=i=>pad+i*(W-2*pad)/(rows.length-1), Y=v=>H-pad-v/max*(H-2*pad);
+const mk=(t,a)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);sv.appendChild(e);return e;};
+for(let i=1;i<=3;i++) mk("line",{x1:0,x2:W,y1:H*i/4,y2:H*i/4,stroke:"rgba(160,190,255,.08)","vector-effect":"non-scaling-stroke"});
+const d=k=>rows.map((r,i)=>(i?"L":"M")+X(i).toFixed(1)+","+Y(r[k]).toFixed(1)).join("");
+const defs=mk("defs",{}); defs.innerHTML='<linearGradient id="sg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#3987e5" stop-opacity=".35"/><stop offset="1" stop-color="#3987e5" stop-opacity="0"/></linearGradient>';
+mk("path",{d:d("revenue")+`L${X(rows.length-1)},${H}L${X(0)},${H}Z`,fill:"url(#sg)"});
+const lines=[mk("path",{d:d("revenue"),fill:"none",stroke:"#3987e5","stroke-width":2,"vector-effect":"non-scaling-stroke","stroke-linejoin":"round"}),mk("path",{d:d("profit"),fill:"none",stroke:"#199e70","stroke-width":2,"vector-effect":"non-scaling-stroke","stroke-linejoin":"round"})];
+if(!reduce){ lines.forEach((p,i)=>{const Lg=p.getTotalLength(); p.style.strokeDasharray=Lg; p.style.strokeDashoffset=Lg; p.style.transition=`stroke-dashoffset 1.8s cubic-bezier(.2,.7,.2,1) ${0.4+i*.2}s`; requestAnimationFrame(()=>requestAnimationFrame(()=>p.style.strokeDashoffset=0));}); }
+
+/* count-up stats */
+function countUp(el){ counted.add(el); const target=vals[el.dataset.count]; if(reduce){el.textContent=fmtCount(el,target);return;} const t0=performance.now(), dur=1400;
+  (function step(t){ const p=Math.min(1,(t-t0)/dur), e=1-Math.pow(1-p,3); el.textContent=fmtCount(el,target*e); if(p<1) requestAnimationFrame(step); else el.textContent=fmtCount(el,target); })(t0); }
+
+/* reveal on scroll */
+const io=("IntersectionObserver" in window)? new IntersectionObserver(es=>es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add("in"); e.target.querySelectorAll("[data-count]").forEach(countUp); io.unobserve(e.target);} }),{threshold:.15}) : null;
+document.querySelectorAll(".rv").forEach(el=>{ if(io) io.observe(el); else { el.classList.add("in"); el.querySelectorAll("[data-count]").forEach(countUp);} });
+document.querySelectorAll(".hero .rv").forEach(el=>el.classList.add("in"));
+
+const nav=document.getElementById("nav"); addEventListener("scroll",()=>nav.classList.toggle("scrolled",scrollY>10),{passive:true});
+document.getElementById("yr").textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>

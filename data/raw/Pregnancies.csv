@@ -1,0 +1,81 @@
+PregnancyID,RabbitID,MatingDate,ExpectedKindlingDate,PregnancyStatus,BreedID,HutchNumber,BreedName,DaysUntilKindling
+PG001,RB0086,2026-08-09,2026-09-09,Due soon,BR02,D7,New Zealand White,5
+PG002,RB0213,2026-08-11,2026-09-11,Confirmed pregnant,BR04,D23,Chinchilla Giant,7
+PG003,RB0857,2026-08-11,2026-09-11,Confirmed pregnant,BR01,G23,Local Breed (Mixed),7
+PG004,RB0446,2026-08-07,2026-09-07,Due soon,BR06,D40,Angora,3
+PG005,RB0806,2026-08-13,2026-09-13,Confirmed pregnant,BR04,E22,Chinchilla Giant,9
+PG006,RB0072,2026-08-10,2026-09-10,Confirmed pregnant,BR01,H27,Local Breed (Mixed),6
+PG007,RB0134,2026-09-02,2026-10-03,Confirmed pregnant,BR02,D4,New Zealand White,29
+PG008,RB0363,2026-08-07,2026-09-07,Due soon,BR02,C1,New Zealand White,3
+PG009,RB0615,2026-08-29,2026-09-29,Confirmed pregnant,BR05,D25,Checkered Giant,25
+PG010,RB0630,2026-08-13,2026-09-13,Confirmed pregnant,BR01,G6,Local Breed (Mixed),9
+PG011,RB0517,2026-08-07,2026-09-07,Due soon,BR02,H36,New Zealand White,3
+PG012,RB0888,2026-08-13,2026-09-13,Confirmed pregnant,BR01,E8,Local Breed (Mixed),9
+PG013,RB0364,2026-08-22,2026-09-22,Confirmed pregnant,BR03,D15,Californian,18
+PG014,RB0795,2026-08-27,2026-09-27,Confirmed pregnant,BR01,A40,Local Breed (Mixed),23
+PG015,RB0237,2026-08-11,2026-09-11,Confirmed pregnant,BR01,H8,Local Breed (Mixed),7
+PG016,RB0073,2026-08-27,2026-09-27,Confirmed pregnant,BR01,G32,Local Breed (Mixed),23
+PG017,RB0267,2026-08-14,2026-09-14,Confirmed pregnant,BR04,D30,Chinchilla Giant,10
+PG018,RB0680,2026-08-20,2026-09-20,Confirmed pregnant,BR05,C28,Checkered Giant,16
+PG019,RB0525,2026-09-02,2026-10-03,Confirmed pregnant,BR05,F21,Checkered Giant,29
+PG020,RB0292,2026-08-27,2026-09-27,Confirmed pregnant,BR01,A23,Local Breed (Mixed),23
+PG021,RB0528,2026-09-01,2026-10-02,Confirmed pregnant,BR01,H37,Local Breed (Mixed),28
+PG022,RB0661,2026-08-24,2026-09-24,Confirmed pregnant,BR02,A17,New Zealand White,20
+PG023,RB0797,2026-08-13,2026-09-13,Confirmed pregnant,BR06,F36,Angora,9
+PG024,RB0170,2026-08-09,2026-09-09,Due soon,BR03,B15,Californian,5
+PG025,RB0046,2026-08-16,2026-09-16,Confirmed pregnant,BR04,F37,Chinchilla Giant,12
+PG026,RB0977,2026-08-31,2026-10-01,Confirmed pregnant,BR03,G17,Californian,27
+PG027,RB0313,2026-08-21,2026-09-21,Confirmed pregnant,BR01,G35,Local Breed (Mixed),17
+PG028,RB0077,2026-08-11,2026-09-11,Confirmed pregnant,BR04,A21,Chinchilla Giant,7
+PG029,RB0823,2026-08-22,2026-09-22,Confirmed pregnant,BR02,F14,New Zealand White,18
+PG030,RB0978,2026-08-20,2026-09-20,Confirmed pregnant,BR01,H3,Local Breed (Mixed),16
+PG031,RB0576,2026-08-07,2026-09-07,Due soon,BR06,D21,Angora,3
+PG032,RB0287,2026-08-10,2026-09-10,Confirmed pregnant,BR02,G1,New Zealand White,6
+PG033,RB0780,2026-08-12,2026-09-12,Confirmed pregnant,BR03,A31,Californian,8
+PG034,RB0686,2026-08-11,2026-09-11,Confirmed pregnant,BR03,B12,Californian,7
+PG035,RB0354,2026-08-30,2026-09-30,Confirmed pregnant,BR01,A36,Local Breed (Mixed),26
+PG036,RB0166,2026-08-29,2026-09-29,Confirmed pregnant,BR05,E11,Checkered Giant,25
+PG037,RB0628,2026-08-21,2026-09-21,Confirmed pregnant,BR04,H37,Chinchilla Giant,17
+PG038,RB0348,2026-08-22,2026-09-22,Confirmed pregnant,BR01,A37,Local Breed (Mixed),18
+PG039,RB0359,2026-08-22,2026-09-22,Confirmed pregnant,BR06,B13,Angora,18
+PG040,RB0174,2026-08-07,2026-09-07,Due soon,BR01,H4,Local Breed (Mixed),3
+PG041,RB0054,2026-08-21,2026-09-21,Confirmed pregnant,BR05,A10,Checkered Giant,17
+PG042,RB0212,2026-08-25,2026-09-25,Confirmed pregnant,BR04,D17,Chinchilla Giant,21
+PG043,RB0676,2026-08-14,2026-09-14,Confirmed pregnant,BR06,E15,Angora,10
+PG044,RB0541,2026-08-13,2026-09-13,Confirmed pregnant,BR06,G16,Angora,9
+PG045,RB0904,2026-08-16,2026-09-16,Confirmed pregnant,BR03,A40,Californian,12
+PG046,RB0733,2026-08-25,2026-09-25,Confirmed pregnant,BR04,E40,Chinchilla Giant,21
+PG047,RB0504,2026-09-02,2026-10-03,Confirmed pregnant,BR05,C19,Checkered Giant,29
+PG048,RB0200,2026-09-02,2026-10-03,Confirmed pregnant,BR04,A25,Chinchilla Giant,29
+PG049,RB0965,2026-08-19,2026-09-19,Confirmed pregnant,BR01,C14,Local Breed (Mixed),15
+PG050,RB0622,2026-08-08,2026-09-08,Due soon,BR01,C7,Local Breed (Mixed),4
+PG051,RB0976,2026-08-17,2026-09-17,Confirmed pregnant,BR01,F19,Local Breed (Mixed),13
+PG052,RB0870,2026-08-07,2026-09-07,Due soon,BR06,H37,Angora,3
+PG053,RB0015,2026-08-10,2026-09-10,Confirmed pregnant,BR01,A26,Local Breed (Mixed),6
+PG054,RB0981,2026-08-27,2026-09-27,Confirmed pregnant,BR02,B5,New Zealand White,23
+PG055,RB0238,2026-08-29,2026-09-29,Confirmed pregnant,BR01,H3,Local Breed (Mixed),25
+PG056,RB0473,2026-08-20,2026-09-20,Confirmed pregnant,BR01,D40,Local Breed (Mixed),16
+PG057,RB0845,2026-08-20,2026-09-20,Confirmed pregnant,BR01,D28,Local Breed (Mixed),16
+PG058,RB0467,2026-08-22,2026-09-22,Confirmed pregnant,BR01,C31,Local Breed (Mixed),18
+PG059,RB0816,2026-08-30,2026-09-30,Confirmed pregnant,BR03,C19,Californian,26
+PG060,RB0145,2026-08-25,2026-09-25,Confirmed pregnant,BR01,D18,Local Breed (Mixed),21
+PG061,RB0861,2026-08-26,2026-09-26,Confirmed pregnant,BR04,F3,Chinchilla Giant,22
+PG062,RB0534,2026-08-30,2026-09-30,Confirmed pregnant,BR03,H35,Californian,26
+PG063,RB0597,2026-08-24,2026-09-24,Confirmed pregnant,BR04,E4,Chinchilla Giant,20
+PG064,RB0441,2026-08-16,2026-09-16,Confirmed pregnant,BR01,A25,Local Breed (Mixed),12
+PG065,RB0193,2026-08-08,2026-09-08,Due soon,BR06,A20,Angora,4
+PG066,RB0935,2026-08-22,2026-09-22,Confirmed pregnant,BR01,H13,Local Breed (Mixed),18
+PG067,RB0113,2026-08-19,2026-09-19,Confirmed pregnant,BR06,G8,Angora,15
+PG068,RB0553,2026-08-22,2026-09-22,Confirmed pregnant,BR03,H24,Californian,18
+PG069,RB0422,2026-08-23,2026-09-23,Confirmed pregnant,BR05,B28,Checkered Giant,19
+PG070,RB0812,2026-08-25,2026-09-25,Confirmed pregnant,BR05,F26,Checkered Giant,21
+PG071,RB0050,2026-08-30,2026-09-30,Confirmed pregnant,BR01,D2,Local Breed (Mixed),26
+PG072,RB0029,2026-08-26,2026-09-26,Confirmed pregnant,BR03,A40,Californian,22
+PG073,RB0146,2026-08-28,2026-09-28,Confirmed pregnant,BR01,G33,Local Breed (Mixed),24
+PG074,RB0603,2026-09-02,2026-10-03,Confirmed pregnant,BR01,A40,Local Breed (Mixed),29
+PG075,RB0022,2026-08-22,2026-09-22,Confirmed pregnant,BR01,H9,Local Breed (Mixed),18
+PG076,RB0175,2026-08-14,2026-09-14,Confirmed pregnant,BR03,B31,Californian,10
+PG077,RB0542,2026-08-29,2026-09-29,Confirmed pregnant,BR03,E19,Californian,25
+PG078,RB0695,2026-08-08,2026-09-08,Due soon,BR01,H24,Local Breed (Mixed),4
+PG079,RB0520,2026-08-23,2026-09-23,Confirmed pregnant,BR01,C6,Local Breed (Mixed),19
+PG080,RB0047,2026-08-07,2026-09-07,Due soon,BR02,C37,New Zealand White,3

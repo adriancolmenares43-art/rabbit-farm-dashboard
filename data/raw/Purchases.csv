@@ -1,0 +1,151 @@
+PurchaseID,RabbitID,PurchaseDate,Supplier,UnitCost_NGN,BreedID,BreedName,Year,Month
+PU0001,RB0004,2023-06-11,Northgate Small Livestock Market,6281,BR03,Californian,2023,Jun
+PU0002,RB0013,2026-03-02,Zenith Breeders Co-op,9546,BR05,Checkered Giant,2026,Mar
+PU0003,RB0021,2026-03-13,Kaduna Rabbitry Supplies,4820,BR03,Californian,2026,Mar
+PU0004,RB0033,2026-04-28,Kaduna Rabbitry Supplies,3811,BR01,Local Breed (Mixed),2026,Apr
+PU0005,RB0034,2022-09-30,Ibadan Rabbit Exchange,6056,BR06,Angora,2022,Sep
+PU0006,RB0049,2024-12-18,Kaduna Rabbitry Supplies,7730,BR03,Californian,2024,Dec
+PU0007,RB0056,2023-01-31,Northgate Small Livestock Market,12374,BR06,Angora,2023,Jan
+PU0008,RB0063,2021-09-07,Sunrise Cuniculture Farm,8726,BR05,Checkered Giant,2021,Sep
+PU0009,RB0065,2026-03-21,Ibadan Rabbit Exchange,3953,BR01,Local Breed (Mixed),2026,Mar
+PU0010,RB0074,2023-02-26,Sunrise Cuniculture Farm,6770,BR05,Checkered Giant,2023,Feb
+PU0011,RB0076,2024-03-16,Kaduna Rabbitry Supplies,8775,BR04,Chinchilla Giant,2024,Mar
+PU0012,RB0077,2023-04-30,Northgate Small Livestock Market,9878,BR04,Chinchilla Giant,2023,Apr
+PU0013,RB0081,2024-11-15,Zenith Breeders Co-op,12581,BR05,Checkered Giant,2024,Nov
+PU0014,RB0085,2024-04-24,Greenfield Agro Ventures,4687,BR02,New Zealand White,2024,Apr
+PU0015,RB0094,2026-08-24,Zenith Breeders Co-op,6023,BR03,Californian,2026,Aug
+PU0016,RB0095,2026-08-19,Sunrise Cuniculture Farm,9505,BR04,Chinchilla Giant,2026,Aug
+PU0017,RB0096,2025-08-17,Ibadan Rabbit Exchange,3730,BR02,New Zealand White,2025,Aug
+PU0018,RB0100,2025-06-03,Plateau Rabbit Breeders Assoc.,4840,BR01,Local Breed (Mixed),2025,Jun
+PU0019,RB0109,2022-02-11,Ibadan Rabbit Exchange,2762,BR01,Local Breed (Mixed),2022,Feb
+PU0020,RB0111,2026-07-28,Kaduna Rabbitry Supplies,4436,BR01,Local Breed (Mixed),2026,Jul
+PU0021,RB0124,2026-06-11,Ibadan Rabbit Exchange,3963,BR01,Local Breed (Mixed),2026,Jun
+PU0022,RB0135,2026-05-10,Northgate Small Livestock Market,7671,BR06,Angora,2026,May
+PU0023,RB0138,2025-05-09,Greenfield Agro Ventures,5715,BR04,Chinchilla Giant,2025,May
+PU0024,RB0139,2026-06-11,Kaduna Rabbitry Supplies,7403,BR02,New Zealand White,2026,Jun
+PU0025,RB0149,2026-03-10,Sunrise Cuniculture Farm,4669,BR01,Local Breed (Mixed),2026,Mar
+PU0026,RB0150,2026-08-10,Greenfield Agro Ventures,3676,BR01,Local Breed (Mixed),2026,Aug
+PU0027,RB0151,2024-01-19,Kaduna Rabbitry Supplies,14098,BR06,Angora,2024,Jan
+PU0028,RB0158,2022-09-24,Northgate Small Livestock Market,6629,BR04,Chinchilla Giant,2022,Sep
+PU0029,RB0163,2024-01-09,Zenith Breeders Co-op,5810,BR03,Californian,2024,Jan
+PU0030,RB0164,2026-03-17,Greenfield Agro Ventures,4263,BR03,Californian,2026,Mar
+PU0031,RB0173,2026-08-04,Greenfield Agro Ventures,4049,BR03,Californian,2026,Aug
+PU0032,RB0175,2025-03-26,Sunrise Cuniculture Farm,4022,BR03,Californian,2025,Mar
+PU0033,RB0179,2023-08-06,Greenfield Agro Ventures,11674,BR06,Angora,2023,Aug
+PU0034,RB0180,2026-07-03,Kaduna Rabbitry Supplies,4006,BR01,Local Breed (Mixed),2026,Jul
+PU0035,RB0183,2021-09-08,Greenfield Agro Ventures,11389,BR06,Angora,2021,Sep
+PU0036,RB0200,2025-08-30,Sunrise Cuniculture Farm,5635,BR04,Chinchilla Giant,2025,Aug
+PU0037,RB0201,2025-04-07,Delta Livestock Traders,5277,BR03,Californian,2025,Apr
+PU0038,RB0203,2021-12-11,Zenith Breeders Co-op,3471,BR01,Local Breed (Mixed),2021,Dec
+PU0039,RB0208,2024-01-13,Sunrise Cuniculture Farm,8620,BR04,Chinchilla Giant,2024,Jan
+PU0040,RB0214,2024-02-09,Ibadan Rabbit Exchange,4758,BR01,Local Breed (Mixed),2024,Feb
+PU0041,RB0220,2023-03-23,Zenith Breeders Co-op,10840,BR05,Checkered Giant,2023,Mar
+PU0042,RB0222,2026-03-20,Greenfield Agro Ventures,5446,BR03,Californian,2026,Mar
+PU0043,RB0251,2023-09-09,Plateau Rabbit Breeders Assoc.,3544,BR01,Local Breed (Mixed),2023,Sep
+PU0044,RB0266,2025-11-14,Northgate Small Livestock Market,8325,BR04,Chinchilla Giant,2025,Nov
+PU0045,RB0267,2023-11-17,Kaduna Rabbitry Supplies,6470,BR04,Chinchilla Giant,2023,Nov
+PU0046,RB0279,2023-06-14,Greenfield Agro Ventures,4719,BR04,Chinchilla Giant,2023,Jun
+PU0047,RB0291,2026-01-14,Ibadan Rabbit Exchange,3514,BR01,Local Breed (Mixed),2026,Jan
+PU0048,RB0296,2022-12-12,Sunrise Cuniculture Farm,7583,BR03,Californian,2022,Dec
+PU0049,RB0305,2026-07-28,Plateau Rabbit Breeders Assoc.,8051,BR04,Chinchilla Giant,2026,Jul
+PU0050,RB0309,2026-03-21,Greenfield Agro Ventures,8502,BR05,Checkered Giant,2026,Mar
+PU0051,RB0312,2026-07-19,Sunrise Cuniculture Farm,4857,BR01,Local Breed (Mixed),2026,Jul
+PU0052,RB0314,2022-03-11,Ibadan Rabbit Exchange,8485,BR06,Angora,2022,Mar
+PU0053,RB0318,2023-09-14,Sunrise Cuniculture Farm,2457,BR01,Local Breed (Mixed),2023,Sep
+PU0054,RB0319,2026-08-26,Delta Livestock Traders,3700,BR01,Local Breed (Mixed),2026,Aug
+PU0055,RB0322,2026-04-06,Sunrise Cuniculture Farm,6562,BR04,Chinchilla Giant,2026,Apr
+PU0056,RB0324,2026-07-18,Delta Livestock Traders,2547,BR01,Local Breed (Mixed),2026,Jul
+PU0057,RB0328,2026-07-22,Sunrise Cuniculture Farm,5860,BR03,Californian,2026,Jul
+PU0058,RB0347,2025-01-06,Ibadan Rabbit Exchange,4812,BR03,Californian,2025,Jan
+PU0059,RB0358,2026-04-09,Zenith Breeders Co-op,4832,BR03,Californian,2026,Apr
+PU0060,RB0366,2026-06-08,Kaduna Rabbitry Supplies,7865,BR02,New Zealand White,2026,Jun
+PU0061,RB0373,2024-09-01,Northgate Small Livestock Market,3300,BR01,Local Breed (Mixed),2024,Sep
+PU0062,RB0374,2022-11-13,Delta Livestock Traders,9790,BR04,Chinchilla Giant,2022,Nov
+PU0063,RB0375,2024-09-13,Greenfield Agro Ventures,4041,BR01,Local Breed (Mixed),2024,Sep
+PU0064,RB0383,2026-05-06,Ibadan Rabbit Exchange,7041,BR03,Californian,2026,May
+PU0065,RB0386,2026-06-08,Kaduna Rabbitry Supplies,10843,BR05,Checkered Giant,2026,Jun
+PU0066,RB0388,2022-09-24,Zenith Breeders Co-op,3294,BR01,Local Breed (Mixed),2022,Sep
+PU0067,RB0414,2026-03-17,Kaduna Rabbitry Supplies,4115,BR03,Californian,2026,Mar
+PU0068,RB0418,2024-07-19,Greenfield Agro Ventures,5503,BR02,New Zealand White,2024,Jul
+PU0069,RB0421,2026-06-13,Greenfield Agro Ventures,8172,BR05,Checkered Giant,2026,Jun
+PU0070,RB0425,2025-11-27,Greenfield Agro Ventures,4785,BR01,Local Breed (Mixed),2025,Nov
+PU0071,RB0430,2023-09-22,Ibadan Rabbit Exchange,4091,BR01,Local Breed (Mixed),2023,Sep
+PU0072,RB0437,2023-08-05,Plateau Rabbit Breeders Assoc.,3975,BR01,Local Breed (Mixed),2023,Aug
+PU0073,RB0446,2026-01-26,Delta Livestock Traders,14693,BR06,Angora,2026,Jan
+PU0074,RB0461,2022-12-17,Delta Livestock Traders,3355,BR01,Local Breed (Mixed),2022,Dec
+PU0075,RB0465,2026-06-06,Zenith Breeders Co-op,9659,BR06,Angora,2026,Jun
+PU0076,RB0468,2026-05-27,Greenfield Agro Ventures,8766,BR05,Checkered Giant,2026,May
+PU0077,RB0470,2026-08-29,Kaduna Rabbitry Supplies,10120,BR06,Angora,2026,Aug
+PU0078,RB0499,2025-03-16,Greenfield Agro Ventures,7830,BR06,Angora,2025,Mar
+PU0079,RB0502,2026-03-13,Ibadan Rabbit Exchange,5929,BR03,Californian,2026,Mar
+PU0080,RB0504,2024-11-26,Delta Livestock Traders,12633,BR05,Checkered Giant,2024,Nov
+PU0081,RB0515,2022-12-28,Delta Livestock Traders,4633,BR01,Local Breed (Mixed),2022,Dec
+PU0082,RB0518,2021-12-23,Plateau Rabbit Breeders Assoc.,10631,BR05,Checkered Giant,2021,Dec
+PU0083,RB0521,2024-06-02,Delta Livestock Traders,5093,BR03,Californian,2024,Jun
+PU0084,RB0524,2022-08-19,Delta Livestock Traders,11675,BR05,Checkered Giant,2022,Aug
+PU0085,RB0526,2023-05-05,Zenith Breeders Co-op,4920,BR02,New Zealand White,2023,May
+PU0086,RB0550,2022-12-24,Kaduna Rabbitry Supplies,5157,BR04,Chinchilla Giant,2022,Dec
+PU0087,RB0555,2022-01-31,Delta Livestock Traders,7393,BR05,Checkered Giant,2022,Jan
+PU0088,RB0573,2026-07-13,Plateau Rabbit Breeders Assoc.,7211,BR02,New Zealand White,2026,Jul
+PU0089,RB0574,2026-06-02,Delta Livestock Traders,6628,BR03,Californian,2026,Jun
+PU0090,RB0577,2022-03-24,Kaduna Rabbitry Supplies,2940,BR01,Local Breed (Mixed),2022,Mar
+PU0091,RB0581,2026-09-02,Greenfield Agro Ventures,6196,BR02,New Zealand White,2026,Sep
+PU0092,RB0591,2026-03-06,Greenfield Agro Ventures,2705,BR01,Local Breed (Mixed),2026,Mar
+PU0093,RB0592,2026-08-19,Delta Livestock Traders,7273,BR03,Californian,2026,Aug
+PU0094,RB0596,2026-08-13,Plateau Rabbit Breeders Assoc.,7971,BR02,New Zealand White,2026,Aug
+PU0095,RB0598,2026-06-09,Kaduna Rabbitry Supplies,2597,BR01,Local Breed (Mixed),2026,Jun
+PU0096,RB0615,2023-01-09,Ibadan Rabbit Exchange,8114,BR05,Checkered Giant,2023,Jan
+PU0097,RB0616,2025-12-20,Ibadan Rabbit Exchange,7781,BR06,Angora,2025,Dec
+PU0098,RB0621,2026-03-13,Delta Livestock Traders,3411,BR01,Local Breed (Mixed),2026,Mar
+PU0099,RB0625,2026-05-10,Greenfield Agro Ventures,3635,BR03,Californian,2026,May
+PU0100,RB0630,2025-10-09,Plateau Rabbit Breeders Assoc.,4751,BR01,Local Breed (Mixed),2025,Oct
+PU0101,RB0650,2023-08-10,Plateau Rabbit Breeders Assoc.,7482,BR02,New Zealand White,2023,Aug
+PU0102,RB0655,2023-11-19,Delta Livestock Traders,8299,BR02,New Zealand White,2023,Nov
+PU0103,RB0662,2022-08-18,Ibadan Rabbit Exchange,14660,BR06,Angora,2022,Aug
+PU0104,RB0682,2024-10-27,Sunrise Cuniculture Farm,3487,BR01,Local Breed (Mixed),2024,Oct
+PU0105,RB0695,2022-06-05,Ibadan Rabbit Exchange,5096,BR01,Local Breed (Mixed),2022,Jun
+PU0106,RB0713,2021-12-28,Delta Livestock Traders,3928,BR02,New Zealand White,2021,Dec
+PU0107,RB0719,2025-08-22,Sunrise Cuniculture Farm,4877,BR01,Local Breed (Mixed),2025,Aug
+PU0108,RB0728,2026-05-11,Kaduna Rabbitry Supplies,7323,BR05,Checkered Giant,2026,May
+PU0109,RB0740,2025-02-06,Zenith Breeders Co-op,6890,BR02,New Zealand White,2025,Feb
+PU0110,RB0741,2023-11-30,Greenfield Agro Ventures,7253,BR02,New Zealand White,2023,Nov
+PU0111,RB0742,2025-12-25,Greenfield Agro Ventures,4357,BR02,New Zealand White,2025,Dec
+PU0112,RB0750,2024-03-20,Zenith Breeders Co-op,4050,BR03,Californian,2024,Mar
+PU0113,RB0751,2026-08-10,Zenith Breeders Co-op,4489,BR01,Local Breed (Mixed),2026,Aug
+PU0114,RB0752,2023-08-29,Zenith Breeders Co-op,9953,BR06,Angora,2023,Aug
+PU0115,RB0757,2026-04-30,Sunrise Cuniculture Farm,3784,BR03,Californian,2026,Apr
+PU0116,RB0758,2026-05-25,Ibadan Rabbit Exchange,8010,BR03,Californian,2026,May
+PU0117,RB0771,2026-03-24,Sunrise Cuniculture Farm,4873,BR01,Local Breed (Mixed),2026,Mar
+PU0118,RB0776,2024-06-17,Northgate Small Livestock Market,4196,BR01,Local Breed (Mixed),2024,Jun
+PU0119,RB0791,2026-05-29,Ibadan Rabbit Exchange,2896,BR01,Local Breed (Mixed),2026,May
+PU0120,RB0800,2025-02-10,Kaduna Rabbitry Supplies,10606,BR06,Angora,2025,Feb
+PU0121,RB0803,2026-04-04,Northgate Small Livestock Market,6557,BR03,Californian,2026,Apr
+PU0122,RB0804,2026-05-18,Northgate Small Livestock Market,4811,BR03,Californian,2026,May
+PU0123,RB0825,2024-11-08,Northgate Small Livestock Market,6628,BR03,Californian,2024,Nov
+PU0124,RB0829,2022-03-22,Kaduna Rabbitry Supplies,7254,BR04,Chinchilla Giant,2022,Mar
+PU0125,RB0835,2026-08-24,Greenfield Agro Ventures,5931,BR02,New Zealand White,2026,Aug
+PU0126,RB0842,2026-05-22,Plateau Rabbit Breeders Assoc.,7078,BR04,Chinchilla Giant,2026,May
+PU0127,RB0849,2022-09-24,Sunrise Cuniculture Farm,7250,BR03,Californian,2022,Sep
+PU0128,RB0851,2026-04-11,Ibadan Rabbit Exchange,2983,BR01,Local Breed (Mixed),2026,Apr
+PU0129,RB0858,2024-01-21,Ibadan Rabbit Exchange,7004,BR02,New Zealand White,2024,Jan
+PU0130,RB0863,2026-04-05,Delta Livestock Traders,5964,BR03,Californian,2026,Apr
+PU0131,RB0869,2024-09-18,Northgate Small Livestock Market,11400,BR05,Checkered Giant,2024,Sep
+PU0132,RB0870,2024-07-19,Delta Livestock Traders,12186,BR06,Angora,2024,Jul
+PU0133,RB0874,2026-02-27,Sunrise Cuniculture Farm,8410,BR02,New Zealand White,2026,Feb
+PU0134,RB0886,2023-09-17,Zenith Breeders Co-op,2688,BR01,Local Breed (Mixed),2023,Sep
+PU0135,RB0899,2023-04-29,Ibadan Rabbit Exchange,3342,BR01,Local Breed (Mixed),2023,Apr
+PU0136,RB0900,2026-06-02,Greenfield Agro Ventures,4251,BR01,Local Breed (Mixed),2026,Jun
+PU0137,RB0914,2025-07-14,Northgate Small Livestock Market,4141,BR02,New Zealand White,2025,Jul
+PU0138,RB0915,2022-01-24,Kaduna Rabbitry Supplies,4324,BR03,Californian,2022,Jan
+PU0139,RB0928,2025-07-01,Plateau Rabbit Breeders Assoc.,6954,BR03,Californian,2025,Jul
+PU0140,RB0933,2025-05-19,Delta Livestock Traders,12191,BR06,Angora,2025,May
+PU0141,RB0936,2026-04-12,Ibadan Rabbit Exchange,4376,BR01,Local Breed (Mixed),2026,Apr
+PU0142,RB0940,2026-06-02,Zenith Breeders Co-op,4721,BR03,Californian,2026,Jun
+PU0143,RB0942,2026-05-01,Northgate Small Livestock Market,5123,BR03,Californian,2026,May
+PU0144,RB0944,2026-03-17,Ibadan Rabbit Exchange,7171,BR05,Checkered Giant,2026,Mar
+PU0145,RB0947,2022-01-15,Plateau Rabbit Breeders Assoc.,2272,BR01,Local Breed (Mixed),2022,Jan
+PU0146,RB0950,2026-03-24,Ibadan Rabbit Exchange,6089,BR03,Californian,2026,Mar
+PU0147,RB0952,2026-04-28,Ibadan Rabbit Exchange,8781,BR04,Chinchilla Giant,2026,Apr
+PU0148,RB0961,2026-07-10,Kaduna Rabbitry Supplies,3019,BR01,Local Breed (Mixed),2026,Jul
+PU0149,RB0998,2023-12-26,Delta Livestock Traders,2110,BR01,Local Breed (Mixed),2023,Dec
+PU0150,RB0999,2024-10-11,Plateau Rabbit Breeders Assoc.,9703,BR06,Angora,2024,Oct

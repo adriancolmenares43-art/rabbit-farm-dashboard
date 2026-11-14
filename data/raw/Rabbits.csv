@@ -1,0 +1,1001 @@
+RabbitID,BreedID,BreedName,Sex,AgeGroup,Source,DateAcquired,HutchNumber,WeightKg,Status,ReferenceDate,AgeMonths,IsPregnant,CostBasis_NGN
+RB0001,BR02,New Zealand White,Female,Adult,Bred,2024-07-05,C26,4.55,Active,2026-09-04,26.0,No,1232
+RB0002,BR06,Angora,Female,Adult,Bred,2024-11-09,A28,2.8,Sold,2026-08-11,21.0,No,1390
+RB0003,BR04,Chinchilla Giant,Male,Young,Bred,2026-08-24,C16,1.86,Active,2026-09-04,0.4,No,1123
+RB0004,BR03,Californian,Male,Adult,Purchased,2023-06-11,G21,4.38,Deceased,2026-02-12,32.1,No,6281
+RB0005,BR01,Local Breed (Mixed),Female,Adult,Bred,2023-06-17,H18,2.47,Active,2026-09-04,38.6,No,1366
+RB0006,BR01,Local Breed (Mixed),Female,Young,Bred,2025-12-06,C38,1.13,Sold,2026-04-14,4.2,No,865
+RB0007,BR01,Local Breed (Mixed),Female,Adult,Bred,2022-04-08,C29,2.55,Sold,2026-07-23,51.5,No,1074
+RB0008,BR05,Checkered Giant,Female,Young,Bred,2025-04-15,B35,1.96,Sold,2025-06-30,2.5,No,1714
+RB0009,BR03,Californian,Female,Young,Bred,2025-07-21,H20,1.45,Sold,2025-11-25,4.2,No,1463
+RB0010,BR04,Chinchilla Giant,Female,Young,Bred,2025-02-04,B11,1.25,Deceased,2025-07-04,4.9,No,1227
+RB0011,BR01,Local Breed (Mixed),Female,Young,Bred,2026-08-30,E39,0.93,Active,2026-09-04,0.2,No,1710
+RB0012,BR06,Angora,Male,Young,Bred,2026-03-18,D21,1.18,Active,2026-09-04,5.6,No,1284
+RB0013,BR05,Checkered Giant,Female,Young,Purchased,2026-03-02,F26,1.9,Deceased,2026-06-27,3.8,No,9546
+RB0014,BR01,Local Breed (Mixed),Female,Young,Bred,2025-04-12,E17,0.42,Sold,2025-04-19,0.2,No,919
+RB0015,BR01,Local Breed (Mixed),Female,Adult,Bred,2022-08-26,A26,1.98,Active,2026-09-04,48.3,Yes,1306
+RB0016,BR01,Local Breed (Mixed),Female,Young,Bred,2023-06-17,D7,1.12,Sold,2023-07-25,1.2,No,1437
+RB0017,BR02,New Zealand White,Female,Young,Bred,2025-02-11,B1,1.56,Sold,2025-07-06,4.8,No,1761
+RB0018,BR03,Californian,Female,Young,Bred,2026-04-16,C13,1.67,Sold,2026-08-18,4.1,No,1461
+RB0019,BR02,New Zealand White,Female,Young,Bred,2026-06-18,F6,1.58,Active,2026-09-04,2.6,No,1155
+RB0020,BR01,Local Breed (Mixed),Female,Adult,Bred,2024-12-09,E5,2.31,Active,2026-09-04,20.8,No,1259
+RB0021,BR03,Californian,Female,Young,Purchased,2026-03-13,B13,1.75,Active,2026-09-04,5.7,No,4820
+RB0022,BR01,Local Breed (Mixed),Female,Adult,Bred,2025-04-18,H9,2.15,Active,2026-09-04,16.6,Yes,1514
+RB0023,BR01,Local Breed (Mixed),Female,Adult,Bred,2022-03-11,F8,2.33,Active,2026-09-04,53.8,No,1246
+RB0024,BR02,New Zealand White,Female,Young,Bred,2026-03-18,H4,1.44,Active,2026-09-04,5.6,No,821
+RB0025,BR02,New Zealand White,Female,Young,Bred,2026-04-20,G26,1.44,Active,2026-09-04,4.5,No,965
+RB0026,BR05,Checkered Giant,Female,Adult,Bred,2023-10-27,G12,5.11,Deceased,2025-05-16,18.6,No,1094
+RB0027,BR01,Local Breed (Mixed),Female,Young,Bred,2026-06-06,D12,0.87,Active,2026-09-04,3.0,No,1543
+RB0028,BR03,Californian,Female,Young,Bred,2026-05-17,E29,1.33,Active,2026-09-04,3.6,No,996
+RB0029,BR03,Californian,Female,Adult,Bred,2022-07-05,A40,4.58,Active,2026-09-04,50.0,Yes,1280
+RB0030,BR01,Local Breed (Mixed),Female,Young,Bred,2024-06-29,E32,0.54,Sold,2024-10-25,3.9,No,1152
+RB0031,BR03,Californian,Female,Adult,Bred,2023-12-26,H4,4.14,Active,2026-09-04,32.3,No,1248
+RB0032,BR01,Local Breed (Mixed),Male,Adult,Bred,2023-10-28,C27,2.17,Sold,2026-08-05,33.2,No,1037
+RB0033,BR01,Local Breed (Mixed),Female,Young,Purchased,2026-04-28,D35,1.24,Active,2026-09-04,4.2,No,3811
+RB0034,BR06,Angora,Female,Adult,Purchased,2022-09-30,F31,3.26,Sold,2023-11-27,13.9,No,6056
+RB0035,BR06,Angora,Male,Adult,Bred,2024-05-23,F37,3.51,Deceased,2025-02-28,9.2,No,1319
+RB0036,BR05,Checkered Giant,Female,Young,Bred,2025-02-14,E12,1.37,Sold,2025-05-06,2.7,No,1024
+RB0037,BR02,New Zealand White,Female,Adult,Bred,2025-01-08,D2,4.58,Sold,2026-08-30,19.7,No,1401
+RB0038,BR01,Local Breed (Mixed),Female,Young,Bred,2026-05-18,A31,1.07,Active,2026-09-04,3.6,No,1730
+RB0039,BR04,Chinchilla Giant,Female,Young,Bred,2026-07-21,F38,1.77,Active,2026-09-04,1.5,No,1501
+RB0040,BR02,New Zealand White,Female,Young,Bred,2022-09-04,C7,1.89,Sold,2022-09-04,0.0,No,1147
+RB0041,BR01,Local Breed (Mixed),Female,Young,Bred,2026-05-10,D18,0.65,Active,2026-09-04,3.8,No,1743
+RB0042,BR02,New Zealand White,Female,Young,Bred,2026-07-22,A15,2.0,Active,2026-09-04,1.4,No,1416
+RB0043,BR01,Local Breed (Mixed),Female,Young,Bred,2024-10-19,F12,1.49,Sold,2025-01-08,2.7,No,1673
+RB0044,BR06,Angora,Female,Adult,Bred,2022-08-30,D38,3.09,Active,2026-09-04,48.2,No,1662
+RB0045,BR01,Local Breed (Mixed),Female,Young,Bred,2026-05-28,F38,0.67,Active,2026-09-04,3.3,No,1532
+RB0046,BR04,Chinchilla Giant,Female,Adult,Bred,2021-10-31,F37,5.44,Active,2026-09-04,58.1,Yes,1472
+RB0047,BR02,New Zealand White,Female,Adult,Bred,2024-11-01,C37,4.97,Active,2026-09-04,22.1,Yes,1279
+RB0048,BR03,Californian,Female,Adult,Bred,2022-05-14,E12,4.04,Sold,2022-12-31,7.6,No,934
+RB0049,BR03,Californian,Female,Young,Purchased,2024-12-18,A15,1.34,Sold,2025-05-24,5.2,No,7730
+RB0050,BR01,Local Breed (Mixed),Female,Adult,Bred,2025-01-18,D2,2.22,Active,2026-09-04,19.5,Yes,1704
+RB0051,BR06,Angora,Female,Young,Bred,2026-07-20,H1,0.72,Active,2026-09-04,1.5,No,1100
+RB0052,BR04,Chinchilla Giant,Male,Young,Bred,2025-12-05,D9,1.47,Sold,2025-12-28,0.8,No,1540
+RB0053,BR06,Angora,Female,Young,Bred,2026-06-03,C21,0.82,Active,2026-09-04,3.1,No,1528
+RB0054,BR05,Checkered Giant,Female,Adult,Bred,2022-01-03,A10,4.97,Active,2026-09-04,56.0,Yes,1199
+RB0055,BR03,Californian,Female,Young,Bred,2024-07-29,B34,1.46,Sold,2024-12-20,4.7,No,1782
+RB0056,BR06,Angora,Female,Young,Purchased,2023-01-31,F26,1.19,Sold,2023-07-12,5.3,No,12374
+RB0057,BR01,Local Breed (Mixed),Female,Adult,Bred,2024-12-17,B22,2.77,Active,2026-09-04,20.6,No,1226
+RB0058,BR01,Local Breed (Mixed),Female,Young,Bred,2026-05-24,F9,0.51,Active,2026-09-04,3.4,No,1653
+RB0059,BR01,Local Breed (Mixed),Female,Adult,Bred,2022-07-23,G32,2.6,Active,2026-09-04,49.4,No,1763
+RB0060,BR02,New Zealand White,Female,Young,Bred,2024-04-19,F15,1.51,Sold,2024-09-02,4.5,No,1489
+RB0061,BR02,New Zealand White,Female,Young,Bred,2026-08-25,C25,1.56,Active,2026-09-04,0.3,No,1468
+RB0062,BR01,Local Breed (Mixed),Female,Young,Bred,2026-05-25,E9,1.01,Active,2026-09-04,3.4,No,1552
+RB0063,BR05,Checkered Giant,Female,Adult,Purchased,2021-09-07,G37,4.86,Sold,2026-06-03,56.8,No,8726
+RB0064,BR02,New Zealand White,Female,Young,Bred,2026-08-02,F40,1.69,Sold,2026-08-28,0.9,No,1168
+RB0065,BR01,Local Breed (Mixed),Female,Young,Purchased,2026-03-21,B32,0.85,Sold,2026-04-26,1.2,No,3953
+RB0066,BR03,Californian,Male,Young,Bred,2026-04-13,F5,1.62,Active,2026-09-04,4.7,No,1615
+RB0067,BR01,Local Breed (Mixed),Female,Young,Bred,2026-01-01,C6,0.89,Deceased,2026-04-10,3.3,No,1283
+RB0068,BR05,Checkered Giant,Female,Young,Bred,2023-09-24,F29,2.56,Sold,2023-10-03,0.3,No,1618
+RB0069,BR01,Local Breed (Mixed),Female,Young,Bred,2026-03-10,E14,0.61,Active,2026-09-04,5.8,No,1794
+RB0070,BR06,Angora,Female,Young,Bred,2026-05-10,B23,0.96,Active,2026-09-04,3.8,No,1664
+RB0071,BR04,Chinchilla Giant,Female,Young,Bred,2025-10-20,A4,1.56,Sold,2026-03-22,5.0,No,965
+RB0072,BR01,Local Breed (Mixed),Female,Adult,Bred,2023-11-03,H27,2.13,Active,2026-09-04,34.0,Yes,1436
+RB0073,BR01,Local Breed (Mixed),Female,Adult,Bred,2022-08-10,G32,2.11,Active,2026-09-04,48.8,Yes,1012
+RB0074,BR05,Checkered Giant,Female,Young,Purchased,2023-02-26,G7,2.18,Sold,2023-05-28,3.0,No,6770
+RB0075,BR04,Chinchilla Giant,Female,Adult,Bred,2024-05-12,D11,5.43,Active,2026-09-04,27.8,No,1089
+RB0076,BR04,Chinchilla Giant,Male,Adult,Purchased,2024-03-16,B3,4.83,Active,2026-09-04,29.6,No,8775
+RB0077,BR04,Chinchilla Giant,Female,Adult,Purchased,2023-04-30,A21,4.75,Active,2026-09-04,40.2,Yes,9878
+RB0078,BR01,Local Breed (Mixed),Male,Young,Bred,2025-10-14,B22,0.95,Sold,2026-03-17,5.1,No,1507
+RB0079,BR02,New Zealand White,Female,Young,Bred,2026-04-20,G11,1.41,Active,2026-09-04,4.5,No,1567
+RB0080,BR01,Local Breed (Mixed),Male,Adult,Bred,2023-03-18,B22,2.49,Sold,2024-03-31,12.5,No,888
+RB0081,BR05,Checkered Giant,Female,Young,Purchased,2024-11-15,H2,1.88,Sold,2024-12-08,0.8,No,12581
+RB0082,BR03,Californian,Female,Young,Bred,2025-08-06,C39,1.02,Sold,2025-08-19,0.4,No,1483
+RB0083,BR02,New Zealand White,Female,Young,Bred,2026-06-27,C4,2.04,Active,2026-09-04,2.3,No,1294
+RB0084,BR01,Local Breed (Mixed),Male,Young,Bred,2026-03-22,D27,1.34,Sold,2026-07-28,4.2,No,932
+RB0085,BR02,New Zealand White,Female,Young,Purchased,2024-04-24,E19,1.39,Sold,2024-06-05,1.4,No,4687
+RB0086,BR02,New Zealand White,Female,Adult,Bred,2023-05-06,D7,4.38,Active,2026-09-04,40.0,Yes,977
+RB0087,BR04,Chinchilla Giant,Male,Young,Bred,2026-07-20,H10,1.84,Deceased,2026-08-23,1.1,No,1004
+RB0088,BR03,Californian,Female,Young,Bred,2026-02-22,G6,1.57,Sold,2026-08-21,5.9,No,960
+RB0089,BR05,Checkered Giant,Female,Young,Bred,2026-01-29,H13,2.02,Sold,2026-02-09,0.4,No,1420
+RB0090,BR02,New Zealand White,Female,Young,Bred,2026-04-01,A14,2.18,Active,2026-09-04,5.1,No,1303
+RB0091,BR01,Local Breed (Mixed),Female,Young,Bred,2026-04-20,E6,0.75,Active,2026-09-04,4.5,No,903
+RB0092,BR04,Chinchilla Giant,Female,Young,Bred,2026-07-07,B20,1.51,Active,2026-09-04,1.9,No,1612
+RB0093,BR04,Chinchilla Giant,Female,Young,Bred,2026-06-17,H32,1.34,Active,2026-09-04,2.6,No,1225
+RB0094,BR03,Californian,Female,Young,Purchased,2026-08-24,E6,1.25,Active,2026-09-04,0.4,No,6023
+RB0095,BR04,Chinchilla Giant,Female,Young,Purchased,2026-08-19,G12,1.74,Active,2026-09-04,0.5,No,9505
+RB0096,BR02,New Zealand White,Male,Young,Purchased,2025-08-17,F12,2.11,Sold,2025-11-08,2.7,No,3730
+RB0097,BR03,Californian,Female,Adult,Bred,2023-02-25,H30,4.04,Sold,2025-07-29,29.1,No,1765
+RB0098,BR02,New Zealand White,Female,Young,Bred,2025-11-23,A10,1.64,Sold,2026-03-15,3.7,No,1305
+RB0099,BR01,Local Breed (Mixed),Female,Adult,Bred,2025-11-22,B6,2.3,Active,2026-09-04,9.4,No,1110
+RB0100,BR01,Local Breed (Mixed),Male,Adult,Purchased,2025-06-03,F35,2.66,Active,2026-09-04,15.0,No,4840
+RB0101,BR01,Local Breed (Mixed),Female,Adult,Bred,2023-12-30,D36,3.06,Active,2026-09-04,32.2,No,1040
+RB0102,BR03,Californian,Female,Adult,Bred,2023-11-05,G35,4.04,Sold,2026-08-18,33.4,No,1014
+RB0103,BR02,New Zealand White,Male,Young,Bred,2026-08-30,H37,1.43,Active,2026-09-04,0.2,No,1370
+RB0104,BR03,Californian,Male,Young,Bred,2023-03-30,E6,1.78,Sold,2023-05-28,1.9,No,848
+RB0105,BR06,Angora,Female,Young,Bred,2025-04-19,C8,1.32,Sold,2025-10-08,5.7,No,818
+RB0106,BR01,Local Breed (Mixed),Male,Young,Bred,2026-06-30,C11,1.36,Active,2026-09-04,2.2,No,1167
+RB0107,BR02,New Zealand White,Male,Young,Bred,2026-05-01,D9,1.75,Active,2026-09-04,4.1,No,1702
+RB0108,BR04,Chinchilla Giant,Female,Adult,Bred,2022-02-11,G13,4.89,Sold,2026-08-25,54.4,No,1067
+RB0109,BR01,Local Breed (Mixed),Female,Adult,Purchased,2022-02-11,C39,2.48,Sold,2022-09-10,6.9,No,2762
+RB0110,BR01,Local Breed (Mixed),Female,Young,Bred,2025-10-08,B25,1.14,Sold,2026-03-20,5.4,No,1165
+RB0111,BR01,Local Breed (Mixed),Male,Young,Purchased,2026-07-28,G36,1.05,Active,2026-09-04,1.2,No,4436
+RB0112,BR01,Local Breed (Mixed),Female,Adult,Bred,2023-03-23,H1,2.45,Deceased,2026-01-03,33.4,No,1493
+RB0113,BR06,Angora,Female,Adult,Bred,2026-01-31,G8,3.52,Active,2026-09-04,7.1,Yes,962
+RB0114,BR05,Checkered Giant,Female,Young,Bred,2026-06-22,C10,2.17,Active,2026-09-04,2.4,No,978
+RB0115,BR03,Californian,Female,Young,Bred,2026-07-31,B7,1.88,Active,2026-09-04,1.1,No,1647
+RB0116,BR05,Checkered Giant,Male,Young,Bred,2024-08-27,E35,2.01,Deceased,2025-01-29,5.1,No,1680
+RB0117,BR05,Checkered Giant,Female,Young,Bred,2023-03-17,E25,1.77,Sold,2023-05-31,2.5,No,1715
+RB0118,BR01,Local Breed (Mixed),Female,Young,Bred,2026-08-22,H37,0.85,Active,2026-09-04,0.4,No,1315
+RB0119,BR05,Checkered Giant,Female,Young,Bred,2026-08-10,H3,2.18,Active,2026-09-04,0.8,No,832
+RB0120,BR03,Californian,Female,Young,Bred,2026-03-23,C40,1.22,Sold,2026-06-08,2.5,No,1626
+RB0121,BR05,Checkered Giant,Female,Young,Bred,2026-08-10,G3,1.93,Active,2026-09-04,0.8,No,865
+RB0122,BR05,Checkered Giant,Female,Young,Bred,2026-06-17,F16,1.7,Active,2026-09-04,2.6,No,1145
+RB0123,BR02,New Zealand White,Female,Adult,Bred,2021-12-13,H18,4.51,Active,2026-09-04,56.7,No,1240
+RB0124,BR01,Local Breed (Mixed),Female,Young,Purchased,2026-06-11,A22,1.19,Active,2026-09-04,2.8,No,3963
+RB0125,BR01,Local Breed (Mixed),Female,Young,Bred,2023-06-30,E18,0.86,Sold,2023-10-11,3.4,No,916
+RB0126,BR02,New Zealand White,Female,Adult,Bred,2021-12-13,D9,4.51,Sold,2023-08-19,20.2,No,1432
+RB0127,BR05,Checkered Giant,Male,Adult,Bred,2024-02-28,F18,4.79,Sold,2026-02-02,23.2,No,1032
+RB0128,BR05,Checkered Giant,Female,Young,Bred,2026-06-22,B13,2.04,Active,2026-09-04,2.4,No,923
+RB0129,BR01,Local Breed (Mixed),Male,Young,Bred,2026-06-29,D27,1.0,Active,2026-09-04,2.2,No,1375
+RB0130,BR03,Californian,Female,Young,Bred,2026-07-10,F4,2.12,Active,2026-09-04,1.8,No,1029
+RB0131,BR02,New Zealand White,Male,Adult,Bred,2024-07-25,C5,4.41,Active,2026-09-04,25.3,No,1298
+RB0132,BR01,Local Breed (Mixed),Male,Adult,Bred,2023-06-03,G9,2.37,Active,2026-09-04,39.1,No,1064
+RB0133,BR01,Local Breed (Mixed),Male,Young,Bred,2026-07-20,A12,0.88,Active,2026-09-04,1.5,No,1148
+RB0134,BR02,New Zealand White,Female,Adult,Bred,2022-10-03,D4,4.97,Active,2026-09-04,47.0,Yes,1603
+RB0135,BR06,Angora,Female,Young,Purchased,2026-05-10,A30,1.09,Active,2026-09-04,3.8,No,7671
+RB0136,BR02,New Zealand White,Female,Young,Bred,2026-05-26,D18,1.66,Deceased,2026-08-22,2.9,No,1163
+RB0137,BR03,Californian,Female,Young,Bred,2026-06-10,H33,1.65,Active,2026-09-04,2.8,No,1587
+RB0138,BR04,Chinchilla Giant,Female,Young,Purchased,2025-05-09,A16,1.81,Sold,2025-10-05,4.9,No,5715
+RB0139,BR02,New Zealand White,Female,Young,Purchased,2026-06-11,H39,1.44,Active,2026-09-04,2.8,No,7403
+RB0140,BR06,Angora,Female,Adult,Bred,2024-03-05,C31,3.26,Active,2026-09-04,30.0,No,847
+RB0141,BR06,Angora,Male,Young,Bred,2024-09-20,F11,1.44,Sold,2024-12-20,3.0,No,1588
+RB0142,BR01,Local Breed (Mixed),Male,Young,Bred,2023-05-08,B19,0.5,Sold,2023-08-30,3.7,No,1698
+RB0143,BR02,New Zealand White,Male,Young,Bred,2026-03-15,C37,1.61,Deceased,2026-08-30,5.5,No,1370
+RB0144,BR02,New Zealand White,Female,Young,Bred,2023-08-23,D15,1.36,Sold,2023-12-27,4.1,No,1073
+RB0145,BR01,Local Breed (Mixed),Female,Adult,Bred,2025-06-22,D18,2.66,Active,2026-09-04,14.4,Yes,1717
+RB0146,BR01,Local Breed (Mixed),Female,Adult,Bred,2025-04-30,G33,1.84,Active,2026-09-04,16.2,Yes,954
+RB0147,BR03,Californian,Female,Young,Bred,2026-03-13,A31,1.3,Active,2026-09-04,5.7,No,1673
+RB0148,BR03,Californian,Female,Young,Bred,2026-04-10,C39,1.58,Active,2026-09-04,4.8,No,1506
+RB0149,BR01,Local Breed (Mixed),Female,Young,Purchased,2026-03-10,D17,1.27,Active,2026-09-04,5.8,No,4669
+RB0150,BR01,Local Breed (Mixed),Female,Young,Purchased,2026-08-10,E18,0.79,Active,2026-09-04,0.8,No,3676
+RB0151,BR06,Angora,Female,Adult,Purchased,2024-01-19,G23,3.03,Active,2026-09-04,31.5,No,14098
+RB0152,BR01,Local Breed (Mixed),Male,Young,Bred,2025-03-07,H20,1.37,Sold,2025-07-10,4.1,No,1694
+RB0153,BR01,Local Breed (Mixed),Female,Young,Bred,2026-08-28,G38,0.4,Active,2026-09-04,0.2,No,1327
+RB0154,BR02,New Zealand White,Female,Young,Bred,2026-04-03,A33,0.92,Active,2026-09-04,5.1,No,1418
+RB0155,BR06,Angora,Female,Young,Bred,2026-08-24,F36,1.25,Active,2026-09-04,0.4,No,1485
+RB0156,BR01,Local Breed (Mixed),Female,Young,Bred,2026-08-20,E20,0.65,Active,2026-09-04,0.5,No,906
+RB0157,BR04,Chinchilla Giant,Female,Adult,Bred,2023-01-10,B22,4.69,Sold,2024-06-29,17.6,No,1523
+RB0158,BR04,Chinchilla Giant,Female,Young,Purchased,2022-09-24,F18,1.96,Deceased,2022-10-01,0.2,No,6629
+RB0159,BR01,Local Breed (Mixed),Female,Young,Bred,2026-03-03,E13,0.88,Deceased,2026-03-17,0.5,No,851
+RB0160,BR04,Chinchilla Giant,Female,Adult,Bred,2025-12-19,D4,4.83,Deceased,2026-06-25,6.2,No,1748
+RB0161,BR02,New Zealand White,Female,Adult,Bred,2022-10-22,F9,4.12,Sold,2023-11-05,12.5,No,1768
+RB0162,BR03,Californian,Female,Young,Bred,2026-03-14,H19,1.73,Active,2026-09-04,5.7,No,1248
+RB0163,BR03,Californian,Female,Adult,Purchased,2024-01-09,G25,4.4,Sold,2026-03-19,26.3,No,5810
+RB0164,BR03,Californian,Female,Young,Purchased,2026-03-17,D22,1.44,Active,2026-09-04,5.6,No,4263
+RB0165,BR01,Local Breed (Mixed),Male,Young,Bred,2026-05-03,H23,1.36,Active,2026-09-04,4.1,No,1618
+RB0166,BR05,Checkered Giant,Female,Adult,Bred,2024-07-08,E11,4.88,Active,2026-09-04,25.9,Yes,1268
+RB0167,BR02,New Zealand White,Female,Adult,Bred,2022-03-08,E7,4.04,Deceased,2023-08-24,17.5,No,1785
+RB0168,BR01,Local Breed (Mixed),Male,Young,Bred,2026-07-06,C17,0.6,Active,2026-09-04,2.0,No,1661
+RB0169,BR01,Local Breed (Mixed),Female,Young,Bred,2024-03-07,C22,0.79,Sold,2024-04-13,1.2,No,1573
+RB0170,BR03,Californian,Female,Adult,Bred,2025-05-06,B15,4.27,Active,2026-09-04,16.0,Yes,913
+RB0171,BR04,Chinchilla Giant,Male,Adult,Bred,2023-09-01,D20,4.93,Active,2026-09-04,36.1,No,1798
+RB0172,BR01,Local Breed (Mixed),Female,Adult,Bred,2023-07-14,F17,2.41,Sold,2025-09-03,25.7,No,908
+RB0173,BR03,Californian,Female,Young,Purchased,2026-08-04,E30,1.09,Active,2026-09-04,1.0,No,4049
+RB0174,BR01,Local Breed (Mixed),Female,Adult,Bred,2022-05-03,H4,2.73,Active,2026-09-04,52.1,Yes,1600
+RB0175,BR03,Californian,Female,Adult,Purchased,2025-03-26,B31,4.18,Active,2026-09-04,17.3,Yes,4022
+RB0176,BR01,Local Breed (Mixed),Female,Adult,Bred,2022-10-07,B25,2.64,Active,2026-09-04,46.9,No,1425
+RB0177,BR04,Chinchilla Giant,Female,Young,Bred,2026-07-21,E27,1.85,Active,2026-09-04,1.5,No,1424
+RB0178,BR02,New Zealand White,Female,Young,Bred,2026-04-01,C13,1.71,Sold,2026-08-21,4.7,No,1600
+RB0179,BR06,Angora,Female,Adult,Purchased,2023-08-06,G37,3.37,Active,2026-09-04,37.0,No,11674
+RB0180,BR01,Local Breed (Mixed),Male,Young,Purchased,2026-07-03,C21,0.94,Active,2026-09-04,2.1,No,4006
+RB0181,BR02,New Zealand White,Female,Young,Bred,2026-04-23,B32,1.77,Active,2026-09-04,4.4,No,1678
+RB0182,BR01,Local Breed (Mixed),Female,Adult,Bred,2023-07-17,C21,2.7,Active,2026-09-04,37.6,No,1770
+RB0183,BR06,Angora,Female,Adult,Purchased,2021-09-08,H18,3.26,Deceased,2024-09-28,36.7,No,11389
+RB0184,BR05,Checkered Giant,Female,Young,Bred,2025-12-21,C32,2.03,Sold,2026-05-07,4.5,No,904
+RB0185,BR01,Local Breed (Mixed),Female,Young,Bred,2026-03-30,C40,0.78,Active,2026-09-04,5.2,No,1643
+RB0186,BR04,Chinchilla Giant,Female,Adult,Bred,2024-01-31,G28,5.43,Sold,2025-08-16,18.5,No,1375
+RB0187,BR05,Checkered Giant,Male,Adult,Bred,2024-05-08,G1,5.0,Active,2026-09-04,27.9,No,842
+RB0188,BR03,Californian,Male,Young,Bred,2026-04-20,F1,2.01,Sold,2026-08-27,4.2,No,1319
+RB0189,BR03,Californian,Male,Young,Bred,2023-03-22,D2,1.46,Sold,2023-05-06,1.5,No,907
+RB0190,BR01,Local Breed (Mixed),Female,Young,Bred,2026-08-28,A16,0.4,Active,2026-09-04,0.2,No,971
+RB0191,BR01,Local Breed (Mixed),Female,Young,Bred,2026-05-04,F20,0.84,Active,2026-09-04,4.0,No,1445
+RB0192,BR05,Checkered Giant,Female,Young,Bred,2026-04-19,E11,1.62,Deceased,2026-07-10,2.7,No,920
+RB0193,BR06,Angora,Female,Adult,Bred,2022-01-15,A20,3.45,Active,2026-09-04,55.6,Yes,1691
+RB0194,BR03,Californian,Female,Young,Bred,2022-11-01,F28,1.27,Sold,2022-12-31,2.0,No,1010
+RB0195,BR02,New Zealand White,Female,Adult,Bred,2025-07-11,C22,4.37,Active,2026-09-04,13.8,No,1732
+RB0196,BR02,New Zealand White,Female,Adult,Bred,2022-01-07,F13,3.93,Sold,2022-09-13,8.2,No,1170
+RB0197,BR04,Chinchilla Giant,Female,Young,Bred,2026-03-29,A15,1.61,Sold,2026-06-14,2.5,No,960
+RB0198,BR05,Checkered Giant,Female,Young,Bred,2025-11-27,D2,1.09,Sold,2026-04-23,4.8,No,1545
+RB0199,BR05,Checkered Giant,Female,Young,Bred,2024-07-31,B24,1.34,Sold,2024-12-15,4.5,No,1099
+RB0200,BR04,Chinchilla Giant,Female,Adult,Purchased,2025-08-30,A25,5.23,Active,2026-09-04,12.2,Yes,5635
+RB0201,BR03,Californian,Male,Adult,Purchased,2025-04-07,E35,4.44,Active,2026-09-04,16.9,No,5277
+RB0202,BR01,Local Breed (Mixed),Female,Young,Bred,2026-08-14,A39,0.93,Active,2026-09-04,0.7,No,1525
+RB0203,BR01,Local Breed (Mixed),Female,Adult,Purchased,2021-12-11,B2,2.01,Active,2026-09-04,56.8,No,3471
+RB0204,BR05,Checkered Giant,Female,Young,Bred,2026-03-20,B27,1.81,Active,2026-09-04,5.5,No,1252
+RB0205,BR03,Californian,Male,Adult,Bred,2024-03-01,G8,4.2,Active,2026-09-04,30.1,No,1580
+RB0206,BR01,Local Breed (Mixed),Female,Young,Bred,2026-07-26,E31,0.46,Active,2026-09-04,1.3,No,1318
+RB0207,BR01,Local Breed (Mixed),Male,Adult,Bred,2022-04-02,A20,2.75,Deceased,2024-05-27,25.8,No,1310
+RB0208,BR04,Chinchilla Giant,Female,Adult,Purchased,2024-01-13,B34,5.26,Active,2026-09-04,31.7,No,8620
+RB0209,BR01,Local Breed (Mixed),Female,Adult,Bred,2025-01-26,C27,2.23,Sold,2026-03-08,13.3,No,1550
+RB0210,BR01,Local Breed (Mixed),Female,Young,Bred,2023-04-13,B19,0.81,Sold,2023-09-14,5.1,No,1691
+RB0211,BR03,Californian,Male,Young,Bred,2026-02-17,H13,1.53,Sold,2026-07-20,5.0,No,901
+RB0212,BR04,Chinchilla Giant,Female,Adult,Bred,2025-02-02,D17,4.39,Active,2026-09-04,19.0,Yes,957
+RB0213,BR04,Chinchilla Giant,Female,Adult,Bred,2024-08-10,D23,4.93,Active,2026-09-04,24.8,Yes,1462
+RB0214,BR01,Local Breed (Mixed),Female,Young,Purchased,2024-02-09,C3,0.6,Sold,2024-05-24,3.4,No,4758
+RB0215,BR04,Chinchilla Giant,Female,Young,Bred,2026-07-26,H14,1.45,Active,2026-09-04,1.3,No,1172
+RB0216,BR01,Local Breed (Mixed),Male,Adult,Bred,2025-07-14,H22,2.22,Active,2026-09-04,13.7,No,1142
+RB0217,BR02,New Zealand White,Female,Adult,Bred,2021-09-30,B8,5.04,Sold,2026-04-13,54.4,No,1638
+RB0218,BR04,Chinchilla Giant,Female,Adult,Bred,2024-11-22,H10,5.19,Active,2026-09-04,21.4,No,941
+RB0219,BR03,Californian,Male,Adult,Bred,2022-03-07,B7,4.03,Active,2026-09-04,53.9,No,925
+RB0220,BR05,Checkered Giant,Female,Young,Purchased,2023-03-23,D30,1.99,Sold,2023-04-08,0.5,No,10840
+RB0221,BR04,Chinchilla Giant,Female,Adult,Bred,2021-11-18,E30,5.42,Deceased,2022-09-30,10.4,No,1668
+RB0222,BR03,Californian,Female,Young,Purchased,2026-03-20,B12,1.75,Active,2026-09-04,5.5,No,5446
+RB0223,BR01,Local Breed (Mixed),Female,Young,Bred,2026-03-18,E24,0.82,Active,2026-09-04,5.6,No,1006
+RB0224,BR02,New Zealand White,Female,Young,Bred,2023-08-05,G8,1.38,Sold,2023-11-13,3.3,No,1249
+RB0225,BR01,Local Breed (Mixed),Male,Adult,Bred,2025-12-04,A1,2.51,Sold,2026-08-01,7.9,No,1792
+RB0226,BR01,Local Breed (Mixed),Female,Young,Bred,2023-07-20,C22,0.92,Deceased,2023-07-31,0.4,No,1225
+RB0227,BR06,Angora,Female,Young,Bred,2026-06-07,H40,1.39,Active,2026-09-04,2.9,No,1587
+RB0228,BR02,New Zealand White,Female,Adult,Bred,2023-03-07,B24,4.69,Active,2026-09-04,42.0,No,1587
+RB0229,BR05,Checkered Giant,Male,Adult,Bred,2023-08-06,C8,5.51,Active,2026-09-04,37.0,No,806
+RB0230,BR03,Californian,Female,Adult,Bred,2024-03-26,E25,4.04,Sold,2025-09-30,18.2,No,1051
+RB0231,BR05,Checkered Giant,Female,Adult,Bred,2023-01-06,G11,5.6,Sold,2024-06-19,17.4,No,1654
+RB0232,BR03,Californian,Male,Young,Bred,2026-04-05,C4,1.53,Active,2026-09-04,5.0,No,1628
+RB0233,BR03,Californian,Female,Young,Bred,2022-09-14,B27,2.09,Sold,2022-10-16,1.1,No,1285
+RB0234,BR02,New Zealand White,Female,Young,Bred,2026-08-06,H37,1.37,Active,2026-09-04,1.0,No,1149
+RB0235,BR01,Local Breed (Mixed),Female,Young,Bred,2026-08-28,H12,1.33,Active,2026-09-04,0.2,No,1093
+RB0236,BR04,Chinchilla Giant,Female,Young,Bred,2024-08-11,A9,1.81,Sold,2024-11-08,2.9,No,1317
+RB0237,BR01,Local Breed (Mixed),Female,Adult,Bred,2024-05-20,H8,2.1,Active,2026-09-04,27.5,Yes,975
+RB0238,BR01,Local Breed (Mixed),Female,Adult,Bred,2023-12-25,H3,2.15,Active,2026-09-04,32.3,Yes,887
+RB0239,BR03,Californian,Female,Young,Bred,2026-08-04,F1,1.37,Sold,2026-08-17,0.4,No,1072
+RB0240,BR01,Local Breed (Mixed),Female,Young,Bred,2026-09-04,D22,0.93,Active,2026-09-04,0.0,No,1181
+RB0241,BR06,Angora,Female,Young,Bred,2026-07-18,B28,1.28,Active,2026-09-04,1.6,No,1532
+RB0242,BR06,Angora,Male,Young,Bred,2024-04-15,H23,0.95,Sold,2024-08-10,3.8,No,1572
+RB0243,BR06,Angora,Female,Young,Bred,2024-07-21,G10,1.11,Sold,2024-08-06,0.5,No,1224
+RB0244,BR02,New Zealand White,Female,Young,Bred,2026-07-28,A1,2.22,Active,2026-09-04,1.2,No,1169
+RB0245,BR01,Local Breed (Mixed),Female,Young,Bred,2024-04-25,H32,1.32,Sold,2024-09-12,4.6,No,1444
+RB0246,BR06,Angora,Female,Young,Bred,2026-04-19,B32,1.25,Active,2026-09-04,4.5,No,1480
+RB0247,BR02,New Zealand White,Female,Adult,Bred,2023-07-13,E4,4.51,Deceased,2026-01-10,30.0,No,1051
+RB0248,BR06,Angora,Female,Adult,Bred,2024-07-08,D36,3.24,Active,2026-09-04,25.9,No,955
+RB0249,BR06,Angora,Female,Adult,Bred,2025-04-13,G26,3.38,Active,2026-09-04,16.7,No,1571
+RB0250,BR05,Checkered Giant,Female,Adult,Bred,2021-11-23,H29,4.89,Deceased,2023-10-12,22.6,No,1571
+RB0251,BR01,Local Breed (Mixed),Female,Young,Purchased,2023-09-09,B32,0.73,Sold,2023-11-14,2.2,No,3544
+RB0252,BR02,New Zealand White,Female,Young,Bred,2026-06-30,F8,1.07,Active,2026-09-04,2.2,No,1342
+RB0253,BR05,Checkered Giant,Female,Adult,Bred,2022-03-13,A7,5.32,Sold,2022-10-18,7.2,No,1231
+RB0254,BR02,New Zealand White,Female,Young,Bred,2026-06-19,G3,1.77,Active,2026-09-04,2.5,No,1606
+RB0255,BR01,Local Breed (Mixed),Female,Young,Bred,2026-07-28,A6,0.66,Active,2026-09-04,1.2,No,1033
+RB0256,BR03,Californian,Female,Adult,Bred,2023-05-30,E33,4.67,Sold,2023-12-03,6.1,No,941
+RB0257,BR06,Angora,Female,Young,Bred,2026-07-29,D30,0.75,Active,2026-09-04,1.2,No,1621
+RB0258,BR04,Chinchilla Giant,Female,Adult,Bred,2023-08-03,F4,4.56,Active,2026-09-04,37.1,No,1239
+RB0259,BR03,Californian,Male,Adult,Bred,2022-12-04,H22,4.27,Active,2026-09-04,45.0,No,1223
+RB0260,BR01,Local Breed (Mixed),Female,Adult,Bred,2024-04-29,F29,2.61,Sold,2025-02-02,9.2,No,1740
+RB0261,BR03,Californian,Female,Young,Bred,2026-07-08,D1,1.98,Sold,2026-07-20,0.4,No,1219
+RB0262,BR06,Angora,Female,Young,Bred,2025-11-28,E36,0.98,Sold,2025-12-16,0.6,No,1719
+RB0263,BR01,Local Breed (Mixed),Male,Adult,Bred,2024-08-08,F7,2.62,Active,2026-09-04,24.9,No,1269
+RB0264,BR03,Californian,Female,Young,Bred,2026-04-08,H9,1.46,Sold,2026-08-24,4.5,No,1774
+RB0265,BR05,Checkered Giant,Female,Adult,Bred,2025-09-11,G7,5.15,Active,2026-09-04,11.8,No,1672
+RB0266,BR04,Chinchilla Giant,Male,Young,Purchased,2025-11-14,D8,2.02,Deceased,2026-03-24,4.3,No,8325
+RB0267,BR04,Chinchilla Giant,Female,Adult,Purchased,2023-11-17,D30,5.2,Active,2026-09-04,33.6,Yes,6470
+RB0268,BR04,Chinchilla Giant,Female,Adult,Bred,2022-03-18,F7,4.53,Deceased,2023-09-26,18.3,No,1328
+RB0269,BR02,New Zealand White,Male,Young,Bred,2026-06-22,A38,2.02,Active,2026-09-04,2.4,No,1613
+RB0270,BR01,Local Breed (Mixed),Female,Adult,Bred,2022-05-14,H30,2.71,Active,2026-09-04,51.7,No,1498
+RB0271,BR05,Checkered Giant,Female,Young,Bred,2026-08-23,C32,1.63,Active,2026-09-04,0.4,No,1170
+RB0272,BR05,Checkered Giant,Female,Adult,Bred,2021-09-12,A36,5.32,Active,2026-09-04,59.7,No,1766
+RB0273,BR05,Checkered Giant,Female,Young,Bred,2023-01-05,C38,1.97,Deceased,2023-01-30,0.8,No,830
+RB0274,BR06,Angora,Female,Adult,Bred,2022-05-24,B25,3.28,Sold,2026-06-07,48.5,No,1253
+RB0275,BR03,Californian,Female,Young,Bred,2026-08-23,F33,1.3,Active,2026-09-04,0.4,No,949
+RB0276,BR03,Californian,Female,Young,Bred,2026-06-14,G39,1.27,Active,2026-09-04,2.7,No,1588
+RB0277,BR05,Checkered Giant,Female,Young,Bred,2022-11-17,E26,1.81,Sold,2023-03-14,3.8,No,810
+RB0278,BR03,Californian,Female,Young,Bred,2026-06-03,E29,1.82,Active,2026-09-04,3.1,No,1534
+RB0279,BR04,Chinchilla Giant,Female,Young,Purchased,2023-06-14,G39,1.91,Sold,2023-11-06,4.8,No,4719
+RB0280,BR05,Checkered Giant,Female,Adult,Bred,2023-10-10,E36,5.09,Sold,2024-05-31,7.7,No,1625
+RB0281,BR05,Checkered Giant,Female,Adult,Bred,2022-09-03,D13,5.43,Deceased,2023-07-12,10.2,No,1329
+RB0282,BR02,New Zealand White,Female,Young,Bred,2026-04-30,E23,0.72,Active,2026-09-04,4.2,No,1766
+RB0283,BR02,New Zealand White,Female,Adult,Bred,2021-11-10,C33,4.84,Sold,2023-03-02,15.7,No,871
+RB0284,BR01,Local Breed (Mixed),Female,Adult,Bred,2023-06-26,B23,1.78,Deceased,2025-03-03,20.2,No,886
+RB0285,BR03,Californian,Female,Adult,Bred,2024-10-29,H38,4.09,Active,2026-09-04,22.2,No,1146
+RB0286,BR01,Local Breed (Mixed),Male,Young,Bred,2025-01-06,G35,0.47,Sold,2025-01-16,0.3,No,1122
+RB0287,BR02,New Zealand White,Female,Adult,Bred,2023-04-12,G1,4.11,Active,2026-09-04,40.8,Yes,1211
+RB0288,BR03,Californian,Female,Young,Bred,2024-10-12,G10,1.82,Sold,2025-04-04,5.7,No,1590
+RB0289,BR01,Local Breed (Mixed),Male,Adult,Bred,2021-12-21,A13,2.16,Active,2026-09-04,56.4,No,968
+RB0290,BR03,Californian,Female,Adult,Bred,2022-07-30,E17,4.3,Sold,2026-03-11,43.4,No,1244
+RB0291,BR01,Local Breed (Mixed),Female,Young,Purchased,2026-01-14,E14,0.79,Sold,2026-06-28,5.4,No,3514
+RB0292,BR01,Local Breed (Mixed),Female,Adult,Bred,2025-11-25,A23,2.44,Active,2026-09-04,9.3,Yes,862
+RB0293,BR05,Checkered Giant,Female,Young,Bred,2026-07-01,B40,1.84,Active,2026-09-04,2.1,No,1202
+RB0294,BR02,New Zealand White,Female,Young,Bred,2026-08-27,D36,1.19,Active,2026-09-04,0.3,No,1577
+RB0295,BR01,Local Breed (Mixed),Female,Young,Bred,2025-08-27,E4,1.1,Sold,2025-10-16,1.6,No,837
+RB0296,BR03,Californian,Male,Young,Purchased,2022-12-12,G21,1.32,Sold,2023-02-19,2.3,No,7583
+RB0297,BR04,Chinchilla Giant,Female,Adult,Bred,2021-10-01,A17,4.53,Sold,2022-11-22,13.7,No,1476
+RB0298,BR01,Local Breed (Mixed),Female,Young,Bred,2026-04-28,H15,0.68,Active,2026-09-04,4.2,No,1744
+RB0299,BR03,Californian,Female,Young,Bred,2026-08-17,F38,1.92,Active,2026-09-04,0.6,No,1456
+RB0300,BR01,Local Breed (Mixed),Female,Young,Bred,2026-07-25,D13,1.06,Active,2026-09-04,1.3,No,954
+RB0301,BR01,Local Breed (Mixed),Female,Young,Bred,2026-05-22,H12,0.7,Active,2026-09-04,3.4,No,1724
+RB0302,BR03,Californian,Female,Adult,Bred,2025-07-03,B12,4.1,Active,2026-09-04,14.1,No,1388
+RB0303,BR03,Californian,Female,Young,Bred,2022-11-08,B25,1.37,Deceased,2022-11-29,0.7,No,859
+RB0304,BR03,Californian,Female,Young,Bred,2026-03-18,G18,2.09,Active,2026-09-04,5.6,No,1446
+RB0305,BR04,Chinchilla Giant,Female,Young,Purchased,2026-07-28,E9,1.86,Active,2026-09-04,1.2,No,8051
+RB0306,BR06,Angora,Female,Young,Bred,2026-02-22,A22,1.25,Sold,2026-06-17,3.8,No,1530
+RB0307,BR03,Californian,Female,Adult,Bred,2024-04-16,C3,4.51,Active,2026-09-04,28.6,No,1618
+RB0308,BR02,New Zealand White,Female,Young,Bred,2026-04-16,F39,1.65,Active,2026-09-04,4.6,No,1476
+RB0309,BR05,Checkered Giant,Female,Young,Purchased,2026-03-21,E32,1.74,Active,2026-09-04,5.5,No,8502
+RB0310,BR01,Local Breed (Mixed),Female,Adult,Bred,2026-02-07,F5,2.24,Active,2026-09-04,6.9,No,1696
+RB0311,BR02,New Zealand White,Female,Young,Bred,2023-09-11,D12,1.55,Sold,2023-12-19,3.3,No,1332
+RB0312,BR01,Local Breed (Mixed),Female,Young,Purchased,2026-07-19,B33,0.79,Active,2026-09-04,1.5,No,4857
+RB0313,BR01,Local Breed (Mixed),Female,Adult,Bred,2022-07-27,G35,2.52,Active,2026-09-04,49.3,Yes,1796
+RB0314,BR06,Angora,Female,Adult,Purchased,2022-03-11,F15,3.22,Sold,2025-03-12,36.0,No,8485
+RB0315,BR05,Checkered Giant,Female,Young,Bred,2026-05-01,F22,2.04,Active,2026-09-04,4.1,No,1102
+RB0316,BR04,Chinchilla Giant,Male,Adult,Bred,2023-09-12,E14,4.98,Active,2026-09-04,35.7,No,1229
+RB0317,BR02,New Zealand White,Female,Young,Bred,2026-08-13,H36,1.6,Active,2026-09-04,0.7,No,1211
+RB0318,BR01,Local Breed (Mixed),Male,Young,Purchased,2023-09-14,A8,0.4,Sold,2023-09-28,0.5,No,2457
+RB0319,BR01,Local Breed (Mixed),Female,Young,Purchased,2026-08-26,F29,1.08,Active,2026-09-04,0.3,No,3700
+RB0320,BR01,Local Breed (Mixed),Female,Young,Bred,2026-05-08,D3,0.91,Active,2026-09-04,3.9,No,1707
+RB0321,BR03,Californian,Female,Young,Bred,2026-08-29,F25,1.77,Active,2026-09-04,0.2,No,1497
+RB0322,BR04,Chinchilla Giant,Male,Young,Purchased,2026-04-06,G17,0.88,Active,2026-09-04,5.0,No,6562
+RB0323,BR04,Chinchilla Giant,Male,Young,Bred,2026-07-24,E2,2.38,Active,2026-09-04,1.4,No,1517
+RB0324,BR01,Local Breed (Mixed),Female,Young,Purchased,2026-07-18,F33,0.76,Active,2026-09-04,1.6,No,2547
+RB0325,BR06,Angora,Female,Young,Bred,2026-07-16,H32,1.45,Active,2026-09-04,1.6,No,1366
+RB0326,BR04,Chinchilla Giant,Female,Young,Bred,2026-08-11,D21,1.44,Deceased,2026-08-25,0.5,No,1694
+RB0327,BR03,Californian,Female,Adult,Bred,2022-03-19,C35,4.38,Deceased,2025-04-18,37.0,No,1111
+RB0328,BR03,Californian,Female,Young,Purchased,2026-07-22,A5,1.15,Active,2026-09-04,1.4,No,5860
+RB0329,BR02,New Zealand White,Male,Young,Bred,2026-04-30,D28,1.39,Active,2026-09-04,4.2,No,1538
+RB0330,BR01,Local Breed (Mixed),Female,Young,Bred,2026-04-03,D35,1.38,Active,2026-09-04,5.1,No,1560
+RB0331,BR02,New Zealand White,Female,Adult,Bred,2025-08-13,G5,4.44,Active,2026-09-04,12.7,No,1121
+RB0332,BR04,Chinchilla Giant,Female,Adult,Bred,2022-02-08,A30,5.07,Sold,2024-03-02,24.7,No,1731
+RB0333,BR01,Local Breed (Mixed),Male,Young,Bred,2023-11-10,B5,1.07,Sold,2024-04-29,5.6,No,1152
+RB0334,BR01,Local Breed (Mixed),Female,Young,Bred,2026-03-21,C17,0.95,Active,2026-09-04,5.5,No,808
+RB0335,BR01,Local Breed (Mixed),Male,Adult,Bred,2024-10-20,B37,2.35,Active,2026-09-04,22.5,No,1646
+RB0336,BR01,Local Breed (Mixed),Male,Young,Bred,2026-05-05,E27,0.91,Active,2026-09-04,4.0,No,1086
+RB0337,BR05,Checkered Giant,Female,Young,Bred,2026-06-15,H26,2.54,Active,2026-09-04,2.7,No,1721
+RB0338,BR04,Chinchilla Giant,Female,Young,Bred,2025-02-22,G8,1.73,Sold,2025-08-17,5.8,No,1340
+RB0339,BR02,New Zealand White,Female,Young,Bred,2025-02-28,B38,1.64,Deceased,2025-03-16,0.5,No,1425
+RB0340,BR01,Local Breed (Mixed),Female,Young,Bred,2026-03-15,F33,1.12,Sold,2026-08-24,5.3,No,1742
+RB0341,BR02,New Zealand White,Female,Adult,Bred,2022-04-09,E20,4.83,Active,2026-09-04,52.9,No,950
+RB0342,BR02,New Zealand White,Female,Adult,Bred,2022-06-19,H25,4.86,Sold,2024-11-16,28.9,No,1517
+RB0343,BR01,Local Breed (Mixed),Female,Adult,Bred,2023-11-22,A31,2.49,Active,2026-09-04,33.4,No,1213
+RB0344,BR02,New Zealand White,Female,Young,Bred,2026-02-16,C26,1.23,Deceased,2026-06-20,4.1,No,1256
+RB0345,BR02,New Zealand White,Female,Adult,Bred,2026-02-21,E10,4.99,Active,2026-09-04,6.4,No,1459
+RB0346,BR03,Californian,Female,Adult,Bred,2025-04-22,F1,3.86,Sold,2026-02-05,9.5,No,1010
+RB0347,BR03,Californian,Female,Young,Purchased,2025-01-06,C8,1.56,Sold,2025-02-13,1.2,No,4812
+RB0348,BR01,Local Breed (Mixed),Female,Adult,Bred,2021-11-28,A37,2.07,Active,2026-09-04,57.2,Yes,1708
+RB0349,BR02,New Zealand White,Female,Young,Bred,2024-10-21,B20,1.56,Sold,2024-12-03,1.4,No,1357
+RB0350,BR03,Californian,Male,Adult,Bred,2022-11-08,F14,4.3,Active,2026-09-04,45.9,No,1439
+RB0351,BR03,Californian,Male,Adult,Bred,2023-12-28,C11,4.3,Active,2026-09-04,32.2,No,1607
+RB0352,BR05,Checkered Giant,Female,Young,Bred,2026-04-24,D40,1.95,Active,2026-09-04,4.4,No,1433
+RB0353,BR04,Chinchilla Giant,Female,Young,Bred,2023-04-27,B12,2.23,Deceased,2023-09-05,4.3,No,1467
+RB0354,BR01,Local Breed (Mixed),Female,Adult,Bred,2025-06-09,A36,2.44,Active,2026-09-04,14.8,Yes,1252
+RB0355,BR01,Local Breed (Mixed),Female,Adult,Bred,2024-10-03,B19,2.23,Sold,2025-07-07,9.1,No,1514
+RB0356,BR03,Californian,Female,Adult,Bred,2022-05-18,B13,4.49,Sold,2024-07-23,26.2,No,1153
+RB0357,BR01,Local Breed (Mixed),Male,Young,Bred,2024-02-16,F23,1.16,Sold,2024-04-12,1.8,No,1708
+RB0358,BR03,Californian,Male,Young,Purchased,2026-04-09,D7,1.1,Active,2026-09-04,4.9,No,4832
+RB0359,BR06,Angora,Female,Adult,Bred,2023-04-10,B13,3.38,Active,2026-09-04,40.8,Yes,1631
+RB0360,BR03,Californian,Female,Young,Bred,2025-11-09,F40,1.68,Deceased,2026-01-13,2.1,No,1600
+RB0361,BR02,New Zealand White,Male,Young,Bred,2026-08-23,E38,1.49,Active,2026-09-04,0.4,No,1464
+RB0362,BR03,Californian,Female,Adult,Bred,2024-11-07,F21,4.61,Deceased,2026-06-23,19.5,No,1214
+RB0363,BR02,New Zealand White,Female,Adult,Bred,2024-01-29,C1,4.45,Active,2026-09-04,31.2,Yes,1594
+RB0364,BR03,Californian,Female,Adult,Bred,2023-06-07,D15,4.24,Active,2026-09-04,38.9,Yes,1002
+RB0365,BR06,Angora,Female,Adult,Bred,2023-06-22,G18,3.15,Sold,2024-05-08,10.5,No,1702
+RB0366,BR02,New Zealand White,Male,Young,Purchased,2026-06-08,C22,1.58,Active,2026-09-04,2.9,No,7865
+RB0367,BR06,Angora,Male,Young,Bred,2026-07-08,H29,0.79,Active,2026-09-04,1.9,No,1108
+RB0368,BR06,Angora,Female,Young,Bred,2025-08-14,H36,0.69,Deceased,2025-11-24,3.4,No,886
+RB0369,BR01,Local Breed (Mixed),Male,Adult,Bred,2022-04-14,C39,2.78,Active,2026-09-04,52.7,No,837
+RB0370,BR01,Local Breed (Mixed),Female,Young,Bred,2026-04-21,C35,0.55,Deceased,2026-08-08,3.6,No,1350
+RB0371,BR01,Local Breed (Mixed),Female,Young,Bred,2026-04-27,E5,0.51,Active,2026-09-04,4.3,No,1142
+RB0372,BR01,Local Breed (Mixed),Male,Young,Bred,2026-03-27,A33,0.4,Active,2026-09-04,5.3,No,1199
+RB0373,BR01,Local Breed (Mixed),Female,Young,Purchased,2024-09-01,G38,0.61,Sold,2024-10-03,1.1,No,3300
+RB0374,BR04,Chinchilla Giant,Male,Adult,Purchased,2022-11-13,A36,4.6,Active,2026-09-04,45.7,No,9790
+RB0375,BR01,Local Breed (Mixed),Female,Adult,Purchased,2024-09-13,H10,2.79,Sold,2026-03-18,18.1,No,4041
+RB0376,BR02,New Zealand White,Male,Adult,Bred,2022-12-05,E9,4.8,Deceased,2025-11-15,35.3,No,1542
+RB0377,BR05,Checkered Giant,Male,Young,Bred,2026-07-04,B26,1.61,Active,2026-09-04,2.0,No,1536
+RB0378,BR01,Local Breed (Mixed),Female,Young,Bred,2026-06-09,A16,1.48,Active,2026-09-04,2.9,No,1557
+RB0379,BR05,Checkered Giant,Female,Adult,Bred,2025-02-12,C33,5.49,Active,2026-09-04,18.7,No,1700
+RB0380,BR01,Local Breed (Mixed),Male,Young,Bred,2026-04-12,H11,0.71,Active,2026-09-04,4.8,No,929
+RB0381,BR01,Local Breed (Mixed),Male,Adult,Bred,2022-09-05,C31,1.55,Active,2026-09-04,48.0,No,1332
+RB0382,BR04,Chinchilla Giant,Female,Young,Bred,2022-09-14,D32,2.44,Sold,2023-01-21,4.2,No,1353
+RB0383,BR03,Californian,Female,Young,Purchased,2026-05-06,B17,1.05,Active,2026-09-04,4.0,No,7041
+RB0384,BR05,Checkered Giant,Female,Adult,Bred,2023-09-30,D3,4.71,Active,2026-09-04,35.2,No,1090
+RB0385,BR04,Chinchilla Giant,Male,Adult,Bred,2025-06-04,D34,5.31,Active,2026-09-04,15.0,No,1018
+RB0386,BR05,Checkered Giant,Female,Young,Purchased,2026-06-08,G31,2.55,Active,2026-09-04,2.9,No,10843
+RB0387,BR01,Local Breed (Mixed),Female,Adult,Bred,2024-03-23,A3,2.72,Active,2026-09-04,29.4,No,895
+RB0388,BR01,Local Breed (Mixed),Female,Young,Purchased,2022-09-24,B34,0.97,Deceased,2022-10-19,0.8,No,3294
+RB0389,BR04,Chinchilla Giant,Female,Young,Bred,2026-08-17,E17,1.93,Active,2026-09-04,0.6,No,1323
+RB0390,BR05,Checkered Giant,Female,Young,Bred,2026-08-03,C25,2.08,Active,2026-09-04,1.1,No,1365
+RB0391,BR06,Angora,Female,Young,Bred,2026-08-22,G24,1.35,Active,2026-09-04,0.4,No,1119
+RB0392,BR02,New Zealand White,Male,Adult,Bred,2024-12-20,B34,4.58,Active,2026-09-04,20.5,No,1333
+RB0393,BR02,New Zealand White,Female,Young,Bred,2025-11-24,G23,1.61,Sold,2026-03-27,4.0,No,1148
+RB0394,BR04,Chinchilla Giant,Female,Young,Bred,2026-06-04,H31,1.73,Active,2026-09-04,3.0,No,1575
+RB0395,BR02,New Zealand White,Female,Young,Bred,2026-08-09,A33,1.35,Active,2026-09-04,0.9,No,1450
+RB0396,BR06,Angora,Female,Young,Bred,2026-04-12,H11,1.04,Active,2026-09-04,4.8,No,963
+RB0397,BR05,Checkered Giant,Female,Adult,Bred,2024-07-23,E14,4.69,Sold,2026-04-17,20.8,No,823
+RB0398,BR02,New Zealand White,Female,Young,Bred,2026-04-15,C11,1.55,Active,2026-09-04,4.7,No,828
+RB0399,BR04,Chinchilla Giant,Female,Adult,Bred,2022-05-04,D27,4.7,Sold,2025-11-20,42.6,No,1711
+RB0400,BR04,Chinchilla Giant,Male,Young,Bred,2026-05-31,B31,1.42,Active,2026-09-04,3.2,No,1615
+RB0401,BR01,Local Breed (Mixed),Male,Young,Bred,2024-05-19,D38,0.86,Sold,2024-07-16,1.9,No,1352
+RB0402,BR06,Angora,Female,Young,Bred,2026-04-18,G2,1.54,Active,2026-09-04,4.6,No,1406
+RB0403,BR03,Californian,Female,Young,Bred,2025-11-07,C9,1.75,Sold,2026-04-04,4.9,No,1064
+RB0404,BR05,Checkered Giant,Female,Adult,Bred,2021-10-14,C4,4.73,Sold,2024-10-07,35.8,No,1047
+RB0405,BR02,New Zealand White,Male,Adult,Bred,2022-08-10,E12,4.2,Active,2026-09-04,48.8,No,1652
+RB0406,BR05,Checkered Giant,Female,Young,Bred,2026-07-18,G39,2.1,Active,2026-09-04,1.6,No,1592
+RB0407,BR02,New Zealand White,Female,Adult,Bred,2024-11-01,A19,4.21,Active,2026-09-04,22.1,No,1111
+RB0408,BR01,Local Breed (Mixed),Female,Young,Bred,2022-10-01,H39,0.74,Sold,2023-01-03,3.1,No,1543
+RB0409,BR06,Angora,Male,Young,Bred,2022-09-19,C15,1.29,Sold,2022-09-20,0.0,No,1232
+RB0410,BR01,Local Breed (Mixed),Female,Adult,Bred,2022-01-28,C40,2.01,Sold,2023-09-14,19.5,No,1317
+RB0411,BR02,New Zealand White,Female,Young,Bred,2024-04-23,C22,1.61,Sold,2024-08-14,3.7,No,913
+RB0412,BR06,Angora,Female,Adult,Bred,2024-03-20,B15,2.8,Active,2026-09-04,29.5,No,1549
+RB0413,BR06,Angora,Male,Young,Bred,2026-06-12,G9,0.94,Active,2026-09-04,2.8,No,861
+RB0414,BR03,Californian,Female,Young,Purchased,2026-03-17,G10,1.57,Sold,2026-07-24,4.2,No,4115
+RB0415,BR03,Californian,Female,Young,Bred,2026-08-10,B12,0.99,Active,2026-09-04,0.8,No,1661
+RB0416,BR02,New Zealand White,Female,Young,Bred,2026-07-07,A35,1.71,Active,2026-09-04,1.9,No,1181
+RB0417,BR01,Local Breed (Mixed),Female,Young,Bred,2024-12-05,B31,0.8,Sold,2025-05-04,4.9,No,1065
+RB0418,BR02,New Zealand White,Female,Young,Purchased,2024-07-19,A28,1.74,Deceased,2024-08-14,0.9,No,5503
+RB0419,BR04,Chinchilla Giant,Female,Adult,Bred,2023-10-02,A34,5.07,Sold,2025-04-05,18.1,No,1442
+RB0420,BR04,Chinchilla Giant,Female,Young,Bred,2026-06-25,D31,2.16,Active,2026-09-04,2.3,No,1319
+RB0421,BR05,Checkered Giant,Male,Young,Purchased,2026-06-13,F38,1.86,Active,2026-09-04,2.7,No,8172
+RB0422,BR05,Checkered Giant,Female,Adult,Bred,2025-10-31,B28,5.07,Active,2026-09-04,10.1,Yes,1162
+RB0423,BR01,Local Breed (Mixed),Male,Adult,Bred,2024-05-08,D6,2.34,Sold,2026-07-07,26.0,No,926
+RB0424,BR02,New Zealand White,Female,Young,Bred,2026-01-11,G17,1.74,Sold,2026-02-21,1.3,No,848
+RB0425,BR01,Local Breed (Mixed),Male,Young,Purchased,2025-11-27,B34,0.82,Sold,2026-05-25,5.9,No,4785
+RB0426,BR03,Californian,Female,Young,Bred,2026-03-09,G14,1.48,Active,2026-09-04,5.9,No,1574
+RB0427,BR02,New Zealand White,Female,Young,Bred,2026-08-31,F27,1.36,Active,2026-09-04,0.1,No,1466
+RB0428,BR05,Checkered Giant,Female,Adult,Bred,2022-07-17,G38,5.0,Sold,2025-11-20,40.1,No,1763
+RB0429,BR02,New Zealand White,Female,Young,Bred,2026-05-11,E35,1.15,Active,2026-09-04,3.8,No,927
+RB0430,BR01,Local Breed (Mixed),Female,Adult,Purchased,2023-09-22,E26,2.82,Sold,2025-08-30,23.3,No,4091
+RB0431,BR01,Local Breed (Mixed),Female,Young,Bred,2023-12-02,H12,0.43,Sold,2024-02-15,2.5,No,1259
+RB0432,BR04,Chinchilla Giant,Female,Young,Bred,2026-06-10,H17,1.54,Active,2026-09-04,2.8,No,1105
+RB0433,BR03,Californian,Male,Adult,Bred,2023-05-25,F26,3.98,Active,2026-09-04,39.4,No,1386
+RB0434,BR01,Local Breed (Mixed),Female,Young,Bred,2024-03-11,B15,1.07,Sold,2024-03-23,0.4,No,1554
+RB0435,BR01,Local Breed (Mixed),Female,Young,Bred,2026-06-30,C7,0.72,Active,2026-09-04,2.2,No,805
+RB0436,BR04,Chinchilla Giant,Female,Adult,Bred,2023-12-03,F36,5.37,Sold,2026-05-02,28.9,No,1264
+RB0437,BR01,Local Breed (Mixed),Female,Adult,Purchased,2023-08-05,A11,2.1,Deceased,2024-11-03,15.0,No,3975
+RB0438,BR05,Checkered Giant,Female,Young,Bred,2026-06-15,A6,1.9,Active,2026-09-04,2.7,No,1147
+RB0439,BR04,Chinchilla Giant,Male,Young,Bred,2023-07-31,G6,1.5,Sold,2023-09-29,2.0,No,1041
+RB0440,BR01,Local Breed (Mixed),Female,Adult,Bred,2022-12-02,F6,2.94,Sold,2026-08-16,44.4,No,1624
+RB0441,BR01,Local Breed (Mixed),Female,Adult,Bred,2025-02-02,A25,1.94,Active,2026-09-04,19.0,Yes,1563
+RB0442,BR06,Angora,Female,Young,Bred,2026-06-18,E39,1.21,Active,2026-09-04,2.6,No,1395
+RB0443,BR02,New Zealand White,Female,Young,Bred,2026-04-05,H29,1.77,Sold,2026-08-19,4.5,No,1379
+RB0444,BR02,New Zealand White,Female,Adult,Bred,2021-09-25,D34,4.62,Active,2026-09-04,59.3,No,1531
+RB0445,BR05,Checkered Giant,Female,Young,Bred,2026-05-20,D3,1.76,Active,2026-09-04,3.5,No,1715
+RB0446,BR06,Angora,Female,Adult,Purchased,2026-01-26,D40,3.16,Active,2026-09-04,7.3,Yes,14693
+RB0447,BR06,Angora,Male,Adult,Bred,2021-11-16,F16,3.21,Deceased,2026-06-10,54.8,No,1760
+RB0448,BR04,Chinchilla Giant,Male,Young,Bred,2024-04-04,B18,1.71,Sold,2024-08-22,4.6,No,1442
+RB0449,BR02,New Zealand White,Female,Adult,Bred,2026-01-17,G23,4.79,Active,2026-09-04,7.6,No,1481
+RB0450,BR01,Local Breed (Mixed),Female,Young,Bred,2026-08-26,G26,1.47,Active,2026-09-04,0.3,No,1346
+RB0451,BR04,Chinchilla Giant,Female,Young,Bred,2024-11-03,A5,1.58,Deceased,2024-12-21,1.6,No,1664
+RB0452,BR03,Californian,Female,Young,Bred,2026-03-31,E36,1.06,Active,2026-09-04,5.2,No,1409
+RB0453,BR02,New Zealand White,Male,Adult,Bred,2024-12-10,F23,4.47,Active,2026-09-04,20.8,No,1039
+RB0454,BR06,Angora,Female,Adult,Bred,2022-01-23,D39,3.97,Sold,2022-11-27,10.1,No,1158
+RB0455,BR01,Local Breed (Mixed),Female,Young,Bred,2022-11-01,G37,0.56,Sold,2022-11-28,0.9,No,1106
+RB0456,BR02,New Zealand White,Female,Adult,Bred,2022-08-28,G33,4.99,Sold,2026-09-03,48.2,No,1091
+RB0457,BR01,Local Breed (Mixed),Female,Adult,Bred,2022-01-30,E22,2.8,Sold,2026-07-25,53.8,No,1482
+RB0458,BR02,New Zealand White,Female,Adult,Bred,2022-05-24,E35,4.33,Sold,2023-01-03,7.4,No,1603
+RB0459,BR01,Local Breed (Mixed),Female,Young,Bred,2026-08-02,E29,0.98,Active,2026-09-04,1.1,No,1634
+RB0460,BR01,Local Breed (Mixed),Male,Young,Bred,2022-11-15,H16,1.29,Sold,2022-11-21,0.2,No,1532
+RB0461,BR01,Local Breed (Mixed),Female,Adult,Purchased,2022-12-17,H38,2.19,Sold,2024-02-10,13.8,No,3355
+RB0462,BR03,Californian,Female,Adult,Bred,2021-10-30,H8,4.14,Active,2026-09-04,58.1,No,1386
+RB0463,BR04,Chinchilla Giant,Female,Young,Bred,2025-12-27,D15,1.58,Sold,2026-03-20,2.7,No,1488
+RB0464,BR03,Californian,Female,Adult,Bred,2026-02-28,F27,3.9,Active,2026-09-04,6.2,No,943
+RB0465,BR06,Angora,Female,Young,Purchased,2026-06-06,A17,0.93,Active,2026-09-04,3.0,No,9659
+RB0466,BR02,New Zealand White,Female,Young,Bred,2025-10-24,G22,1.21,Sold,2026-03-30,5.2,No,1531
+RB0467,BR01,Local Breed (Mixed),Female,Adult,Bred,2022-02-06,C31,2.31,Active,2026-09-04,54.9,Yes,1186
+RB0468,BR05,Checkered Giant,Female,Young,Purchased,2026-05-27,F14,1.59,Active,2026-09-04,3.3,No,8766
+RB0469,BR01,Local Breed (Mixed),Female,Adult,Bred,2024-11-21,E12,2.37,Active,2026-09-04,21.4,No,1332
+RB0470,BR06,Angora,Female,Young,Purchased,2026-08-29,D32,0.65,Active,2026-09-04,0.2,No,10120
+RB0471,BR01,Local Breed (Mixed),Male,Young,Bred,2026-04-28,D16,0.9,Active,2026-09-04,4.2,No,1555
+RB0472,BR06,Angora,Female,Adult,Bred,2023-03-01,D15,3.45,Active,2026-09-04,42.1,No,1053
+RB0473,BR01,Local Breed (Mixed),Female,Adult,Bred,2022-10-24,D40,1.7,Active,2026-09-04,46.4,Yes,907
+RB0474,BR05,Checkered Giant,Female,Adult,Bred,2022-04-10,B6,5.31,Sold,2025-11-28,43.6,No,1135
+RB0475,BR03,Californian,Female,Adult,Bred,2025-06-19,H40,4.57,Active,2026-09-04,14.5,No,1328
+RB0476,BR06,Angora,Female,Young,Bred,2026-03-09,A31,0.76,Active,2026-09-04,5.9,No,1396
+RB0477,BR01,Local Breed (Mixed),Female,Adult,Bred,2023-06-11,H37,2.8,Deceased,2025-11-08,28.9,No,997
+RB0478,BR03,Californian,Male,Young,Bred,2023-05-01,C33,1.6,Sold,2023-06-25,1.8,No,1642
+RB0479,BR06,Angora,Female,Adult,Bred,2022-12-02,C4,2.99,Sold,2026-02-25,38.8,No,1597
+RB0480,BR03,Californian,Female,Young,Bred,2025-01-17,H35,1.45,Sold,2025-03-30,2.4,No,1169
+RB0481,BR03,Californian,Female,Young,Bred,2026-05-28,G12,1.64,Sold,2026-08-28,3.0,No,1265
+RB0482,BR04,Chinchilla Giant,Female,Young,Bred,2025-02-13,H21,1.77,Sold,2025-07-13,4.9,No,900
+RB0483,BR02,New Zealand White,Male,Young,Bred,2026-08-31,A1,1.74,Active,2026-09-04,0.1,No,950
+RB0484,BR03,Californian,Female,Young,Bred,2024-04-26,B21,1.19,Sold,2024-07-18,2.7,No,1528
+RB0485,BR03,Californian,Female,Adult,Bred,2023-02-17,C36,4.25,Sold,2025-11-21,33.1,No,1235
+RB0486,BR06,Angora,Female,Young,Bred,2026-05-14,D18,0.7,Active,2026-09-04,3.7,No,1648
+RB0487,BR01,Local Breed (Mixed),Female,Adult,Bred,2023-08-07,F12,2.27,Sold,2025-06-22,22.5,No,1221
+RB0488,BR01,Local Breed (Mixed),Male,Young,Bred,2025-01-04,G24,0.53,Sold,2025-05-11,4.2,No,883
+RB0489,BR06,Angora,Male,Young,Bred,2025-08-30,E29,0.9,Deceased,2025-11-16,2.6,No,894
+RB0490,BR05,Checkered Giant,Female,Adult,Bred,2022-09-07,C37,5.57,Active,2026-09-04,47.9,No,863
+RB0491,BR02,New Zealand White,Female,Adult,Bred,2023-12-16,B18,4.83,Deceased,2024-06-26,6.3,No,1235
+RB0492,BR03,Californian,Female,Young,Bred,2023-10-01,G25,1.65,Sold,2023-11-08,1.2,No,1709
+RB0493,BR01,Local Breed (Mixed),Female,Young,Bred,2025-12-28,H1,0.48,Sold,2026-05-19,4.7,No,933
+RB0494,BR01,Local Breed (Mixed),Female,Adult,Bred,2024-06-23,C34,2.21,Sold,2026-06-04,23.4,No,1287
+RB0495,BR02,New Zealand White,Female,Young,Bred,2024-12-07,H20,1.94,Deceased,2025-03-17,3.3,No,1019
+RB0496,BR02,New Zealand White,Female,Adult,Bred,2024-11-09,A26,4.54,Sold,2026-03-28,16.6,No,1256
+RB0497,BR03,Californian,Female,Young,Bred,2026-04-02,C4,2.17,Active,2026-09-04,5.1,No,879
+RB0498,BR01,Local Breed (Mixed),Female,Young,Bred,2026-05-02,E31,0.92,Active,2026-09-04,4.1,No,1178
+RB0499,BR06,Angora,Female,Adult,Purchased,2025-03-16,B29,3.26,Active,2026-09-04,17.6,No,7830
+RB0500,BR06,Angora,Female,Adult,Bred,2025-11-06,F17,3.11,Active,2026-09-04,9.9,No,1493
+RB0501,BR04,Chinchilla Giant,Male,Adult,Bred,2024-10-25,E23,5.04,Deceased,2025-11-21,12.9,No,1338
+RB0502,BR03,Californian,Female,Young,Purchased,2026-03-13,G8,1.42,Active,2026-09-04,5.7,No,5929
+RB0503,BR02,New Zealand White,Female,Young,Bred,2025-11-27,D37,1.79,Sold,2025-12-04,0.2,No,1212
+RB0504,BR05,Checkered Giant,Female,Adult,Purchased,2024-11-26,C19,5.49,Active,2026-09-04,21.3,Yes,12633
+RB0505,BR04,Chinchilla Giant,Female,Adult,Bred,2023-09-01,F33,4.76,Active,2026-09-04,36.1,No,1402
+RB0506,BR01,Local Breed (Mixed),Female,Young,Bred,2026-07-10,H6,0.41,Active,2026-09-04,1.8,No,1372
+RB0507,BR06,Angora,Female,Young,Bred,2025-07-11,H10,0.57,Sold,2025-10-26,3.5,No,1331
+RB0508,BR05,Checkered Giant,Female,Adult,Bred,2022-08-13,F27,5.35,Active,2026-09-04,48.7,No,1597
+RB0509,BR06,Angora,Female,Young,Bred,2024-08-31,G5,0.79,Sold,2024-10-04,1.1,No,1204
+RB0510,BR04,Chinchilla Giant,Female,Young,Bred,2026-05-08,D21,1.1,Sold,2026-08-09,3.1,No,1692
+RB0511,BR03,Californian,Male,Adult,Bred,2023-04-23,E39,4.32,Sold,2026-01-14,32.8,No,1070
+RB0512,BR02,New Zealand White,Female,Young,Bred,2024-05-22,H24,2.32,Sold,2024-09-10,3.6,No,1398
+RB0513,BR06,Angora,Female,Adult,Bred,2023-02-19,H27,3.2,Sold,2024-02-29,12.3,No,1310
+RB0514,BR05,Checkered Giant,Female,Young,Bred,2026-04-19,C2,2.07,Active,2026-09-04,4.5,No,1451
+RB0515,BR01,Local Breed (Mixed),Female,Adult,Purchased,2022-12-28,E6,2.32,Sold,2026-07-13,42.5,No,4633
+RB0516,BR01,Local Breed (Mixed),Female,Young,Bred,2026-02-16,B7,0.78,Sold,2026-05-06,2.6,No,1233
+RB0517,BR02,New Zealand White,Female,Adult,Bred,2022-01-12,H36,4.78,Active,2026-09-04,55.7,Yes,1250
+RB0518,BR05,Checkered Giant,Female,Adult,Purchased,2021-12-23,A26,5.11,Active,2026-09-04,56.4,No,10631
+RB0519,BR06,Angora,Female,Young,Bred,2026-07-20,B7,1.2,Active,2026-09-04,1.5,No,1505
+RB0520,BR01,Local Breed (Mixed),Female,Adult,Bred,2023-02-23,C6,2.4,Active,2026-09-04,42.3,Yes,1753
+RB0521,BR03,Californian,Male,Young,Purchased,2024-06-02,E15,1.27,Deceased,2024-08-22,2.7,No,5093
+RB0522,BR02,New Zealand White,Male,Young,Bred,2026-05-10,E29,1.87,Active,2026-09-04,3.8,No,1770
+RB0523,BR06,Angora,Male,Adult,Bred,2025-03-10,C9,3.15,Active,2026-09-04,17.8,No,1301
+RB0524,BR05,Checkered Giant,Female,Adult,Purchased,2022-08-19,A3,4.97,Sold,2025-03-29,31.3,No,11675
+RB0525,BR05,Checkered Giant,Female,Adult,Bred,2025-05-24,F21,5.36,Active,2026-09-04,15.4,Yes,1549
+RB0526,BR02,New Zealand White,Female,Young,Purchased,2023-05-05,E36,1.31,Sold,2023-07-05,2.0,No,4920
+RB0527,BR02,New Zealand White,Male,Young,Bred,2025-07-29,C38,1.58,Sold,2025-07-31,0.1,No,1796
+RB0528,BR01,Local Breed (Mixed),Female,Adult,Bred,2025-01-09,H37,2.3,Active,2026-09-04,19.8,Yes,1226
+RB0529,BR01,Local Breed (Mixed),Female,Young,Bred,2025-07-28,E23,1.13,Deceased,2025-08-14,0.6,No,1643
+RB0530,BR05,Checkered Giant,Male,Adult,Bred,2024-05-17,D6,5.34,Active,2026-09-04,27.6,No,966
+RB0531,BR05,Checkered Giant,Male,Young,Bred,2026-06-29,E24,1.81,Active,2026-09-04,2.2,No,947
+RB0532,BR06,Angora,Female,Adult,Bred,2022-07-19,E1,3.45,Sold,2025-09-15,37.9,No,1317
+RB0533,BR06,Angora,Female,Young,Bred,2026-03-08,C23,1.54,Active,2026-09-04,5.9,No,930
+RB0534,BR03,Californian,Female,Adult,Bred,2023-04-14,H35,4.37,Active,2026-09-04,40.7,Yes,1296
+RB0535,BR04,Chinchilla Giant,Female,Young,Bred,2026-07-10,H20,1.75,Sold,2026-09-03,1.8,No,1528
+RB0536,BR06,Angora,Male,Young,Bred,2026-03-10,G19,0.73,Active,2026-09-04,5.8,No,1268
+RB0537,BR05,Checkered Giant,Female,Young,Bred,2024-06-06,F13,1.5,Sold,2024-12-02,5.9,No,932
+RB0538,BR01,Local Breed (Mixed),Female,Adult,Bred,2023-12-26,G26,2.21,Active,2026-09-04,32.3,No,1791
+RB0539,BR02,New Zealand White,Female,Young,Bred,2026-05-10,C25,1.39,Active,2026-09-04,3.8,No,1521
+RB0540,BR01,Local Breed (Mixed),Male,Young,Bred,2026-06-12,D17,0.75,Active,2026-09-04,2.8,No,1325
+RB0541,BR06,Angora,Female,Adult,Bred,2022-02-13,G16,3.22,Active,2026-09-04,54.7,Yes,1683
+RB0542,BR03,Californian,Female,Adult,Bred,2024-07-28,E19,4.36,Active,2026-09-04,25.2,Yes,1341
+RB0543,BR01,Local Breed (Mixed),Female,Young,Bred,2024-07-21,E27,0.78,Sold,2024-09-03,1.4,No,920
+RB0544,BR04,Chinchilla Giant,Female,Adult,Bred,2022-01-22,C9,5.15,Deceased,2026-05-26,52.1,No,1511
+RB0545,BR03,Californian,Female,Young,Bred,2026-01-28,H40,1.49,Sold,2026-02-14,0.6,No,1017
+RB0546,BR02,New Zealand White,Female,Adult,Bred,2024-06-07,D21,3.91,Deceased,2025-07-19,13.4,No,1266
+RB0547,BR01,Local Breed (Mixed),Female,Adult,Bred,2021-10-13,C4,2.02,Active,2026-09-04,58.7,No,1284
+RB0548,BR04,Chinchilla Giant,Female,Young,Bred,2022-09-06,C7,1.71,Sold,2022-11-13,2.2,No,833
+RB0549,BR03,Californian,Female,Adult,Bred,2022-05-18,H1,3.84,Sold,2026-02-23,45.2,No,1564
+RB0550,BR04,Chinchilla Giant,Male,Adult,Purchased,2022-12-24,B10,5.18,Active,2026-09-04,44.3,No,5157
+RB0551,BR03,Californian,Female,Adult,Bred,2021-10-04,H14,4.66,Active,2026-09-04,59.0,No,960
+RB0552,BR05,Checkered Giant,Female,Young,Bred,2026-06-03,G20,2.19,Active,2026-09-04,3.1,No,1766
+RB0553,BR03,Californian,Female,Adult,Bred,2026-01-30,H24,4.14,Active,2026-09-04,7.1,Yes,1372
+RB0554,BR03,Californian,Female,Young,Bred,2025-01-12,F6,1.92,Deceased,2025-07-03,5.7,No,1178
+RB0555,BR05,Checkered Giant,Female,Adult,Purchased,2022-01-31,A18,5.24,Sold,2023-08-18,18.5,No,7393
+RB0556,BR02,New Zealand White,Female,Young,Bred,2023-07-26,H12,1.47,Deceased,2024-01-04,5.3,No,1743
+RB0557,BR01,Local Breed (Mixed),Female,Young,Bred,2026-04-26,E25,0.62,Active,2026-09-04,4.3,No,1774
+RB0558,BR01,Local Breed (Mixed),Male,Young,Bred,2026-03-11,B16,0.71,Active,2026-09-04,5.8,No,921
+RB0559,BR04,Chinchilla Giant,Female,Adult,Bred,2023-11-01,H16,4.88,Active,2026-09-04,34.1,No,1416
+RB0560,BR03,Californian,Female,Young,Bred,2026-03-16,D30,1.52,Active,2026-09-04,5.7,No,1672
+RB0561,BR04,Chinchilla Giant,Female,Adult,Bred,2021-12-09,D31,5.05,Sold,2024-03-24,27.5,No,1218
+RB0562,BR01,Local Breed (Mixed),Male,Adult,Bred,2023-06-05,F11,2.3,Sold,2025-10-16,28.4,No,912
+RB0563,BR01,Local Breed (Mixed),Female,Young,Bred,2026-08-16,A36,0.94,Active,2026-09-04,0.6,No,923
+RB0564,BR01,Local Breed (Mixed),Male,Adult,Bred,2024-08-05,B17,2.66,Active,2026-09-04,25.0,No,1178
+RB0565,BR02,New Zealand White,Female,Adult,Bred,2024-05-16,E13,4.78,Active,2026-09-04,27.6,No,1385
+RB0566,BR03,Californian,Male,Young,Bred,2026-06-08,A14,1.02,Active,2026-09-04,2.9,No,1096
+RB0567,BR02,New Zealand White,Female,Adult,Bred,2022-04-23,D28,3.73,Active,2026-09-04,52.4,No,841
+RB0568,BR02,New Zealand White,Female,Adult,Bred,2023-06-30,A11,4.78,Active,2026-09-04,38.2,No,1335
+RB0569,BR06,Angora,Female,Young,Bred,2026-05-17,B26,0.71,Active,2026-09-04,3.6,No,956
+RB0570,BR02,New Zealand White,Female,Young,Bred,2026-05-09,A3,1.51,Active,2026-09-04,3.9,No,920
+RB0571,BR03,Californian,Female,Young,Bred,2024-12-26,H39,1.12,Sold,2024-12-30,0.1,No,1180
+RB0572,BR05,Checkered Giant,Female,Adult,Bred,2022-03-06,D11,4.66,Deceased,2026-06-22,51.5,No,1112
+RB0573,BR02,New Zealand White,Male,Young,Purchased,2026-07-13,B40,1.74,Active,2026-09-04,1.7,No,7211
+RB0574,BR03,Californian,Male,Young,Purchased,2026-06-02,A4,1.7,Active,2026-09-04,3.1,No,6628
+RB0575,BR05,Checkered Giant,Female,Young,Bred,2025-07-10,B9,1.65,Sold,2025-11-28,4.6,No,1183
+RB0576,BR06,Angora,Female,Adult,Bred,2024-05-30,D21,2.42,Active,2026-09-04,27.2,Yes,1110
+RB0577,BR01,Local Breed (Mixed),Male,Adult,Purchased,2022-03-24,F29,2.14,Sold,2022-10-16,6.8,No,2940
+RB0578,BR06,Angora,Female,Adult,Bred,2021-09-25,G23,3.32,Deceased,2024-03-28,30.1,No,1101
+RB0579,BR02,New Zealand White,Female,Young,Bred,2023-12-20,A32,1.13,Deceased,2024-04-14,3.8,No,1297
+RB0580,BR01,Local Breed (Mixed),Female,Adult,Bred,2023-03-30,E35,2.36,Sold,2024-05-18,13.6,No,828
+RB0581,BR02,New Zealand White,Male,Young,Purchased,2026-09-02,H13,1.57,Active,2026-09-04,0.1,No,6196
+RB0582,BR06,Angora,Female,Young,Bred,2026-07-31,C35,1.29,Active,2026-09-04,1.1,No,1610
+RB0583,BR02,New Zealand White,Male,Young,Bred,2026-06-05,F30,1.61,Active,2026-09-04,3.0,No,946
+RB0584,BR02,New Zealand White,Female,Young,Bred,2026-05-17,C5,1.28,Active,2026-09-04,3.6,No,945
+RB0585,BR03,Californian,Female,Adult,Bred,2024-03-12,E17,4.56,Deceased,2025-03-22,12.3,No,1602
+RB0586,BR01,Local Breed (Mixed),Female,Adult,Bred,2024-09-17,F30,2.25,Active,2026-09-04,23.6,No,1403
+RB0587,BR01,Local Breed (Mixed),Female,Young,Bred,2026-08-17,G12,0.8,Sold,2026-09-03,0.6,No,1231
+RB0588,BR01,Local Breed (Mixed),Female,Young,Bred,2023-05-03,F40,0.53,Sold,2023-05-25,0.7,No,849
+RB0589,BR01,Local Breed (Mixed),Female,Young,Bred,2025-10-27,G13,0.67,Sold,2026-04-09,5.4,No,1759
+RB0590,BR01,Local Breed (Mixed),Male,Young,Bred,2026-07-20,H36,0.54,Active,2026-09-04,1.5,No,1715
+RB0591,BR01,Local Breed (Mixed),Female,Young,Purchased,2026-03-06,F27,0.75,Deceased,2026-06-22,3.5,No,2705
+RB0592,BR03,Californian,Female,Young,Purchased,2026-08-19,F8,1.98,Active,2026-09-04,0.5,No,7273
+RB0593,BR01,Local Breed (Mixed),Female,Young,Bred,2026-07-19,B3,0.4,Sold,2026-07-31,0.4,No,1112
+RB0594,BR02,New Zealand White,Female,Adult,Bred,2022-01-14,C3,4.02,Sold,2023-09-04,19.6,No,1710
+RB0595,BR05,Checkered Giant,Female,Young,Bred,2026-03-18,D7,2.26,Sold,2026-05-13,1.8,No,1090
+RB0596,BR02,New Zealand White,Female,Young,Purchased,2026-08-13,G32,1.51,Sold,2026-08-29,0.5,No,7971
+RB0597,BR04,Chinchilla Giant,Female,Adult,Bred,2024-08-15,E4,4.8,Active,2026-09-04,24.6,Yes,1020
+RB0598,BR01,Local Breed (Mixed),Female,Young,Purchased,2026-06-09,D39,1.12,Active,2026-09-04,2.9,No,2597
+RB0599,BR01,Local Breed (Mixed),Female,Young,Bred,2026-03-26,A14,0.62,Active,2026-09-04,5.3,No,987
+RB0600,BR01,Local Breed (Mixed),Female,Adult,Bred,2024-01-04,B30,2.85,Sold,2024-08-21,7.6,No,1638
+RB0601,BR01,Local Breed (Mixed),Male,Young,Bred,2026-08-18,A24,1.01,Active,2026-09-04,0.6,No,1557
+RB0602,BR01,Local Breed (Mixed),Female,Young,Bred,2026-07-28,G24,0.66,Active,2026-09-04,1.2,No,1300
+RB0603,BR01,Local Breed (Mixed),Female,Adult,Bred,2026-02-16,A40,2.95,Active,2026-09-04,6.6,Yes,802
+RB0604,BR01,Local Breed (Mixed),Male,Adult,Bred,2023-03-02,A5,2.12,Active,2026-09-04,42.1,No,925
+RB0605,BR01,Local Breed (Mixed),Female,Young,Bred,2023-03-29,D34,1.03,Sold,2023-09-06,5.3,No,1360
+RB0606,BR02,New Zealand White,Female,Adult,Bred,2025-09-28,D35,4.59,Sold,2026-07-30,10.0,No,1157
+RB0607,BR01,Local Breed (Mixed),Female,Adult,Bred,2022-10-04,D37,2.69,Deceased,2025-10-21,36.6,No,869
+RB0608,BR02,New Zealand White,Male,Young,Bred,2024-06-01,G7,2.04,Sold,2024-10-14,4.4,No,1691
+RB0609,BR03,Californian,Male,Young,Bred,2023-12-21,F30,1.48,Deceased,2024-01-23,1.1,No,845
+RB0610,BR04,Chinchilla Giant,Female,Young,Bred,2024-03-16,B11,1.52,Sold,2024-05-26,2.3,No,1227
+RB0611,BR01,Local Breed (Mixed),Female,Young,Bred,2026-04-23,G33,0.94,Active,2026-09-04,4.4,No,1292
+RB0612,BR05,Checkered Giant,Female,Young,Bred,2025-08-03,H23,1.62,Sold,2025-12-21,4.6,No,1386
+RB0613,BR03,Californian,Female,Adult,Bred,2022-06-12,F24,4.8,Sold,2023-04-13,10.0,No,1117
+RB0614,BR01,Local Breed (Mixed),Male,Adult,Bred,2024-02-02,F39,2.34,Sold,2025-09-14,19.4,No,1379
+RB0615,BR05,Checkered Giant,Female,Adult,Purchased,2023-01-09,D25,5.09,Active,2026-09-04,43.8,Yes,8114
+RB0616,BR06,Angora,Female,Adult,Purchased,2025-12-20,E24,3.26,Active,2026-09-04,8.5,No,7781
+RB0617,BR01,Local Breed (Mixed),Male,Young,Bred,2022-10-31,G1,0.4,Deceased,2022-12-01,1.0,No,1263
+RB0618,BR01,Local Breed (Mixed),Male,Young,Bred,2026-03-16,E39,0.51,Active,2026-09-04,5.7,No,1721
+RB0619,BR05,Checkered Giant,Female,Young,Bred,2026-03-12,C20,2.18,Active,2026-09-04,5.8,No,1145
+RB0620,BR04,Chinchilla Giant,Female,Adult,Bred,2022-12-02,D21,4.8,Deceased,2026-09-03,45.0,No,1600
+RB0621,BR01,Local Breed (Mixed),Female,Young,Purchased,2026-03-13,E36,0.49,Active,2026-09-04,5.7,No,3411
+RB0622,BR01,Local Breed (Mixed),Female,Adult,Bred,2024-07-17,C7,2.46,Active,2026-09-04,25.6,Yes,1186
+RB0623,BR02,New Zealand White,Male,Young,Bred,2026-05-30,C9,1.93,Sold,2026-08-27,2.9,No,1286
+RB0624,BR02,New Zealand White,Female,Adult,Bred,2023-02-28,F38,4.72,Active,2026-09-04,42.2,No,1654
+RB0625,BR03,Californian,Female,Young,Purchased,2026-05-10,D17,1.77,Active,2026-09-04,3.8,No,3635
+RB0626,BR02,New Zealand White,Female,Young,Bred,2023-05-20,G37,1.35,Deceased,2023-10-24,5.2,No,1537
+RB0627,BR02,New Zealand White,Female,Adult,Bred,2021-10-13,F31,4.07,Sold,2023-03-10,16.9,No,1653
+RB0628,BR04,Chinchilla Giant,Female,Adult,Bred,2022-08-24,H37,5.45,Active,2026-09-04,48.4,Yes,1420
+RB0629,BR01,Local Breed (Mixed),Female,Young,Bred,2026-04-01,E3,0.71,Active,2026-09-04,5.1,No,935
+RB0630,BR01,Local Breed (Mixed),Female,Adult,Purchased,2025-10-09,G6,2.22,Active,2026-09-04,10.8,Yes,4751
+RB0631,BR04,Chinchilla Giant,Female,Adult,Bred,2026-01-18,A22,5.4,Active,2026-09-04,7.5,No,1580
+RB0632,BR05,Checkered Giant,Female,Adult,Bred,2024-02-10,G8,5.37,Deceased,2025-12-08,21.9,No,941
+RB0633,BR03,Californian,Female,Young,Bred,2026-05-05,A25,1.61,Active,2026-09-04,4.0,No,1316
+RB0634,BR03,Californian,Male,Adult,Bred,2021-12-23,E34,4.85,Active,2026-09-04,56.4,No,1451
+RB0635,BR01,Local Breed (Mixed),Male,Young,Bred,2026-03-18,F35,0.61,Active,2026-09-04,5.6,No,1271
+RB0636,BR02,New Zealand White,Female,Young,Bred,2026-07-30,C21,1.85,Active,2026-09-04,1.2,No,1579
+RB0637,BR03,Californian,Female,Young,Bred,2025-01-02,C4,1.49,Sold,2025-05-06,4.1,No,1260
+RB0638,BR01,Local Breed (Mixed),Female,Adult,Bred,2022-10-11,H39,2.38,Deceased,2024-07-19,21.3,No,1483
+RB0639,BR01,Local Breed (Mixed),Male,Young,Bred,2024-08-04,D28,1.26,Sold,2025-01-08,5.2,No,1259
+RB0640,BR02,New Zealand White,Female,Young,Bred,2025-11-26,C9,1.73,Sold,2026-02-14,2.6,No,952
+RB0641,BR01,Local Breed (Mixed),Female,Adult,Bred,2024-05-05,A36,2.46,Deceased,2025-12-22,19.6,No,1687
+RB0642,BR02,New Zealand White,Female,Adult,Bred,2022-02-25,G33,4.82,Sold,2025-10-02,43.2,No,1545
+RB0643,BR01,Local Breed (Mixed),Female,Young,Bred,2026-06-27,C9,0.7,Active,2026-09-04,2.3,No,1133
+RB0644,BR02,New Zealand White,Female,Young,Bred,2026-07-09,D32,1.32,Active,2026-09-04,1.9,No,891
+RB0645,BR01,Local Breed (Mixed),Female,Young,Bred,2025-09-04,D36,0.49,Sold,2025-10-08,1.1,No,1619
+RB0646,BR05,Checkered Giant,Male,Adult,Bred,2025-02-16,D16,4.61,Active,2026-09-04,18.6,No,1439
+RB0647,BR03,Californian,Female,Young,Bred,2026-03-26,E28,2.09,Active,2026-09-04,5.3,No,1480
+RB0648,BR04,Chinchilla Giant,Female,Young,Bred,2026-05-29,B8,1.42,Active,2026-09-04,3.2,No,1438
+RB0649,BR05,Checkered Giant,Female,Young,Bred,2024-05-11,F23,1.75,Sold,2024-07-22,2.4,No,1219
+RB0650,BR02,New Zealand White,Female,Adult,Purchased,2023-08-10,A20,4.42,Sold,2026-05-24,33.4,No,7482
+RB0651,BR01,Local Breed (Mixed),Female,Young,Bred,2026-04-20,F40,0.9,Active,2026-09-04,4.5,No,1196
+RB0652,BR03,Californian,Female,Adult,Bred,2022-11-30,C29,4.44,Sold,2023-10-03,10.1,No,1038
+RB0653,BR03,Californian,Male,Young,Bred,2026-04-25,D24,1.73,Sold,2026-08-24,4.0,No,1721
+RB0654,BR04,Chinchilla Giant,Female,Young,Bred,2026-04-16,B8,1.58,Active,2026-09-04,4.6,No,1204
+RB0655,BR02,New Zealand White,Female,Young,Purchased,2023-11-19,C19,1.52,Sold,2024-03-16,3.9,No,8299
+RB0656,BR01,Local Breed (Mixed),Male,Young,Bred,2026-08-30,B20,0.89,Sold,2026-09-02,0.1,No,1147
+RB0657,BR01,Local Breed (Mixed),Female,Adult,Bred,2021-10-20,F14,2.23,Sold,2025-07-23,45.1,No,1353
+RB0658,BR02,New Zealand White,Female,Young,Bred,2026-07-23,D14,2.06,Active,2026-09-04,1.4,No,846
+RB0659,BR03,Californian,Male,Young,Bred,2024-11-03,H40,1.62,Sold,2025-02-25,3.7,No,1781
+RB0660,BR03,Californian,Female,Adult,Bred,2022-01-26,A25,4.42,Deceased,2024-04-04,26.2,No,1486
+RB0661,BR02,New Zealand White,Female,Adult,Bred,2024-12-10,A17,4.7,Active,2026-09-04,20.8,Yes,1711
+RB0662,BR06,Angora,Male,Adult,Purchased,2022-08-18,A19,3.55,Active,2026-09-04,48.6,No,14660
+RB0663,BR03,Californian,Female,Young,Bred,2026-05-13,E4,1.52,Sold,2026-05-15,0.1,No,1253
+RB0664,BR01,Local Breed (Mixed),Female,Young,Bred,2026-07-05,A5,0.42,Active,2026-09-04,2.0,No,1553
+RB0665,BR01,Local Breed (Mixed),Female,Adult,Bred,2023-03-13,F7,2.42,Sold,2025-10-16,31.1,No,1084
+RB0666,BR01,Local Breed (Mixed),Female,Young,Bred,2026-08-18,G15,0.61,Sold,2026-09-01,0.5,No,1461
+RB0667,BR01,Local Breed (Mixed),Female,Young,Bred,2022-10-06,B21,0.65,Sold,2022-10-20,0.5,No,890
+RB0668,BR01,Local Breed (Mixed),Female,Young,Bred,2025-05-05,B12,0.98,Sold,2025-06-02,0.9,No,1686
+RB0669,BR01,Local Breed (Mixed),Male,Adult,Bred,2024-03-29,A3,2.67,Deceased,2026-05-16,25.6,No,969
+RB0670,BR01,Local Breed (Mixed),Female,Adult,Bred,2023-01-23,E22,2.31,Active,2026-09-04,43.4,No,1524
+RB0671,BR01,Local Breed (Mixed),Female,Young,Bred,2026-07-11,G11,0.9,Active,2026-09-04,1.8,No,825
+RB0672,BR05,Checkered Giant,Female,Adult,Bred,2025-07-06,F23,5.71,Sold,2026-09-01,13.9,No,1385
+RB0673,BR01,Local Breed (Mixed),Female,Adult,Bred,2025-03-07,E16,2.37,Active,2026-09-04,17.9,No,1445
+RB0674,BR03,Californian,Male,Adult,Bred,2022-01-10,E4,4.98,Sold,2022-09-13,8.1,No,1615
+RB0675,BR02,New Zealand White,Female,Adult,Bred,2025-03-08,E25,4.67,Active,2026-09-04,17.9,No,1590
+RB0676,BR06,Angora,Female,Adult,Bred,2021-11-03,E15,2.67,Active,2026-09-04,58.0,Yes,1524
+RB0677,BR01,Local Breed (Mixed),Female,Young,Bred,2026-04-15,F26,1.03,Active,2026-09-04,4.7,No,1116
+RB0678,BR02,New Zealand White,Female,Young,Bred,2026-08-23,C6,1.69,Active,2026-09-04,0.4,No,1374
+RB0679,BR06,Angora,Male,Young,Bred,2026-06-13,D27,1.51,Active,2026-09-04,2.7,No,1460
+RB0680,BR05,Checkered Giant,Female,Adult,Bred,2023-01-09,C28,5.4,Active,2026-09-04,43.8,Yes,926
+RB0681,BR05,Checkered Giant,Female,Young,Bred,2026-05-26,F29,1.78,Active,2026-09-04,3.3,No,1459
+RB0682,BR01,Local Breed (Mixed),Male,Young,Purchased,2024-10-27,C38,0.44,Sold,2025-03-04,4.2,No,3487
+RB0683,BR01,Local Breed (Mixed),Female,Young,Bred,2024-10-27,C20,0.74,Sold,2025-03-05,4.2,No,1372
+RB0684,BR04,Chinchilla Giant,Male,Young,Bred,2026-08-31,C28,1.49,Active,2026-09-04,0.1,No,887
+RB0685,BR06,Angora,Male,Young,Bred,2026-04-14,C21,0.95,Active,2026-09-04,4.7,No,997
+RB0686,BR03,Californian,Female,Adult,Bred,2022-01-20,B12,4.38,Active,2026-09-04,55.5,Yes,1778
+RB0687,BR03,Californian,Male,Adult,Bred,2022-06-29,A21,4.7,Sold,2026-01-13,42.5,No,1433
+RB0688,BR01,Local Breed (Mixed),Female,Adult,Bred,2022-04-03,G20,2.42,Sold,2023-05-31,13.9,No,1354
+RB0689,BR04,Chinchilla Giant,Female,Young,Bred,2025-07-16,E10,1.39,Sold,2025-08-02,0.6,No,1390
+RB0690,BR01,Local Breed (Mixed),Female,Young,Bred,2023-07-29,C12,0.94,Sold,2023-12-29,5.0,No,1575
+RB0691,BR02,New Zealand White,Female,Young,Bred,2026-08-06,E39,1.93,Sold,2026-08-30,0.8,No,854
+RB0692,BR02,New Zealand White,Female,Young,Bred,2026-07-31,D39,1.39,Active,2026-09-04,1.1,No,1780
+RB0693,BR03,Californian,Female,Adult,Bred,2022-12-23,D2,4.16,Active,2026-09-04,44.4,No,1383
+RB0694,BR01,Local Breed (Mixed),Female,Young,Bred,2026-06-07,B31,0.81,Active,2026-09-04,2.9,No,1334
+RB0695,BR01,Local Breed (Mixed),Female,Adult,Purchased,2022-06-05,H24,2.06,Active,2026-09-04,51.0,Yes,5096
+RB0696,BR03,Californian,Female,Young,Bred,2026-03-09,H31,1.66,Sold,2026-05-29,2.7,No,993
+RB0697,BR01,Local Breed (Mixed),Female,Adult,Bred,2022-10-04,D3,2.26,Sold,2026-07-04,45.0,No,1568
+RB0698,BR03,Californian,Female,Young,Bred,2025-03-27,E27,1.6,Sold,2025-09-20,5.8,No,1287
+RB0699,BR01,Local Breed (Mixed),Female,Young,Bred,2026-05-03,D14,0.54,Active,2026-09-04,4.1,No,1314
+RB0700,BR02,New Zealand White,Female,Adult,Bred,2022-01-17,C29,4.37,Active,2026-09-04,55.6,No,1718
+RB0701,BR03,Californian,Female,Young,Bred,2023-05-04,F30,1.69,Sold,2023-06-28,1.8,No,819
+RB0702,BR01,Local Breed (Mixed),Female,Adult,Bred,2022-04-10,G3,2.19,Deceased,2023-05-15,13.1,No,923
+RB0703,BR02,New Zealand White,Female,Young,Bred,2026-08-10,G21,2.09,Active,2026-09-04,0.8,No,1474
+RB0704,BR01,Local Breed (Mixed),Male,Young,Bred,2026-06-16,A34,0.69,Active,2026-09-04,2.6,No,1758
+RB0705,BR01,Local Breed (Mixed),Female,Young,Bred,2026-05-20,A16,0.87,Deceased,2026-07-23,2.1,No,1344
+RB0706,BR06,Angora,Female,Young,Bred,2025-01-21,A36,1.4,Sold,2025-04-10,2.6,No,984
+RB0707,BR02,New Zealand White,Female,Young,Bred,2025-09-29,A13,1.15,Deceased,2025-10-18,0.6,No,1785
+RB0708,BR05,Checkered Giant,Female,Young,Bred,2026-05-21,H26,1.29,Active,2026-09-04,3.5,No,819
+RB0709,BR01,Local Breed (Mixed),Female,Young,Bred,2026-05-24,E30,0.4,Active,2026-09-04,3.4,No,1081
+RB0710,BR04,Chinchilla Giant,Female,Young,Bred,2026-04-19,G19,2.13,Active,2026-09-04,4.5,No,1605
+RB0711,BR04,Chinchilla Giant,Female,Young,Bred,2024-05-22,C30,1.58,Sold,2024-11-05,5.5,No,1010
+RB0712,BR03,Californian,Female,Young,Bred,2026-08-20,H6,2.24,Active,2026-09-04,0.5,No,1051
+RB0713,BR02,New Zealand White,Female,Adult,Purchased,2021-12-28,C38,4.33,Sold,2024-04-18,27.7,No,3928
+RB0714,BR02,New Zealand White,Female,Young,Bred,2026-09-02,C26,1.63,Active,2026-09-04,0.1,No,1649
+RB0715,BR02,New Zealand White,Female,Adult,Bred,2023-12-29,F29,4.96,Active,2026-09-04,32.2,No,1522
+RB0716,BR06,Angora,Female,Young,Bred,2026-06-28,D30,1.72,Sold,2026-08-31,2.1,No,1659
+RB0717,BR05,Checkered Giant,Female,Young,Bred,2026-04-27,C8,2.44,Deceased,2026-08-03,3.2,No,1708
+RB0718,BR06,Angora,Female,Adult,Bred,2025-08-20,H24,3.56,Deceased,2026-08-03,11.4,No,1393
+RB0719,BR01,Local Breed (Mixed),Female,Adult,Purchased,2025-08-22,G33,2.61,Sold,2026-08-06,11.5,No,4877
+RB0720,BR04,Chinchilla Giant,Female,Young,Bred,2026-08-11,C25,1.93,Active,2026-09-04,0.8,No,1254
+RB0721,BR06,Angora,Female,Young,Bred,2026-07-26,G3,1.35,Active,2026-09-04,1.3,No,886
+RB0722,BR01,Local Breed (Mixed),Female,Young,Bred,2026-04-20,F37,0.64,Active,2026-09-04,4.5,No,1626
+RB0723,BR01,Local Breed (Mixed),Male,Young,Bred,2026-08-23,C11,0.56,Active,2026-09-04,0.4,No,1346
+RB0724,BR04,Chinchilla Giant,Female,Adult,Bred,2021-12-04,A27,5.0,Deceased,2023-06-25,18.7,No,1421
+RB0725,BR03,Californian,Male,Adult,Bred,2023-05-27,E29,4.15,Active,2026-09-04,39.3,No,1128
+RB0726,BR05,Checkered Giant,Female,Adult,Bred,2023-04-18,C8,5.06,Active,2026-09-04,40.6,No,1211
+RB0727,BR01,Local Breed (Mixed),Female,Young,Bred,2022-12-13,A40,1.01,Deceased,2023-04-21,4.2,No,1403
+RB0728,BR05,Checkered Giant,Female,Young,Purchased,2026-05-11,A30,2.11,Active,2026-09-04,3.8,No,7323
+RB0729,BR01,Local Breed (Mixed),Female,Adult,Bred,2024-06-21,A39,2.33,Sold,2025-05-13,10.7,No,846
+RB0730,BR01,Local Breed (Mixed),Female,Young,Bred,2023-01-26,D38,1.25,Sold,2023-05-26,3.9,No,1303
+RB0731,BR01,Local Breed (Mixed),Male,Young,Bred,2024-06-11,G29,0.46,Sold,2024-08-14,2.1,No,1682
+RB0732,BR05,Checkered Giant,Female,Young,Bred,2026-07-13,A16,1.76,Sold,2026-08-09,0.9,No,1756
+RB0733,BR04,Chinchilla Giant,Female,Adult,Bred,2024-09-28,E40,4.78,Active,2026-09-04,23.2,Yes,823
+RB0734,BR03,Californian,Female,Young,Bred,2026-08-15,D4,0.91,Active,2026-09-04,0.7,No,1148
+RB0735,BR02,New Zealand White,Female,Young,Bred,2026-04-24,C4,1.55,Active,2026-09-04,4.4,No,1247
+RB0736,BR05,Checkered Giant,Female,Young,Bred,2024-03-07,C3,1.78,Sold,2024-08-25,5.6,No,984
+RB0737,BR02,New Zealand White,Female,Adult,Bred,2024-01-10,E22,4.95,Sold,2024-07-31,6.7,No,1224
+RB0738,BR05,Checkered Giant,Male,Young,Bred,2026-03-30,A7,2.01,Active,2026-09-04,5.2,No,824
+RB0739,BR02,New Zealand White,Female,Adult,Bred,2022-09-04,C19,4.19,Sold,2025-09-08,36.1,No,1680
+RB0740,BR02,New Zealand White,Female,Adult,Purchased,2025-02-06,C30,5.06,Active,2026-09-04,18.9,No,6890
+RB0741,BR02,New Zealand White,Female,Young,Purchased,2023-11-30,A6,1.94,Sold,2024-02-26,2.9,No,7253
+RB0742,BR02,New Zealand White,Female,Adult,Purchased,2025-12-25,E21,4.67,Active,2026-09-04,8.3,No,4357
+RB0743,BR04,Chinchilla Giant,Female,Adult,Bred,2023-10-20,B28,4.93,Sold,2025-11-12,24.8,No,1340
+RB0744,BR03,Californian,Female,Young,Bred,2026-07-26,B19,1.18,Active,2026-09-04,1.3,No,1124
+RB0745,BR01,Local Breed (Mixed),Male,Young,Bred,2026-07-06,C8,0.69,Active,2026-09-04,2.0,No,1191
+RB0746,BR05,Checkered Giant,Male,Young,Bred,2024-02-21,F34,2.15,Sold,2024-06-10,3.6,No,1063
+RB0747,BR02,New Zealand White,Female,Young,Bred,2026-06-21,D14,2.14,Active,2026-09-04,2.5,No,893
+RB0748,BR03,Californian,Male,Young,Bred,2026-08-11,A7,1.93,Active,2026-09-04,0.8,No,917
+RB0749,BR06,Angora,Female,Adult,Bred,2024-11-17,B31,3.05,Active,2026-09-04,21.6,No,901
+RB0750,BR03,Californian,Female,Young,Purchased,2024-03-20,E28,1.13,Sold,2024-04-15,0.9,No,4050
+RB0751,BR01,Local Breed (Mixed),Female,Young,Purchased,2026-08-10,F17,0.85,Active,2026-09-04,0.8,No,4489
+RB0752,BR06,Angora,Female,Adult,Purchased,2023-08-29,C40,2.67,Sold,2025-03-31,19.1,No,9953
+RB0753,BR03,Californian,Male,Young,Bred,2026-07-30,H34,1.57,Active,2026-09-04,1.2,No,1354
+RB0754,BR02,New Zealand White,Female,Adult,Bred,2023-01-26,H12,4.46,Sold,2024-04-05,14.3,No,972
+RB0755,BR01,Local Breed (Mixed),Male,Young,Bred,2023-01-23,E13,0.67,Sold,2023-05-24,4.0,No,1092
+RB0756,BR05,Checkered Giant,Female,Adult,Bred,2021-10-23,H8,4.72,Sold,2026-09-03,58.3,No,947
+RB0757,BR03,Californian,Female,Young,Purchased,2026-04-30,G27,1.62,Active,2026-09-04,4.2,No,3784
+RB0758,BR03,Californian,Female,Young,Purchased,2026-05-25,D1,1.31,Sold,2026-08-24,3.0,No,8010
+RB0759,BR05,Checkered Giant,Male,Young,Bred,2024-09-13,E17,1.47,Sold,2024-09-17,0.1,No,987
+RB0760,BR05,Checkered Giant,Female,Adult,Bred,2026-02-08,B20,4.34,Active,2026-09-04,6.8,No,1061
+RB0761,BR01,Local Breed (Mixed),Female,Young,Bred,2026-05-23,F1,0.8,Active,2026-09-04,3.4,No,1586
+RB0762,BR02,New Zealand White,Female,Young,Bred,2026-04-06,F22,2.11,Active,2026-09-04,5.0,No,891
+RB0763,BR01,Local Breed (Mixed),Female,Adult,Bred,2024-11-12,A12,2.8,Sold,2025-10-07,10.8,No,957
+RB0764,BR04,Chinchilla Giant,Female,Adult,Bred,2023-07-28,H31,4.86,Deceased,2026-05-21,33.8,No,1114
+RB0765,BR01,Local Breed (Mixed),Female,Young,Bred,2026-03-17,C31,0.62,Active,2026-09-04,5.6,No,1775
+RB0766,BR03,Californian,Female,Adult,Bred,2024-04-04,F30,4.34,Deceased,2026-06-21,26.5,No,1217
+RB0767,BR04,Chinchilla Giant,Female,Adult,Bred,2026-01-26,G4,4.7,Active,2026-09-04,7.3,No,1494
+RB0768,BR05,Checkered Giant,Female,Young,Bred,2023-05-23,F36,1.91,Sold,2023-09-04,3.4,No,973
+RB0769,BR02,New Zealand White,Female,Young,Bred,2026-07-23,A14,1.8,Active,2026-09-04,1.4,No,860
+RB0770,BR05,Checkered Giant,Female,Adult,Bred,2024-11-29,F23,5.57,Active,2026-09-04,21.2,No,1429
+RB0771,BR01,Local Breed (Mixed),Male,Young,Purchased,2026-03-24,C18,0.77,Active,2026-09-04,5.4,No,4873
+RB0772,BR05,Checkered Giant,Male,Adult,Bred,2021-11-06,F25,5.14,Active,2026-09-04,57.9,No,1784
+RB0773,BR01,Local Breed (Mixed),Female,Young,Bred,2024-05-27,G12,0.54,Sold,2024-10-12,4.5,No,1133
+RB0774,BR02,New Zealand White,Female,Young,Bred,2026-08-07,B20,1.33,Active,2026-09-04,0.9,No,985
+RB0775,BR05,Checkered Giant,Female,Young,Bred,2024-02-11,A18,1.75,Sold,2024-05-21,3.3,No,827
+RB0776,BR01,Local Breed (Mixed),Female,Adult,Purchased,2024-06-17,D24,2.41,Sold,2025-09-12,14.8,No,4196
+RB0777,BR01,Local Breed (Mixed),Female,Adult,Bred,2024-03-17,E14,2.57,Active,2026-09-04,29.6,No,1530
+RB0778,BR04,Chinchilla Giant,Male,Young,Bred,2026-07-20,E12,1.51,Active,2026-09-04,1.5,No,859
+RB0779,BR04,Chinchilla Giant,Female,Young,Bred,2026-01-31,D6,2.2,Sold,2026-07-21,5.6,No,1105
+RB0780,BR03,Californian,Female,Adult,Bred,2024-02-29,A31,4.12,Active,2026-09-04,30.2,Yes,1199
+RB0781,BR04,Chinchilla Giant,Female,Young,Bred,2022-11-17,D22,1.74,Sold,2023-04-07,4.6,No,901
+RB0782,BR03,Californian,Female,Young,Bred,2026-07-09,E21,1.25,Active,2026-09-04,1.9,No,1127
+RB0783,BR01,Local Breed (Mixed),Female,Young,Bred,2026-04-13,B34,0.4,Active,2026-09-04,4.7,No,945
+RB0784,BR02,New Zealand White,Female,Young,Bred,2026-08-28,C14,1.84,Active,2026-09-04,0.2,No,1222
+RB0785,BR01,Local Breed (Mixed),Female,Young,Bred,2024-02-11,G34,1.03,Sold,2024-04-14,2.1,No,1714
+RB0786,BR06,Angora,Female,Adult,Bred,2022-04-29,A20,3.12,Active,2026-09-04,52.2,No,1131
+RB0787,BR03,Californian,Female,Adult,Bred,2022-07-05,B22,4.22,Sold,2023-02-05,7.1,No,1064
+RB0788,BR02,New Zealand White,Female,Young,Bred,2026-07-05,A7,1.73,Active,2026-09-04,2.0,No,1184
+RB0789,BR02,New Zealand White,Male,Young,Bred,2025-03-26,E2,1.11,Sold,2025-04-07,0.4,No,1764
+RB0790,BR06,Angora,Male,Young,Bred,2026-08-02,E14,0.96,Active,2026-09-04,1.1,No,1647
+RB0791,BR01,Local Breed (Mixed),Male,Young,Purchased,2026-05-29,D13,1.04,Active,2026-09-04,3.2,No,2896
+RB0792,BR03,Californian,Female,Young,Bred,2026-05-20,E35,1.09,Active,2026-09-04,3.5,No,1721
+RB0793,BR03,Californian,Male,Adult,Bred,2024-02-24,B18,4.29,Sold,2026-01-12,22.6,No,923
+RB0794,BR03,Californian,Female,Young,Bred,2026-04-15,C18,1.06,Active,2026-09-04,4.7,No,853
+RB0795,BR01,Local Breed (Mixed),Female,Adult,Bred,2022-04-26,A40,2.44,Active,2026-09-04,52.3,Yes,1007
+RB0796,BR05,Checkered Giant,Female,Young,Bred,2026-07-29,B14,1.81,Active,2026-09-04,1.2,No,1045
+RB0797,BR06,Angora,Female,Adult,Bred,2024-09-19,F36,2.72,Active,2026-09-04,23.5,Yes,1570
+RB0798,BR03,Californian,Female,Young,Bred,2026-05-28,E10,1.82,Active,2026-09-04,3.3,No,1411
+RB0799,BR04,Chinchilla Giant,Female,Adult,Bred,2022-01-27,D11,4.78,Sold,2023-01-12,11.5,No,1400
+RB0800,BR06,Angora,Female,Adult,Purchased,2025-02-10,F35,2.96,Sold,2026-08-13,18.0,No,10606
+RB0801,BR04,Chinchilla Giant,Male,Young,Bred,2026-06-29,A9,1.81,Active,2026-09-04,2.2,No,1042
+RB0802,BR01,Local Breed (Mixed),Female,Adult,Bred,2021-11-02,H4,2.64,Active,2026-09-04,58.0,No,1304
+RB0803,BR03,Californian,Female,Young,Purchased,2026-04-04,G4,1.17,Active,2026-09-04,5.0,No,6557
+RB0804,BR03,Californian,Female,Young,Purchased,2026-05-18,C39,1.49,Sold,2026-08-06,2.6,No,4811
+RB0805,BR02,New Zealand White,Male,Young,Bred,2023-04-18,H40,1.7,Sold,2023-05-07,0.6,No,1320
+RB0806,BR04,Chinchilla Giant,Female,Adult,Bred,2023-09-02,E22,5.21,Active,2026-09-04,36.1,Yes,1570
+RB0807,BR06,Angora,Female,Young,Bred,2026-04-27,B30,1.17,Active,2026-09-04,4.3,No,1316
+RB0808,BR06,Angora,Male,Young,Bred,2026-07-31,C6,1.01,Active,2026-09-04,1.1,No,1194
+RB0809,BR02,New Zealand White,Male,Young,Bred,2023-10-19,H7,1.33,Sold,2023-10-21,0.1,No,1772
+RB0810,BR01,Local Breed (Mixed),Male,Adult,Bred,2024-04-14,H15,2.33,Sold,2025-07-15,15.0,No,917
+RB0811,BR06,Angora,Female,Young,Bred,2026-05-04,C40,0.8,Active,2026-09-04,4.0,No,1075
+RB0812,BR05,Checkered Giant,Female,Adult,Bred,2023-02-14,F26,4.32,Active,2026-09-04,42.6,Yes,862
+RB0813,BR01,Local Breed (Mixed),Male,Young,Bred,2026-05-20,F21,0.94,Sold,2026-05-30,0.3,No,1125
+RB0814,BR06,Angora,Female,Young,Bred,2025-01-27,B31,1.39,Deceased,2025-07-19,5.7,No,1275
+RB0815,BR05,Checkered Giant,Male,Young,Bred,2026-04-05,F31,1.11,Active,2026-09-04,5.0,No,1366
+RB0816,BR03,Californian,Female,Adult,Bred,2024-04-05,C19,3.9,Active,2026-09-04,29.0,Yes,1216
+RB0817,BR03,Californian,Female,Young,Bred,2023-12-25,C33,1.66,Deceased,2024-01-20,0.9,No,867
+RB0818,BR02,New Zealand White,Female,Young,Bred,2026-02-24,F36,2.19,Deceased,2026-07-27,5.0,No,1295
+RB0819,BR01,Local Breed (Mixed),Male,Young,Bred,2024-05-21,H26,0.81,Sold,2024-09-01,3.4,No,829
+RB0820,BR02,New Zealand White,Female,Young,Bred,2026-08-06,G16,1.36,Active,2026-09-04,1.0,No,1217
+RB0821,BR05,Checkered Giant,Female,Young,Bred,2026-08-13,D36,1.77,Active,2026-09-04,0.7,No,1448
+RB0822,BR01,Local Breed (Mixed),Female,Young,Bred,2026-04-17,H25,1.22,Active,2026-09-04,4.6,No,1039
+RB0823,BR02,New Zealand White,Female,Adult,Bred,2022-01-17,F14,4.31,Active,2026-09-04,55.6,Yes,1735
+RB0824,BR02,New Zealand White,Female,Young,Bred,2023-09-20,G28,1.34,Sold,2023-10-19,1.0,No,1707
+RB0825,BR03,Californian,Male,Adult,Purchased,2024-11-08,F35,4.06,Active,2026-09-04,21.8,No,6628
+RB0826,BR06,Angora,Female,Adult,Bred,2025-07-26,D12,2.91,Active,2026-09-04,13.3,No,819
+RB0827,BR02,New Zealand White,Female,Adult,Bred,2021-11-22,H8,4.54,Sold,2024-08-08,32.5,No,1075
+RB0828,BR02,New Zealand White,Female,Young,Bred,2024-10-10,F36,2.06,Sold,2024-12-11,2.0,No,1367
+RB0829,BR04,Chinchilla Giant,Female,Adult,Purchased,2022-03-22,H12,5.1,Active,2026-09-04,53.4,No,7254
+RB0830,BR02,New Zealand White,Male,Young,Bred,2026-05-25,G5,1.5,Active,2026-09-04,3.4,No,1786
+RB0831,BR01,Local Breed (Mixed),Female,Young,Bred,2026-08-08,B39,0.72,Active,2026-09-04,0.9,No,1400
+RB0832,BR02,New Zealand White,Male,Young,Bred,2023-10-22,F32,1.11,Sold,2024-01-13,2.7,No,1491
+RB0833,BR01,Local Breed (Mixed),Male,Adult,Bred,2025-04-16,A6,2.56,Active,2026-09-04,16.6,No,903
+RB0834,BR01,Local Breed (Mixed),Female,Young,Bred,2025-12-05,A10,0.78,Deceased,2026-04-29,4.8,No,1052
+RB0835,BR02,New Zealand White,Female,Young,Purchased,2026-08-24,C29,1.52,Active,2026-09-04,0.4,No,5931
+RB0836,BR02,New Zealand White,Female,Young,Bred,2026-07-22,E25,2.53,Active,2026-09-04,1.4,No,1581
+RB0837,BR06,Angora,Female,Young,Bred,2024-08-26,D14,1.21,Sold,2024-10-31,2.2,No,1368
+RB0838,BR02,New Zealand White,Female,Young,Bred,2024-03-27,E37,1.35,Sold,2024-07-04,3.3,No,1467
+RB0839,BR03,Californian,Female,Young,Bred,2026-08-28,E28,1.34,Active,2026-09-04,0.2,No,1604
+RB0840,BR03,Californian,Female,Young,Bred,2024-01-26,B38,1.81,Sold,2024-04-27,3.0,No,928
+RB0841,BR01,Local Breed (Mixed),Female,Adult,Bred,2021-09-20,G9,2.33,Active,2026-09-04,59.5,No,1111
+RB0842,BR04,Chinchilla Giant,Female,Young,Purchased,2026-05-22,A24,1.32,Active,2026-09-04,3.4,No,7078
+RB0843,BR01,Local Breed (Mixed),Male,Adult,Bred,2024-10-02,A1,2.58,Active,2026-09-04,23.1,No,1381
+RB0844,BR06,Angora,Male,Adult,Bred,2022-09-06,B19,3.0,Deceased,2024-05-24,20.6,No,1216
+RB0845,BR01,Local Breed (Mixed),Female,Adult,Bred,2021-11-06,D28,2.86,Active,2026-09-04,57.9,Yes,1256
+RB0846,BR02,New Zealand White,Female,Young,Bred,2024-03-08,F25,1.9,Sold,2024-05-27,2.6,No,885
+RB0847,BR01,Local Breed (Mixed),Female,Young,Bred,2026-06-19,G28,0.67,Active,2026-09-04,2.5,No,1666
+RB0848,BR06,Angora,Female,Young,Bred,2026-07-25,D12,1.5,Active,2026-09-04,1.3,No,1451
+RB0849,BR03,Californian,Female,Adult,Purchased,2022-09-24,G24,4.22,Sold,2025-06-17,32.8,No,7250
+RB0850,BR03,Californian,Female,Adult,Bred,2022-02-08,E9,4.46,Sold,2023-08-25,18.5,No,1312
+RB0851,BR01,Local Breed (Mixed),Female,Young,Purchased,2026-04-11,A5,0.95,Active,2026-09-04,4.8,No,2983
+RB0852,BR04,Chinchilla Giant,Male,Young,Bred,2024-04-12,H28,1.5,Sold,2024-09-03,4.7,No,1008
+RB0853,BR01,Local Breed (Mixed),Female,Young,Bred,2026-04-11,B9,0.61,Active,2026-09-04,4.8,No,1601
+RB0854,BR05,Checkered Giant,Female,Young,Bred,2024-07-02,H39,2.13,Deceased,2024-09-14,2.4,No,1791
+RB0855,BR01,Local Breed (Mixed),Male,Young,Bred,2026-06-24,C30,0.7,Active,2026-09-04,2.4,No,945
+RB0856,BR01,Local Breed (Mixed),Female,Young,Bred,2026-07-16,G36,0.68,Active,2026-09-04,1.6,No,1182
+RB0857,BR01,Local Breed (Mixed),Female,Adult,Bred,2024-03-13,G23,2.01,Active,2026-09-04,29.7,Yes,1353
+RB0858,BR02,New Zealand White,Female,Adult,Purchased,2024-01-21,A37,4.63,Sold,2026-04-21,27.0,No,7004
+RB0859,BR03,Californian,Female,Adult,Bred,2024-06-20,D33,4.82,Active,2026-09-04,26.5,No,972
+RB0860,BR01,Local Breed (Mixed),Female,Young,Bred,2026-05-15,G35,0.48,Active,2026-09-04,3.7,No,1600
+RB0861,BR04,Chinchilla Giant,Female,Adult,Bred,2024-11-27,F3,5.01,Active,2026-09-04,21.2,Yes,1051
+RB0862,BR02,New Zealand White,Female,Adult,Bred,2022-01-27,H24,4.92,Sold,2022-10-24,8.9,No,1350
+RB0863,BR03,Californian,Female,Young,Purchased,2026-04-05,H6,1.45,Active,2026-09-04,5.0,No,5964
+RB0864,BR02,New Zealand White,Female,Young,Bred,2026-04-13,E30,1.71,Active,2026-09-04,4.7,No,1775
+RB0865,BR02,New Zealand White,Female,Young,Bred,2026-07-18,B34,1.26,Active,2026-09-04,1.6,No,1233
+RB0866,BR03,Californian,Female,Young,Bred,2022-12-03,D31,1.6,Sold,2023-05-10,5.2,No,1784
+RB0867,BR01,Local Breed (Mixed),Female,Young,Bred,2024-09-24,B35,0.75,Deceased,2024-10-05,0.4,No,1733
+RB0868,BR01,Local Breed (Mixed),Female,Young,Bred,2023-08-11,A22,1.1,Sold,2023-11-20,3.3,No,1368
+RB0869,BR05,Checkered Giant,Female,Young,Purchased,2024-09-18,H30,2.18,Deceased,2025-03-15,5.8,No,11400
+RB0870,BR06,Angora,Female,Adult,Purchased,2024-07-19,H37,3.98,Active,2026-09-04,25.5,Yes,12186
+RB0871,BR02,New Zealand White,Female,Young,Bred,2026-05-31,G23,1.75,Active,2026-09-04,3.2,No,1262
+RB0872,BR01,Local Breed (Mixed),Male,Adult,Bred,2022-02-01,E11,2.4,Sold,2022-12-04,10.1,No,842
+RB0873,BR03,Californian,Male,Young,Bred,2026-07-31,E37,1.53,Sold,2026-08-28,0.9,No,801
+RB0874,BR02,New Zealand White,Male,Young,Purchased,2026-02-27,H38,1.47,Sold,2026-03-18,0.6,No,8410
+RB0875,BR01,Local Breed (Mixed),Female,Adult,Bred,2021-12-18,E40,2.4,Deceased,2026-06-10,53.7,No,1632
+RB0876,BR01,Local Breed (Mixed),Female,Young,Bred,2026-03-14,E32,0.72,Active,2026-09-04,5.7,No,1275
+RB0877,BR04,Chinchilla Giant,Female,Young,Bred,2026-06-18,B18,1.8,Sold,2026-08-08,1.7,No,1784
+RB0878,BR04,Chinchilla Giant,Female,Young,Bred,2026-03-03,E18,2.15,Sold,2026-03-26,0.8,No,1649
+RB0879,BR01,Local Breed (Mixed),Male,Young,Bred,2026-05-12,A8,0.5,Active,2026-09-04,3.8,No,1435
+RB0880,BR01,Local Breed (Mixed),Female,Young,Bred,2024-10-23,C29,1.15,Deceased,2024-11-21,1.0,No,1096
+RB0881,BR01,Local Breed (Mixed),Female,Young,Bred,2026-06-10,C17,1.2,Active,2026-09-04,2.8,No,1468
+RB0882,BR04,Chinchilla Giant,Female,Young,Bred,2026-09-03,D32,1.71,Active,2026-09-04,0.0,No,1795
+RB0883,BR01,Local Breed (Mixed),Female,Young,Bred,2026-04-23,A22,0.4,Active,2026-09-04,4.4,No,971
+RB0884,BR01,Local Breed (Mixed),Female,Adult,Bred,2022-02-23,C39,2.12,Active,2026-09-04,54.3,No,800
+RB0885,BR05,Checkered Giant,Female,Adult,Bred,2021-11-21,H27,5.59,Sold,2023-02-02,14.4,No,861
+RB0886,BR01,Local Breed (Mixed),Female,Young,Purchased,2023-09-17,H11,0.8,Deceased,2024-01-15,3.9,No,2688
+RB0887,BR04,Chinchilla Giant,Female,Adult,Bred,2022-11-09,F4,4.7,Active,2026-09-04,45.8,No,1755
+RB0888,BR01,Local Breed (Mixed),Female,Adult,Bred,2025-04-11,E8,2.15,Active,2026-09-04,16.8,Yes,1743
+RB0889,BR01,Local Breed (Mixed),Female,Young,Bred,2026-03-21,C30,1.06,Active,2026-09-04,5.5,No,1293
+RB0890,BR01,Local Breed (Mixed),Male,Adult,Bred,2023-05-14,H35,2.46,Deceased,2025-10-03,28.7,No,1079
+RB0891,BR04,Chinchilla Giant,Female,Young,Bred,2026-04-08,G31,1.68,Deceased,2026-04-14,0.2,No,1412
+RB0892,BR05,Checkered Giant,Female,Young,Bred,2026-01-29,G1,1.71,Sold,2026-03-15,1.5,No,1056
+RB0893,BR05,Checkered Giant,Female,Young,Bred,2025-12-11,G21,1.7,Deceased,2026-02-15,2.2,No,1659
+RB0894,BR02,New Zealand White,Male,Adult,Bred,2024-08-24,A7,4.22,Active,2026-09-04,24.3,No,1496
+RB0895,BR04,Chinchilla Giant,Female,Young,Bred,2023-02-21,F28,2.23,Sold,2023-03-10,0.6,No,1189
+RB0896,BR01,Local Breed (Mixed),Female,Adult,Bred,2025-02-05,E22,2.2,Active,2026-09-04,18.9,No,1159
+RB0897,BR01,Local Breed (Mixed),Female,Young,Bred,2025-10-03,E38,1.17,Sold,2026-03-07,5.1,No,1662
+RB0898,BR05,Checkered Giant,Female,Young,Bred,2026-06-16,H16,2.28,Active,2026-09-04,2.6,No,1447
+RB0899,BR01,Local Breed (Mixed),Male,Adult,Purchased,2023-04-29,D34,2.6,Sold,2024-03-26,10.9,No,3342
+RB0900,BR01,Local Breed (Mixed),Female,Young,Purchased,2026-06-02,C21,0.68,Active,2026-09-04,3.1,No,4251
+RB0901,BR01,Local Breed (Mixed),Female,Adult,Bred,2021-09-21,B1,2.42,Sold,2025-02-23,41.1,No,1017
+RB0902,BR01,Local Breed (Mixed),Female,Adult,Bred,2024-08-14,B29,2.29,Sold,2025-09-16,13.1,No,1399
+RB0903,BR01,Local Breed (Mixed),Female,Young,Bred,2025-08-17,E13,0.53,Sold,2025-12-03,3.5,No,1660
+RB0904,BR03,Californian,Female,Adult,Bred,2021-11-12,A40,4.3,Active,2026-09-04,57.7,Yes,1322
+RB0905,BR02,New Zealand White,Female,Adult,Bred,2025-01-02,D39,4.15,Sold,2026-08-02,19.0,No,1088
+RB0906,BR05,Checkered Giant,Female,Young,Bred,2024-04-25,B39,2.18,Sold,2024-09-22,4.9,No,846
+RB0907,BR05,Checkered Giant,Male,Young,Bred,2026-04-10,G37,1.68,Active,2026-09-04,4.8,No,965
+RB0908,BR02,New Zealand White,Female,Young,Bred,2023-06-30,B12,1.64,Sold,2023-11-10,4.4,No,1556
+RB0909,BR01,Local Breed (Mixed),Female,Young,Bred,2026-05-11,E30,0.89,Active,2026-09-04,3.8,No,1346
+RB0910,BR02,New Zealand White,Male,Young,Bred,2026-08-24,B30,1.5,Active,2026-09-04,0.4,No,1376
+RB0911,BR03,Californian,Male,Adult,Bred,2023-03-24,G21,4.38,Active,2026-09-04,41.4,No,871
+RB0912,BR01,Local Breed (Mixed),Female,Young,Bred,2026-05-12,C5,0.66,Active,2026-09-04,3.8,No,1107
+RB0913,BR03,Californian,Male,Adult,Bred,2022-01-09,G25,4.46,Sold,2026-02-28,49.6,No,891
+RB0914,BR02,New Zealand White,Male,Young,Purchased,2025-07-14,E17,1.17,Sold,2025-12-26,5.4,No,4141
+RB0915,BR03,Californian,Male,Adult,Purchased,2022-01-24,H13,4.24,Sold,2026-06-03,52.3,No,4324
+RB0916,BR02,New Zealand White,Female,Adult,Bred,2022-03-05,H7,5.08,Sold,2024-11-09,32.2,No,1204
+RB0917,BR01,Local Breed (Mixed),Female,Young,Bred,2026-04-13,G14,0.5,Active,2026-09-04,4.7,No,1515
+RB0918,BR06,Angora,Female,Young,Bred,2024-06-03,H17,0.92,Sold,2024-11-03,5.0,No,925
+RB0919,BR04,Chinchilla Giant,Female,Young,Bred,2026-02-15,B37,1.9,Sold,2026-07-27,5.3,No,1650
+RB0920,BR01,Local Breed (Mixed),Female,Adult,Bred,2022-12-04,A32,2.35,Sold,2024-04-08,16.1,No,943
+RB0921,BR05,Checkered Giant,Female,Adult,Bred,2025-04-07,A3,5.31,Deceased,2026-06-26,14.6,No,1542
+RB0922,BR02,New Zealand White,Female,Adult,Bred,2025-05-27,G18,4.65,Active,2026-09-04,15.3,No,1369
+RB0923,BR05,Checkered Giant,Female,Young,Bred,2026-03-20,G37,2.01,Deceased,2026-06-24,3.2,No,1086
+RB0924,BR05,Checkered Giant,Female,Adult,Bred,2025-08-23,H31,5.53,Sold,2026-09-03,12.4,No,1699
+RB0925,BR02,New Zealand White,Female,Young,Bred,2026-06-27,G5,1.7,Active,2026-09-04,2.3,No,1242
+RB0926,BR01,Local Breed (Mixed),Female,Adult,Bred,2021-09-10,G31,2.23,Deceased,2025-03-07,41.9,No,1015
+RB0927,BR01,Local Breed (Mixed),Male,Adult,Bred,2024-09-04,F22,2.5,Sold,2026-07-16,22.3,No,1425
+RB0928,BR03,Californian,Male,Adult,Purchased,2025-07-01,E26,4.77,Active,2026-09-04,14.1,No,6954
+RB0929,BR03,Californian,Female,Young,Bred,2026-03-22,B24,1.43,Active,2026-09-04,5.5,No,1316
+RB0930,BR01,Local Breed (Mixed),Female,Young,Bred,2026-07-22,F6,0.51,Active,2026-09-04,1.4,No,1780
+RB0931,BR01,Local Breed (Mixed),Male,Young,Bred,2023-05-09,D12,1.14,Sold,2023-08-23,3.5,No,1621
+RB0932,BR05,Checkered Giant,Female,Young,Bred,2026-07-27,A25,1.78,Active,2026-09-04,1.3,No,1125
+RB0933,BR06,Angora,Female,Adult,Purchased,2025-05-19,D20,2.55,Active,2026-09-04,15.5,No,12191
+RB0934,BR03,Californian,Female,Young,Bred,2024-01-07,F32,1.72,Sold,2024-06-08,5.0,No,1705
+RB0935,BR01,Local Breed (Mixed),Female,Adult,Bred,2022-02-24,H13,2.14,Active,2026-09-04,54.3,Yes,1498
+RB0936,BR01,Local Breed (Mixed),Female,Young,Purchased,2026-04-12,A13,0.78,Active,2026-09-04,4.8,No,4376
+RB0937,BR01,Local Breed (Mixed),Female,Adult,Bred,2024-12-31,D32,2.4,Sold,2026-08-30,19.9,No,1768
+RB0938,BR06,Angora,Female,Young,Bred,2025-09-04,E32,1.18,Deceased,2025-10-16,1.4,No,1150
+RB0939,BR01,Local Breed (Mixed),Female,Adult,Bred,2024-03-12,A3,2.51,Sold,2025-03-17,12.2,No,1450
+RB0940,BR03,Californian,Female,Young,Purchased,2026-06-02,A22,1.34,Active,2026-09-04,3.1,No,4721
+RB0941,BR01,Local Breed (Mixed),Male,Young,Bred,2023-06-24,G8,0.96,Sold,2023-12-11,5.6,No,1067
+RB0942,BR03,Californian,Female,Young,Purchased,2026-05-01,H35,1.39,Active,2026-09-04,4.1,No,5123
+RB0943,BR04,Chinchilla Giant,Female,Young,Bred,2026-04-15,D5,1.97,Active,2026-09-04,4.7,No,1570
+RB0944,BR05,Checkered Giant,Female,Young,Purchased,2026-03-17,C32,2.0,Active,2026-09-04,5.6,No,7171
+RB0945,BR01,Local Breed (Mixed),Male,Young,Bred,2026-08-22,A31,0.52,Active,2026-09-04,0.4,No,1524
+RB0946,BR01,Local Breed (Mixed),Female,Young,Bred,2026-08-13,A16,1.13,Active,2026-09-04,0.7,No,1263
+RB0947,BR01,Local Breed (Mixed),Female,Adult,Purchased,2022-01-15,A12,2.14,Sold,2024-05-28,28.4,No,2272
+RB0948,BR06,Angora,Female,Young,Bred,2024-06-21,B30,1.36,Sold,2024-10-01,3.4,No,1079
+RB0949,BR05,Checkered Giant,Female,Adult,Bred,2025-02-06,C38,5.31,Active,2026-09-04,18.9,No,1051
+RB0950,BR03,Californian,Male,Young,Purchased,2026-03-24,B8,2.02,Active,2026-09-04,5.4,No,6089
+RB0951,BR03,Californian,Female,Young,Bred,2025-04-21,D5,1.4,Sold,2025-05-14,0.8,No,1478
+RB0952,BR04,Chinchilla Giant,Female,Young,Purchased,2026-04-28,G22,1.65,Active,2026-09-04,4.2,No,8781
+RB0953,BR01,Local Breed (Mixed),Female,Adult,Bred,2025-10-24,G21,2.29,Active,2026-09-04,10.3,No,1129
+RB0954,BR06,Angora,Female,Adult,Bred,2025-07-06,C21,3.11,Sold,2026-07-16,12.3,No,1149
+RB0955,BR02,New Zealand White,Male,Young,Bred,2026-05-01,A38,1.81,Active,2026-09-04,4.1,No,1015
+RB0956,BR02,New Zealand White,Female,Adult,Bred,2022-08-25,F5,4.02,Active,2026-09-04,48.3,No,1270
+RB0957,BR03,Californian,Male,Adult,Bred,2022-05-09,E10,3.88,Active,2026-09-04,51.9,No,1782
+RB0958,BR01,Local Breed (Mixed),Female,Adult,Bred,2025-12-03,G11,1.98,Active,2026-09-04,9.0,No,1413
+RB0959,BR01,Local Breed (Mixed),Female,Young,Bred,2024-04-29,C29,1.09,Sold,2024-06-07,1.3,No,1136
+RB0960,BR04,Chinchilla Giant,Male,Adult,Bred,2023-01-15,A9,5.51,Active,2026-09-04,43.6,No,816
+RB0961,BR01,Local Breed (Mixed),Female,Young,Purchased,2026-07-10,G11,0.77,Sold,2026-07-29,0.6,No,3019
+RB0962,BR03,Californian,Female,Young,Bred,2026-03-12,H6,1.42,Active,2026-09-04,5.8,No,1735
+RB0963,BR01,Local Breed (Mixed),Male,Young,Bred,2026-04-21,B38,0.83,Sold,2026-09-03,4.4,No,1508
+RB0964,BR02,New Zealand White,Male,Young,Bred,2026-05-19,G31,1.92,Active,2026-09-04,3.5,No,936
+RB0965,BR01,Local Breed (Mixed),Female,Adult,Bred,2025-07-22,C14,2.02,Active,2026-09-04,13.4,Yes,1461
+RB0966,BR02,New Zealand White,Female,Young,Bred,2026-03-11,H27,1.65,Sold,2026-06-30,3.6,No,1744
+RB0967,BR04,Chinchilla Giant,Female,Adult,Bred,2023-01-06,C40,5.29,Active,2026-09-04,43.9,No,802
+RB0968,BR01,Local Breed (Mixed),Female,Young,Bred,2024-05-18,C32,0.96,Deceased,2024-06-15,0.9,No,1423
+RB0969,BR03,Californian,Female,Adult,Bred,2021-12-03,E23,4.26,Sold,2024-11-06,35.1,No,1287
+RB0970,BR02,New Zealand White,Male,Young,Bred,2025-07-30,D13,1.88,Deceased,2025-09-06,1.2,No,804
+RB0971,BR04,Chinchilla Giant,Female,Young,Bred,2026-04-07,B40,0.94,Active,2026-09-04,4.9,No,1723
+RB0972,BR06,Angora,Female,Young,Bred,2026-06-08,D30,1.32,Active,2026-09-04,2.9,No,809
+RB0973,BR04,Chinchilla Giant,Female,Young,Bred,2024-01-03,D18,1.55,Sold,2024-01-15,0.4,No,1488
+RB0974,BR01,Local Breed (Mixed),Female,Young,Bred,2026-03-22,C31,0.4,Sold,2026-08-21,5.0,No,977
+RB0975,BR01,Local Breed (Mixed),Female,Adult,Bred,2022-07-28,A4,2.45,Sold,2025-05-13,33.5,No,1223
+RB0976,BR01,Local Breed (Mixed),Female,Adult,Bred,2025-04-16,F19,2.71,Active,2026-09-04,16.6,Yes,1369
+RB0977,BR03,Californian,Female,Adult,Bred,2022-11-07,G17,4.16,Active,2026-09-04,45.9,Yes,1716
+RB0978,BR01,Local Breed (Mixed),Female,Adult,Bred,2023-07-20,H3,2.59,Active,2026-09-04,37.5,Yes,1513
+RB0979,BR02,New Zealand White,Female,Adult,Bred,2022-04-05,A35,4.98,Active,2026-09-04,53.0,No,1520
+RB0980,BR03,Californian,Female,Adult,Bred,2022-08-30,C2,4.59,Active,2026-09-04,48.2,No,1300
+RB0981,BR02,New Zealand White,Female,Adult,Bred,2024-05-24,B5,4.99,Active,2026-09-04,27.4,Yes,1580
+RB0982,BR04,Chinchilla Giant,Female,Young,Bred,2026-05-07,H38,1.97,Active,2026-09-04,3.9,No,1202
+RB0983,BR01,Local Breed (Mixed),Female,Adult,Bred,2024-01-10,D21,2.32,Sold,2025-01-01,11.7,No,1351
+RB0984,BR01,Local Breed (Mixed),Female,Young,Bred,2026-05-05,B21,0.4,Active,2026-09-04,4.0,No,883
+RB0985,BR04,Chinchilla Giant,Female,Adult,Bred,2022-12-14,B16,4.93,Active,2026-09-04,44.7,No,1606
+RB0986,BR02,New Zealand White,Female,Young,Bred,2026-06-21,D25,1.32,Active,2026-09-04,2.5,No,1697
+RB0987,BR04,Chinchilla Giant,Female,Young,Bred,2022-11-26,H38,2.4,Sold,2023-05-07,5.3,No,1464
+RB0988,BR02,New Zealand White,Male,Adult,Bred,2024-02-13,C14,4.45,Sold,2025-06-02,15.6,No,1466
+RB0989,BR01,Local Breed (Mixed),Female,Adult,Bred,2022-04-24,C25,2.34,Deceased,2023-02-15,9.8,No,879
+RB0990,BR05,Checkered Giant,Female,Young,Bred,2025-09-03,D23,1.99,Sold,2025-11-05,2.1,No,1351
+RB0991,BR05,Checkered Giant,Female,Adult,Bred,2023-03-10,D22,5.21,Active,2026-09-04,41.9,No,831
+RB0992,BR04,Chinchilla Giant,Female,Young,Bred,2026-07-09,A18,2.26,Sold,2026-07-12,0.1,No,1713
+RB0993,BR01,Local Breed (Mixed),Female,Young,Bred,2026-04-11,B30,0.62,Active,2026-09-04,4.8,No,1652
+RB0994,BR03,Californian,Female,Young,Bred,2026-07-03,G11,1.53,Active,2026-09-04,2.1,No,1635
+RB0995,BR02,New Zealand White,Female,Young,Bred,2026-06-03,D19,1.35,Active,2026-09-04,3.1,No,1487
+RB0996,BR01,Local Breed (Mixed),Female,Young,Bred,2026-08-09,C40,0.41,Active,2026-09-04,0.9,No,1255
+RB0997,BR06,Angora,Female,Adult,Bred,2022-06-26,D6,3.02,Deceased,2023-04-06,9.3,No,1488
+RB0998,BR01,Local Breed (Mixed),Female,Adult,Purchased,2023-12-26,H14,2.29,Active,2026-09-04,32.3,No,2110
+RB0999,BR06,Angora,Female,Young,Purchased,2024-10-11,E1,0.99,Sold,2024-12-12,2.0,No,9703
+RB1000,BR02,New Zealand White,Female,Young,Bred,2026-06-25,D16,1.37,Active,2026-09-04,2.3,No,926

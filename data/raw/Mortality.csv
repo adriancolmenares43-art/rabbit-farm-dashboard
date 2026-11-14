@@ -1,0 +1,101 @@
+MortalityID,RabbitID,DateOfDeath,CauseOfDeath,BreedID,Sex,AgeGroup,BreedName,Year
+MT0001,RB0004,2026-02-12,Predator attack,BR03,Male,Adult,Californian,2026
+MT0002,RB0010,2025-07-04,Chilling/Cold stress,BR04,Female,Young,Chinchilla Giant,2025
+MT0003,RB0013,2026-06-27,Coccidiosis,BR05,Female,Young,Checkered Giant,2026
+MT0004,RB0026,2025-05-16,Unknown/Natural causes,BR05,Female,Adult,Checkered Giant,2025
+MT0005,RB0035,2025-02-28,Unknown/Natural causes,BR06,Male,Adult,Angora,2025
+MT0006,RB0067,2026-04-10,Enteritis (digestive upset),BR01,Female,Young,Local Breed (Mixed),2026
+MT0007,RB0087,2026-08-23,Predator attack,BR04,Male,Young,Chinchilla Giant,2026
+MT0008,RB0112,2026-01-03,Heat stress,BR01,Female,Adult,Local Breed (Mixed),2026
+MT0009,RB0116,2025-01-29,Chilling/Cold stress,BR05,Male,Young,Checkered Giant,2025
+MT0010,RB0136,2026-08-22,Unknown/Natural causes,BR02,Female,Young,New Zealand White,2026
+MT0011,RB0143,2026-08-30,Chilling/Cold stress,BR02,Male,Young,New Zealand White,2026
+MT0012,RB0158,2022-10-01,Coccidiosis,BR04,Female,Young,Chinchilla Giant,2022
+MT0013,RB0159,2026-03-17,Coccidiosis,BR01,Female,Young,Local Breed (Mixed),2026
+MT0014,RB0160,2026-06-25,Injury/Accident,BR04,Female,Adult,Chinchilla Giant,2026
+MT0015,RB0167,2023-08-24,Kindling complications,BR02,Female,Adult,New Zealand White,2023
+MT0016,RB0183,2024-09-28,Respiratory infection (snuffles),BR06,Female,Adult,Angora,2024
+MT0017,RB0192,2026-07-10,Unknown/Natural causes,BR05,Female,Young,Checkered Giant,2026
+MT0018,RB0207,2024-05-27,Injury/Accident,BR01,Male,Adult,Local Breed (Mixed),2024
+MT0019,RB0221,2022-09-30,Heat stress,BR04,Female,Adult,Chinchilla Giant,2022
+MT0020,RB0226,2023-07-31,Chilling/Cold stress,BR01,Female,Young,Local Breed (Mixed),2023
+MT0021,RB0247,2026-01-10,Enteritis (digestive upset),BR02,Female,Adult,New Zealand White,2026
+MT0022,RB0250,2023-10-12,Predator attack,BR05,Female,Adult,Checkered Giant,2023
+MT0023,RB0266,2026-03-24,Chilling/Cold stress,BR04,Male,Young,Chinchilla Giant,2026
+MT0024,RB0268,2023-09-26,Unknown/Natural causes,BR04,Female,Adult,Chinchilla Giant,2023
+MT0025,RB0273,2023-01-30,Coccidiosis,BR05,Female,Young,Checkered Giant,2023
+MT0026,RB0281,2023-07-12,Kindling complications,BR05,Female,Adult,Checkered Giant,2023
+MT0027,RB0284,2025-03-03,Predator attack,BR01,Female,Adult,Local Breed (Mixed),2025
+MT0028,RB0303,2022-11-29,Weaning stress,BR03,Female,Young,Californian,2022
+MT0029,RB0326,2026-08-25,Weaning stress,BR04,Female,Young,Chinchilla Giant,2026
+MT0030,RB0327,2025-04-18,Predator attack,BR03,Female,Adult,Californian,2025
+MT0031,RB0339,2025-03-16,Weaning stress,BR02,Female,Young,New Zealand White,2025
+MT0032,RB0344,2026-06-20,Predator attack,BR02,Female,Young,New Zealand White,2026
+MT0033,RB0353,2023-09-05,Chilling/Cold stress,BR04,Female,Young,Chinchilla Giant,2023
+MT0034,RB0360,2026-01-13,Enteritis (digestive upset),BR03,Female,Young,Californian,2026
+MT0035,RB0362,2026-06-23,Coccidiosis,BR03,Female,Adult,Californian,2026
+MT0036,RB0368,2025-11-24,Predator attack,BR06,Female,Young,Angora,2025
+MT0037,RB0370,2026-08-08,Coccidiosis,BR01,Female,Young,Local Breed (Mixed),2026
+MT0038,RB0376,2025-11-15,Coccidiosis,BR02,Male,Adult,New Zealand White,2025
+MT0039,RB0388,2022-10-19,Predator attack,BR01,Female,Young,Local Breed (Mixed),2022
+MT0040,RB0418,2024-08-14,Coccidiosis,BR02,Female,Young,New Zealand White,2024
+MT0041,RB0437,2024-11-03,Unknown/Natural causes,BR01,Female,Adult,Local Breed (Mixed),2024
+MT0042,RB0447,2026-06-10,Respiratory infection (snuffles),BR06,Male,Adult,Angora,2026
+MT0043,RB0451,2024-12-21,Coccidiosis,BR04,Female,Young,Chinchilla Giant,2024
+MT0044,RB0477,2025-11-08,Kindling complications,BR01,Female,Adult,Local Breed (Mixed),2025
+MT0045,RB0489,2025-11-16,Unknown/Natural causes,BR06,Male,Young,Angora,2025
+MT0046,RB0491,2024-06-26,Predator attack,BR02,Female,Adult,New Zealand White,2024
+MT0047,RB0495,2025-03-17,Enteritis (digestive upset),BR02,Female,Young,New Zealand White,2025
+MT0048,RB0501,2025-11-21,Heat stress,BR04,Male,Adult,Chinchilla Giant,2025
+MT0049,RB0521,2024-08-22,Predator attack,BR03,Male,Young,Californian,2024
+MT0050,RB0529,2025-08-14,Coccidiosis,BR01,Female,Young,Local Breed (Mixed),2025
+MT0051,RB0544,2026-05-26,Coccidiosis,BR04,Female,Adult,Chinchilla Giant,2026
+MT0052,RB0546,2025-07-19,Enteritis (digestive upset),BR02,Female,Adult,New Zealand White,2025
+MT0053,RB0554,2025-07-03,Unknown/Natural causes,BR03,Female,Young,Californian,2025
+MT0054,RB0556,2024-01-04,Unknown/Natural causes,BR02,Female,Young,New Zealand White,2024
+MT0055,RB0572,2026-06-22,Kindling complications,BR05,Female,Adult,Checkered Giant,2026
+MT0056,RB0578,2024-03-28,Heat stress,BR06,Female,Adult,Angora,2024
+MT0057,RB0579,2024-04-14,Weaning stress,BR02,Female,Young,New Zealand White,2024
+MT0058,RB0585,2025-03-22,Unknown/Natural causes,BR03,Female,Adult,Californian,2025
+MT0059,RB0591,2026-06-22,Coccidiosis,BR01,Female,Young,Local Breed (Mixed),2026
+MT0060,RB0607,2025-10-21,Enteritis (digestive upset),BR01,Female,Adult,Local Breed (Mixed),2025
+MT0061,RB0609,2024-01-23,Chilling/Cold stress,BR03,Male,Young,Californian,2024
+MT0062,RB0617,2022-12-01,Unknown/Natural causes,BR01,Male,Young,Local Breed (Mixed),2022
+MT0063,RB0620,2026-09-03,Predator attack,BR04,Female,Adult,Chinchilla Giant,2026
+MT0064,RB0626,2023-10-24,Enteritis (digestive upset),BR02,Female,Young,New Zealand White,2023
+MT0065,RB0632,2025-12-08,Kindling complications,BR05,Female,Adult,Checkered Giant,2025
+MT0066,RB0638,2024-07-19,Kindling complications,BR01,Female,Adult,Local Breed (Mixed),2024
+MT0067,RB0641,2025-12-22,Predator attack,BR01,Female,Adult,Local Breed (Mixed),2025
+MT0068,RB0660,2024-04-04,Injury/Accident,BR03,Female,Adult,Californian,2024
+MT0069,RB0669,2026-05-16,Unknown/Natural causes,BR01,Male,Adult,Local Breed (Mixed),2026
+MT0070,RB0702,2023-05-15,Heat stress,BR01,Female,Adult,Local Breed (Mixed),2023
+MT0071,RB0705,2026-07-23,Weaning stress,BR01,Female,Young,Local Breed (Mixed),2026
+MT0072,RB0707,2025-10-18,Weaning stress,BR02,Female,Young,New Zealand White,2025
+MT0073,RB0717,2026-08-03,Coccidiosis,BR05,Female,Young,Checkered Giant,2026
+MT0074,RB0718,2026-08-03,Predator attack,BR06,Female,Adult,Angora,2026
+MT0075,RB0724,2023-06-25,Enteritis (digestive upset),BR04,Female,Adult,Chinchilla Giant,2023
+MT0076,RB0727,2023-04-21,Chilling/Cold stress,BR01,Female,Young,Local Breed (Mixed),2023
+MT0077,RB0764,2026-05-21,Coccidiosis,BR04,Female,Adult,Chinchilla Giant,2026
+MT0078,RB0766,2026-06-21,Coccidiosis,BR03,Female,Adult,Californian,2026
+MT0079,RB0814,2025-07-19,Chilling/Cold stress,BR06,Female,Young,Angora,2025
+MT0080,RB0817,2024-01-20,Coccidiosis,BR03,Female,Young,Californian,2024
+MT0081,RB0818,2026-07-27,Coccidiosis,BR02,Female,Young,New Zealand White,2026
+MT0082,RB0834,2026-04-29,Weaning stress,BR01,Female,Young,Local Breed (Mixed),2026
+MT0083,RB0844,2024-05-24,Injury/Accident,BR06,Male,Adult,Angora,2024
+MT0084,RB0854,2024-09-14,Chilling/Cold stress,BR05,Female,Young,Checkered Giant,2024
+MT0085,RB0867,2024-10-05,Chilling/Cold stress,BR01,Female,Young,Local Breed (Mixed),2024
+MT0086,RB0869,2025-03-15,Unknown/Natural causes,BR05,Female,Young,Checkered Giant,2025
+MT0087,RB0875,2026-06-10,Unknown/Natural causes,BR01,Female,Adult,Local Breed (Mixed),2026
+MT0088,RB0880,2024-11-21,Unknown/Natural causes,BR01,Female,Young,Local Breed (Mixed),2024
+MT0089,RB0886,2024-01-15,Unknown/Natural causes,BR01,Female,Young,Local Breed (Mixed),2024
+MT0090,RB0890,2025-10-03,Predator attack,BR01,Male,Adult,Local Breed (Mixed),2025
+MT0091,RB0891,2026-04-14,Unknown/Natural causes,BR04,Female,Young,Chinchilla Giant,2026
+MT0092,RB0893,2026-02-15,Chilling/Cold stress,BR05,Female,Young,Checkered Giant,2026
+MT0093,RB0921,2026-06-26,Predator attack,BR05,Female,Adult,Checkered Giant,2026
+MT0094,RB0923,2026-06-24,Predator attack,BR05,Female,Young,Checkered Giant,2026
+MT0095,RB0926,2025-03-07,Injury/Accident,BR01,Female,Adult,Local Breed (Mixed),2025
+MT0096,RB0938,2025-10-16,Unknown/Natural causes,BR06,Female,Young,Angora,2025
+MT0097,RB0968,2024-06-15,Unknown/Natural causes,BR01,Female,Young,Local Breed (Mixed),2024
+MT0098,RB0970,2025-09-06,Unknown/Natural causes,BR02,Male,Young,New Zealand White,2025
+MT0099,RB0989,2023-02-15,Unknown/Natural causes,BR01,Female,Adult,Local Breed (Mixed),2023
+MT0100,RB0997,2023-04-06,Predator attack,BR06,Female,Adult,Angora,2023
