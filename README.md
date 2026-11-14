@@ -5,7 +5,7 @@
 A Next.js site (static export) with a recruiter-facing landing page and an operations dashboard,
 built from six linked CSV files about a 1,000-rabbit farm (sample dataset, prices in NGN).
 
-**Live:** https://YOUR-PROJECT.vercel.app  ← replace after the first deploy
+**Live:** https://rabbit-farm-dashboard.vercel.app
 
 ## What it shows
 
@@ -55,7 +55,7 @@ Vercel detects Next.js and runs `next build`; no config file is needed.
 
 1. Push this repo to GitHub.
 2. On vercel.com: **Add New → Project → Import** this repo → **Deploy**.
-3. Copy the URL into this README, the CV and LinkedIn.
+3. Copy the URL into the CV and LinkedIn.
 
 ## Author
 
