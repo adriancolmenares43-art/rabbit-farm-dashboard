@@ -10,7 +10,12 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       - run: python scripts/build_data.py data/raw data/data.json
-      - run: python scripts/build_pages.py
       - run: pytest -q
-      - name: Site must be committed and up to date
-        run: git diff --exit-code site/ data/data.json
+      - name: data.json must be committed and up to date
+        run: git diff --exit-code data/data.json
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run build

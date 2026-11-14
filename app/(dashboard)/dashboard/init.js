@@ -1,262 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Rabbit Farm Operations Dashboard · Adrián Rodríguez</title>
-<meta name="description" content="Operations dashboard for a 1,000-rabbit farm: herd, sales, profit, mortality and upcoming births. Portfolio project by Adrián Rodríguez.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=JetBrains+Mono:wght@400;500;600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
-<style>
-:root{
-  --bg:#070e1f; --bg-2:#0b1630; --surface:#101b33;
-  --glass:rgba(148,178,255,.055); --glass-hi:rgba(148,178,255,.09);
-  --line:rgba(160,190,255,.12); --line-strong:rgba(160,190,255,.22);
-  --grid:rgba(160,190,255,.08);
-  --ink:#eef2fb; --ink-2:#b4bfd6; --ink-3:#7d89a6;
-  --accent:#f2b544;
-  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181; --s6:#0ca30c;
-  --good:#0ca30c; --warn:#fab219; --crit:#e66767;
-  --r:18px;
-  --f-display:"Syne",ui-sans-serif,system-ui,sans-serif;
-  --f-body:"DM Sans",ui-sans-serif,system-ui,sans-serif;
-  --f-mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
-}
-*{box-sizing:border-box;margin:0;padding:0}
-html{background:var(--bg)}
-body{font-family:var(--f-body);color:var(--ink);background:
-  radial-gradient(900px 600px at 8% -10%,rgba(57,135,229,.22),transparent 60%),
-  radial-gradient(700px 500px at 100% 10%,rgba(242,181,68,.10),transparent 60%),
-  radial-gradient(800px 700px at 60% 110%,rgba(25,158,112,.12),transparent 60%),
-  linear-gradient(180deg,var(--bg),var(--bg-2));
-  min-height:100vh;-webkit-font-smoothing:antialiased;line-height:1.5}
-body::before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.35;
-  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
-  background-size:48px 48px;mask-image:radial-gradient(ellipse at 50% 0%,#000 30%,transparent 75%)}
-.wrap{max-width:1320px;margin:0 auto;padding:28px clamp(16px,3vw,40px) 56px;position:relative}
-a{color:inherit}
-.num{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
-
-/* header */
-.top{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:28px;flex-wrap:wrap}
-.back{display:inline-flex;align-items:center;gap:8px;font-size:14px;color:var(--ink-2);text-decoration:none;padding:8px 14px;border:1px solid var(--line);border-radius:999px;background:var(--glass);transition:.2s}
-.back:hover{color:var(--ink);border-color:var(--line-strong);transform:translateX(-2px)}
-.chips{display:flex;gap:8px;flex-wrap:wrap}
-.chip{font-family:var(--f-mono);font-size:12px;color:var(--ink-2);padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:var(--glass)}
-.chip b{color:var(--ink);font-weight:500}
-.hero{display:grid;grid-template-columns:1.4fr 1fr;gap:24px;align-items:end;margin-bottom:28px}
-.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:12px}
-h1{font-family:var(--f-display);font-weight:800;font-size:clamp(34px,5vw,60px);line-height:.98;letter-spacing:-.02em}
-h1 span{color:var(--ink-3)}
-.lede{color:var(--ink-2);font-size:16px;max-width:52ch}
-.lede strong{color:var(--ink);font-weight:600}
-
-/* cards */
-.card{background:var(--glass);border:1px solid var(--line);border-radius:var(--r);padding:22px;
-  backdrop-filter:blur(18px) saturate(140%);-webkit-backdrop-filter:blur(18px) saturate(140%);
-  box-shadow:0 1px 0 rgba(255,255,255,.06) inset,0 20px 50px -30px rgba(0,0,0,.8);position:relative;min-width:0}
-.card h2{font-family:var(--f-display);font-weight:700;font-size:19px;letter-spacing:-.01em}
-.card .sub{color:var(--ink-3);font-size:13.5px;margin-top:4px}
-.card-head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:18px;flex-wrap:wrap}
-.grid{display:grid;gap:18px}
-.kpis{grid-template-columns:repeat(6,1fr);margin-bottom:18px}
-.kpi{padding:18px 18px 16px;overflow:hidden}
-.kpi::after{content:"";position:absolute;left:18px;right:18px;top:0;height:2px;border-radius:0 0 2px 2px;background:var(--k,var(--s1));opacity:.9}
-.kpi .label{font-size:12.5px;color:var(--ink-2);font-weight:500}
-.kpi .value{font-family:var(--f-mono);font-size:clamp(22px,2.1vw,30px);font-weight:600;letter-spacing:-.02em;margin:10px 0 6px;white-space:nowrap}
-.kpi .value small{font-size:.5em;font-weight:500;color:var(--ink-2);margin-left:.15em;letter-spacing:0}
-.kpi .foot{font-size:12.5px;color:var(--ink-3)}
-.kpi .foot b{color:var(--ink-2);font-weight:500;font-family:var(--f-mono)}
-.kpi.primary{background:linear-gradient(160deg,rgba(57,135,229,.18),var(--glass) 60%)}
-.row-a{grid-template-columns:2fr 1fr;margin-bottom:18px}
-.row-b{grid-template-columns:1.25fr 1fr 1fr;margin-bottom:18px}
-.row-c{grid-template-columns:1.3fr 1fr;margin-bottom:18px}
-.chart{width:100%;position:relative}
-.chart svg{display:block;width:100%;overflow:visible}
-.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--ink-2)}
-.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:7px;vertical-align:-1px}
-.seg{display:inline-flex;padding:3px;border-radius:999px;border:1px solid var(--line);background:rgba(0,0,0,.2)}
-.seg button{font:500 12.5px var(--f-body);color:var(--ink-2);background:none;border:0;padding:6px 12px;border-radius:999px;cursor:pointer;transition:.2s}
-.seg button:hover{color:var(--ink)}
-.seg button[aria-pressed="true"]{background:var(--glass-hi);color:var(--ink);box-shadow:0 0 0 1px var(--line-strong) inset}
-.seg button:focus-visible,.back:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.stat-line{display:flex;gap:22px;flex-wrap:wrap;margin-top:16px;padding-top:14px;border-top:1px solid var(--line)}
-.stat-line div{font-size:12.5px;color:var(--ink-3)}
-.stat-line b{display:block;font-family:var(--f-mono);font-size:16px;color:var(--ink);font-weight:500;margin-top:2px}
-
-/* svg text */
-.ax{font-family:var(--f-mono);font-size:11px;fill:var(--ink-3)}
-.lbl{font-family:var(--f-body);font-size:12.5px;fill:var(--ink-2)}
-.val{font-family:var(--f-mono);font-size:12px;fill:var(--ink)}
-.endlbl{font-family:var(--f-body);font-size:12px;font-weight:600}
-.mark{transition:opacity .15s}
-.dim .mark{opacity:.35}.dim .mark.on{opacity:1}
-
-/* tooltip */
-.tip{position:fixed;z-index:50;pointer-events:none;min-width:150px;padding:10px 12px;border-radius:12px;background:rgba(10,18,38,.92);border:1px solid var(--line-strong);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);box-shadow:0 12px 30px -10px rgba(0,0,0,.7);font-size:12.5px;opacity:0;transform:translateY(4px);transition:opacity .12s,transform .12s}
-.tip.show{opacity:1;transform:none}
-.tip .t{font-weight:600;color:var(--ink);margin-bottom:6px}
-.tip .r{display:flex;justify-content:space-between;gap:14px;color:var(--ink-2);line-height:1.7}
-.tip .r i{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:6px}
-.tip .r b{font-family:var(--f-mono);font-weight:500;color:var(--ink)}
-
-/* births table */
-.tbl-wrap{max-height:430px;overflow:auto;border-radius:12px;border:1px solid var(--line)}
-table{width:100%;border-collapse:collapse;font-size:13.5px}
-thead th{position:sticky;top:0;background:#0f1a33;text-align:left;font-weight:500;color:var(--ink-3);font-size:12px;padding:11px 14px;border-bottom:1px solid var(--line);white-space:nowrap}
-tbody td{padding:10px 14px;border-bottom:1px solid rgba(160,190,255,.06);color:var(--ink-2);white-space:nowrap}
-tbody tr{transition:background .15s}
-tbody tr:hover{background:rgba(148,178,255,.06)}
-td.date{color:var(--ink);font-family:var(--f-mono)}
-td.mono{font-family:var(--f-mono)}
-.days{display:inline-flex;align-items:center;justify-content:center;min-width:52px;font-family:var(--f-mono);font-size:12px;padding:3px 8px;border-radius:999px;border:1px solid var(--line)}
-.days.soon{color:#ffd27a;border-color:rgba(250,178,25,.45);background:rgba(250,178,25,.10)}
-.status{display:inline-flex;align-items:center;gap:6px;font-size:12.5px}
-.status::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--s1)}
-.status.due::before{background:var(--warn)}
-.breed-dot{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:8px}
-.note{font-size:12.5px;color:var(--ink-3);margin-top:12px}
-
-footer{margin-top:28px;display:grid;grid-template-columns:1fr auto;gap:24px;color:var(--ink-3);font-size:12.5px;border-top:1px solid var(--line);padding-top:20px}
-footer ul{list-style:none;display:grid;gap:4px}
-footer a{color:var(--ink-2)}
-
-.reveal{opacity:0;transform:translateY(14px);animation:rise .7s cubic-bezier(.2,.7,.2,1) forwards}
-@keyframes rise{to{opacity:1;transform:none}}
-@media (prefers-reduced-motion:reduce){.reveal{animation:none;opacity:1;transform:none}}
-
-@media (max-width:1100px){.kpis{grid-template-columns:repeat(3,1fr)}.row-a,.row-c{grid-template-columns:1fr}.row-b{grid-template-columns:1fr 1fr}.row-b>.card:first-child{grid-column:1/-1}}
-@media (max-width:720px){.hero{grid-template-columns:1fr}.kpis{grid-template-columns:repeat(2,1fr)}.row-b{grid-template-columns:1fr}footer{grid-template-columns:1fr}}
-.lang{display:inline-flex;padding:3px;border-radius:999px;border:1px solid var(--line);background:rgba(0,0,0,.25)}
-.lang button{font:600 12px var(--f-mono);letter-spacing:.06em;color:var(--ink-3);background:none;border:0;padding:6px 10px;border-radius:999px;cursor:pointer;transition:.2s}
-.lang button:hover{color:var(--ink)}
-.lang button[aria-pressed="true"]{background:var(--accent);color:#1b1204}
-.lang button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.top-right{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-</style>
-</head>
-<body>
-<div class="wrap">
-  <div class="top">
-    <a class="back" href="../" data-i18n="back"></a>
-    <div class="top-right">
-      <div class="chips">
-        <span class="chip"><span data-i18n="snapshot"></span> <b id="asof"></b></span>
-        <span class="chip"><span data-i18n="currency"></span> <b>₦ NGN</b></span>
-        <span class="chip" data-i18n="sample"></span>
-      </div>
-      <div class="lang" role="group" aria-label="Language">
-        <button type="button" data-lang="en" lang="en">EN</button>
-        <button type="button" data-lang="es" lang="es">ES</button>
-        <button type="button" data-lang="pt" lang="pt">PT</button>
-      </div>
-    </div>
-  </div>
-
-  <section class="hero reveal">
-    <div>
-      <div class="eyebrow" data-i18n="eyebrow"></div>
-      <h1 id="h1"></h1>
-    </div>
-    <p class="lede" id="lede"></p>
-  </section>
-
-  <section class="grid kpis" id="kpis" aria-label="KPI"></section>
-
-  <section class="grid row-a">
-    <article class="card reveal" style="animation-delay:.15s">
-      <div class="card-head">
-        <div><h2 data-i18n="trendTitle"></h2><p class="sub" id="trend-sub"></p></div>
-        <div class="seg" role="group">
-          <button type="button" data-grain="month" aria-pressed="true" data-i18n="monthly"></button>
-          <button type="button" data-grain="year" aria-pressed="false" data-i18n="yearly"></button>
-        </div>
-      </div>
-      <div class="legend" id="trend-legend"></div>
-      <div class="chart" id="trend" style="margin-top:8px"></div>
-      <div class="stat-line" id="trend-stats"></div>
-    </article>
-    <article class="card reveal" style="animation-delay:.2s">
-      <div class="card-head"><div><h2 data-i18n="chTitle"></h2><p class="sub" id="ch-sub"></p></div></div>
-      <div class="chart" id="channels"></div>
-      <div class="stat-line" id="channel-stats"></div>
-      <p class="note" id="channel-note"></p>
-    </article>
-  </section>
-
-  <section class="grid row-b">
-    <article class="card reveal" style="animation-delay:.25s">
-      <div class="card-head">
-        <div><h2 data-i18n="breedTitle"></h2><p class="sub" id="breed-sub"></p></div>
-        <div class="legend"><span><i style="background:var(--s1)"></i><span data-i18n="female"></span></span><span><i style="background:var(--s2)"></i><span data-i18n="male"></span></span></div>
-      </div>
-      <div class="chart" id="breeds"></div>
-    </article>
-    <article class="card reveal" style="animation-delay:.3s">
-      <div class="card-head"><div><h2 data-i18n="ageTitle"></h2><p class="sub" data-i18n="ageSub"></p></div></div>
-      <div class="chart" id="age"></div>
-      <p class="note" id="age-note"></p>
-    </article>
-    <article class="card reveal" style="animation-delay:.35s">
-      <div class="card-head"><div><h2 data-i18n="lifeTitle"></h2><p class="sub" data-i18n="lifeSub"></p></div></div>
-      <div class="chart" id="status"></div>
-      <p class="note" id="status-note"></p>
-    </article>
-  </section>
-
-  <section class="grid row-c">
-    <article class="card reveal" style="animation-delay:.4s">
-      <div class="card-head"><div><h2 data-i18n="mortTitle"></h2><p class="sub" id="mort-sub"></p></div></div>
-      <div class="chart" id="mortality"></div>
-    </article>
-    <article class="card reveal" style="animation-delay:.45s">
-      <div class="card-head"><div><h2 data-i18n="myTitle"></h2><p class="sub" id="mortyear-sub"></p></div></div>
-      <div class="chart" id="mortyear"></div>
-      <div class="card-head" style="margin:22px 0 14px"><div><h2 data-i18n="bpTitle"></h2><p class="sub" data-i18n="bpSub"></p></div></div>
-      <div class="chart" id="breedprofit"></div>
-    </article>
-  </section>
-
-  <section class="card reveal" style="animation-delay:.5s">
-    <div class="card-head">
-      <div><h2 data-i18n="birthsTitle"></h2><p class="sub" id="births-sub"></p></div>
-      <div class="seg" role="group">
-        <button type="button" data-win="7" aria-pressed="false" data-i18n="win7"></button>
-        <button type="button" data-win="14" aria-pressed="false" data-i18n="win14"></button>
-        <button type="button" data-win="all" aria-pressed="true" data-i18n="winAll"></button>
-      </div>
-    </div>
-    <div class="tbl-wrap">
-      <table>
-        <thead><tr><th data-i18n="thDate"></th><th data-i18n="thIn"></th><th data-i18n="thDoe"></th><th data-i18n="thBreed"></th><th data-i18n="thHutch"></th><th data-i18n="thMated"></th><th data-i18n="thStatus"></th></tr></thead>
-        <tbody id="births"></tbody>
-      </table>
-    </div>
-    <p class="note" data-i18n="birthsNote"></p>
-  </section>
-
-  <footer>
-    <ul>
-      <li><b style="color:var(--ink-2)" data-i18n="fHow"></b></li>
-      <li data-i18n="fMort"></li>
-      <li data-i18n="fProfit"></li>
-      <li data-i18n="fPartial"></li>
-    </ul>
-    <ul style="text-align:right">
-      <li><span data-i18n="fBuilt"></span> <a href="../">Adrián Rodríguez</a></li>
-      <li data-i18n="fSvg"></li>
-      <li data-i18n="fSample"></li>
-    </ul>
-  </footer>
-</div>
-<div class="tip" id="tip" role="tooltip"></div>
-
-<script id="farm-data" type="application/json">/*DATA*/</script>
-<script>
-(function(){
-"use strict";
-const D = JSON.parse(document.getElementById("farm-data").textContent);
+/* Chart + i18n code carried over from the static build. Returns a cleanup function. */
+export default function initDashboard(D){
+const ac=new AbortController(), signal=ac.signal;
 const K = D.kpi;
 const NS = "http://www.w3.org/2000/svg";
 const C = {s1:"#3987e5",s2:"#d95926",s3:"#199e70",s4:"#c98500",s5:"#d55181",s6:"#0ca30c",crit:"#e66767",grid:"rgba(160,190,255,.09)",surface:"#101b33"};
@@ -490,7 +234,7 @@ function drawTrend(){
   document.getElementById("trend-sub").textContent= grain==="month" ? L.trendSubM(D.monthly.length,fmtYm(D.monthly[0].month),fmtYm(lastM),fmtYm(lastM)) : L.trendSubY(y2.year,fmtDate(D.sales_span[1]));
   document.getElementById("trend-stats").innerHTML=`<div>${L.best}<b>${fmtYm(best.month)} · ${ngnShort(best.revenue)}</b></div><div>${L.soFar(y2.year,y1.year)}<b>${ngnShort(y2.revenue)} ${L.vs} ${ngnShort(y1.revenue)}</b></div><div>${L.avgM}<b>${ngnShort(K.revenue/D.monthly.length)}</b></div>`;
 }
-document.querySelectorAll("[data-grain]").forEach(b=>b.addEventListener("click",()=>{ grain=b.dataset.grain; document.querySelectorAll("[data-grain]").forEach(x=>x.setAttribute("aria-pressed",x===b)); drawTrend(); }));
+document.querySelectorAll("[data-grain]").forEach(b=>b.addEventListener("click",()=>{ grain=b.dataset.grain; document.querySelectorAll("[data-grain]").forEach(x=>x.setAttribute("aria-pressed",x===b)); drawTrend(); },{signal}));
 
 /* ---------- bars ---------- */
 function drawHbars(hostId, items, opt){
@@ -552,7 +296,7 @@ function drawBirths(){
   document.getElementById("births").innerHTML=rows.map(b=>`<tr><td class="date">${fmtDate(b.ExpectedKindlingDate)}</td><td><span class="days${b.DaysUntilKindling<=7?" soon":""}">${b.DaysUntilKindling} d</span></td><td class="mono">${b.RabbitID}</td><td><span class="breed-dot" style="background:${BREED_COLOR[b.BreedName]}"></span>${map(L.breed,b.BreedName)}</td><td class="mono">${b.HutchNumber}</td><td class="mono">${fmtDate(b.MatingDate)}</td><td><span class="status${b.PregnancyStatus==="Due soon"?" due":""}">${map(L.status,b.PregnancyStatus)}</span></td></tr>`).join("");
   document.getElementById("births-sub").textContent=L.birthsSub(rows.length,D.births.length,fmtDate(D.births[0].ExpectedKindlingDate),fmtDate(D.births[D.births.length-1].ExpectedKindlingDate),D.births_status["Due soon"]||0);
 }
-document.querySelectorAll("[data-win]").forEach(b=>b.addEventListener("click",()=>{ win=b.dataset.win; document.querySelectorAll("[data-win]").forEach(x=>x.setAttribute("aria-pressed",x===b)); drawBirths(); }));
+document.querySelectorAll("[data-win]").forEach(b=>b.addEventListener("click",()=>{ win=b.dataset.win; document.querySelectorAll("[data-win]").forEach(x=>x.setAttribute("aria-pressed",x===b)); drawBirths(); },{signal}));
 
 /* ---------- language ---------- */
 function pickLang(){
@@ -567,11 +311,9 @@ function setLang(code){
   try{ localStorage.setItem("lang",code); }catch(e){}
   hideTip(); renderText(); drawAll(); drawBirths();
 }
-document.querySelectorAll("[data-lang]").forEach(b=>b.addEventListener("click",()=>setLang(b.dataset.lang)));
+document.querySelectorAll("[data-lang]").forEach(b=>b.addEventListener("click",()=>setLang(b.dataset.lang),{signal}));
 setLang(pickLang());
-let rt; addEventListener("resize",()=>{ clearTimeout(rt); rt=setTimeout(drawAll,150); });
-if(document.fonts&&document.fonts.ready) document.fonts.ready.then(drawAll);
-})();
-</script>
-</body>
-</html>
+let rt; addEventListener("resize",()=>{ clearTimeout(rt); rt=setTimeout(drawAll,150); },{signal});
+if(document.fonts&&document.fonts.ready) document.fonts.ready.then(()=>{ if(!signal.aborted) drawAll(); });
+return ()=>{ ac.abort(); clearTimeout(rt); hideTip(); };
+}
