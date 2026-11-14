@@ -1,4 +1,4 @@
 requirements.txt
 scripts/
 tests/
-data/
+data/raw/

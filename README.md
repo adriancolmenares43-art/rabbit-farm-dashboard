@@ -2,7 +2,7 @@
 
 ![CI](https://github.com/adriancolmenares43-art/rabbit-farm-dashboard/actions/workflows/ci.yml/badge.svg)
 
-A static website with a recruiter-facing landing page and an operations dashboard,
+A Next.js site (static export) with a recruiter-facing landing page and an operations dashboard,
 built from six linked CSV files about a 1,000-rabbit farm (sample dataset, prices in NGN).
 
 **Live:** https://YOUR-PROJECT.vercel.app  ← replace after the first deploy
@@ -20,12 +20,12 @@ built from six linked CSV files about a 1,000-rabbit farm (sample dataset, price
 ## How it works
 
 ```
-data/raw/*.csv ──scripts/build_data.py──▶ data/data.json ──scripts/build_pages.py──▶ site/
+data/raw/*.csv ──scripts/build_data.py──▶ data/data.json ──next build──▶ out/
 ```
 
 - `build_data.py` computes every figure with pandas.
-- `build_pages.py` embeds the JSON into the HTML templates in `src/`.
-- Charts are custom SVG drawn in plain JavaScript, with no chart library and no runtime data fetch.
+- `app/(landing)` and `app/(dashboard)/dashboard` are two Next.js App Router pages (separate root layouts, so their styles never mix). Both import `data/data.json` at build time.
+- Charts are custom SVG drawn in plain JavaScript (`init.js` next to each page), with no chart library and no runtime data fetch.
 
 ## Testing approach
 
@@ -37,21 +37,21 @@ data/raw/*.csv ──scripts/build_data.py──▶ data/data.json ──scripts
 - every KPI equals its value recomputed from the raw CSVs
 - every chart's series adds up to its KPI (monthly revenue sums to total revenue, and so on)
 
-CI runs the full build and the tests on every push, and fails if `site/` is out of date.
+CI rebuilds `data.json`, runs the tests, fails if `data.json` is out of date, then runs `next build`.
 
 ## Run locally
 
 ```bash
 pip install -r requirements.txt
 python scripts/build_data.py data/raw data/data.json
-python scripts/build_pages.py
 pytest -q
-python -m http.server -d site 8000   # open http://localhost:8000
+npm install
+npm run dev          # open http://localhost:3000
 ```
 
 ## Deploy (Vercel)
 
-`vercel.json` serves the `site/` folder; no build step is needed.
+Vercel detects Next.js and runs `next build`; no config file is needed.
 
 1. Push this repo to GitHub.
 2. On vercel.com: **Add New → Project → Import** this repo → **Deploy**.
